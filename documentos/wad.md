@@ -54,6 +54,8 @@
 
 *Posicione aqui o modelo de 5 Forças de Porter para sustentar o contexto da indústria.*
 
+5. O poder de negociação dos fornecedores no projeto do aplicativo para a Faculdade de Medicina da USP consiste em dependência básica de recursos externos, relacionada principalmente a infraestrutura digital para o desenvolvimento da aplicação, assim como empresas de desenvolvimento de software, provedores de hospedagem e cloud e provedores de bancos de dados especializados para saúde. Por outro lado, a disponibilidade de alternativas no mercado de tecnologia reduz esse poder, permitindo maior flexibilidade na escolha e negociação dos serviços utilizados.
+
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
 *Preencha com até 100 palavras – sem necessidade de fonte*
@@ -77,9 +79,24 @@
 
 ### 2.1.5. Matriz de Riscos do Projeto (sprint 1)
 
-*Sem limite de palavras – usar template do curso*
+<img src="/assets/wad/matrizrisco.png" width="1000">
 
-*Registre na matriz os riscos identificados no projeto.*
+| \#  | Ameaças | Impacto |
+| --- | --- | --- |
+| 1: | Queda de internet. | Impossibilidade de commits no código |
+| 2: | Ferramentas off-line | Possíveis atrasos e não conclusão das tarefas |
+| 3: | Mal planejamento das tarefas | Atraso na conclusão de tarefas e entrega nos prazos.
+| 4: | Entregas quinzenais ineficientes | Aumento
+| 5: | Não conclusão do projeto | Queda na reputação com o parceiro, atraso relevante na entrega final e perda de nota do artefato. |
+| 6: | Bugs no código | Atraso\impossibilidade de entrega dentro dos prazos |
+| 7: | Conflito de visões para entrega do projeto | Desperdício de tempo em tarefas já designadas e discussão de ideias já definidas. |
+
+| \#  | Oportunidades | Impacto |
+| --- | --- | --- |
+| 9: | Aprendizado. | O desenvolvimento e o aprendizado estão extremamente ligados pois à medida que aprendemos desenvolvemos e quando desenvolvemos aprendemos, sempre através de aulas, autoestudos, cursos, etc. |
+| 10: | Engajamento. | Quando o grupo está engajado todos estão cumprindo com suas obrigações, realizando as tarefas e as entregando dentro dos prazos, isso faz com que o projeto ande e que todos possam evoluir juntos. |
+| 11: | Aulas/Workshops para aprimoramento de habilidades técnicas. | Ter orientações extras sobre temas que são necessários para o desenvolvimento é uma ótima maneira para evoluir habilidades técnicas, podendo revisar conteúdos que possam ter passado e deixado dúvidas. |  
+| 12: | Feedback positivo | Receber reconhecimento ou validação inesperada de profissionais ou especialistas pode impulsionar o projeto. |
 
 ## 2.2. Personas (sprint 1)
 
