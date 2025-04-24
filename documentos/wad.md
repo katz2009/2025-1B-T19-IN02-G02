@@ -71,9 +71,63 @@
 6. Critério de sucesso e como será avaliado
 
 ### 2.1.4. Value Proposition Canvas (sprint 1): 
-*Sem limite de palavras – usar template do curso*
+# Canvas Proposta de Valor
 
-*Elaborar o Value Proposition Canvas com base na proposta de solução definida.*
+De acordo com o estudo “Business Model Canvas: aplicação do método em uma empresa” (SANTOS et al., 2020), CANVAS é uma ferramenta de negócios que auxilia as empresas ou empreendedores a encontrar a melhor forma de identificar a proposta de valor de uma empresa, aplicando a partir de segmentos como abordado no modelo a seguir.  
+A partir desta explicação foi identificado que o público-alvo é qualquer indivíduo que possa desenvolver feridas, sejam de não emergências a emergenciais, a depender de seu caso clínico.
+
+<div align="center">
+   <sub>Imagem 1: CANVAS - Proposta de valor</sub><br>
+   <img src="../assets/CANVAS_FMUSP" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
+---
+
+## Segmento Cliente:
+
+### Tarefas:
+- Buscar apoio médico para tratamento de ferida: necessidade de opinião médica para resolução do problema, se encaminhando para unidade pública ou particular de saúde mais próxima.
+- Cuidar das feridas: tratamento incorreto dos ferimentos pode gerar problemas sérios de saúde.
+- Acompanhamento de feridas: limpezas e cuidados com o local do ferimento feitos em casa, sem acompanhamento adequado.
+
+### Ganhos:
+- **Custo de transporte**: reduz o custo até a unidade de saúde.
+- **Custo de medicamentos**: tratamento adequado evita prolongamento e gastos desnecessários.
+- **Satisfação com o atendimento**: acompanhamento adequado e personalizado aumenta a satisfação.
+- **Cicatrização correta da ferida**: cuidados orientados e uso de materiais de qualidade aumentam as chances de recuperação.
+
+### Dores:
+- **Infecção**: sem acompanhamento adequado, o risco de infecções aumenta.
+- **Dor**: ferimentos expostos podem causar dores variáveis.
+- **Mobilidade até a unidade de saúde**: deslocamento gera perda de tempo e custos.
+- **Desinformação**: falta de conhecimento pode agravar o quadro clínico.
+- **Falta de acompanhamento**: muitos não retornam para o monitoramento após a primeira consulta.
+
+---
+
+## Segmento Solução:
+
+### Criador de Ganhos:
+- **Ícones maiores**: design pensado para idosos ou pessoas com deficiência visual.
+- **Acessibilidade**: recursos acessíveis e lúdicos para todos.
+- **Ajuda imediata**: botão de socorro conecta diretamente ao serviço de emergência.
+- **Autonomia**: vídeos ajudam o público a realizar procedimentos recomendados por médicos.
+
+### Analgésicos:
+- **Site de acesso mobile**: aplicação web otimizada para celulares.
+- **Rotina de análise profissional**: registros enviados para banco de dados que permite o profissional acompanhar o paciente.
+- **Duas interfaces**: interfaces distintas para profissionais e pacientes, conforme suas necessidades.
+
+---
+
+## Produtos e Serviços:
+
+- **Atendimento personalizado**: após cadastro, o atendimento é individualizado.
+- **Sinais de alerta**: reconhecimento de imagem identifica alterações de coloração em feridas.
+- **Vídeos de autocuidado**: vídeos do Hospital das Clínicas (SP) com orientações e cuidados.
+- **Acompanhamento remoto gradual**: monitoramento remoto contínuo por agentes de saúde até resolução do quadro.
+
 
 ### 2.1.5. Matriz de Riscos do Projeto (sprint 1)
 
