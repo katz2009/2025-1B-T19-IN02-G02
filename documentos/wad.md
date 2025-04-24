@@ -74,7 +74,7 @@
 # Canvas Proposta de Valor
 
 De acordo com o estudo “Business Model Canvas: aplicação do método em uma empresa” (SANTOS et al., 2020), CANVAS é uma ferramenta de negócios que auxilia as empresas ou empreendedores a encontrar a melhor forma de identificar a proposta de valor de uma empresa, aplicando a partir de segmentos como abordado no modelo a seguir.  
-A partir desta explicação foi identificado que o público-alvo é qualquer indivíduo que possa desenvolver feridas, sejam de não emergências a emergenciais, a depender de seu caso clínico.
+A partir desta explicação foi identificado que o público alvo é qualquer individuo que possa desenvolver feridas sejam de não emergências a emergenciais ao depender de seu caso clínico.  
 
 <div align="center">
    <sub>Imagem 1: CANVAS - Proposta de valor</sub><br>
@@ -87,47 +87,47 @@ A partir desta explicação foi identificado que o público-alvo é qualquer ind
 ## Segmento Cliente:
 
 ### Tarefas:
-- Buscar apoio médico para tratamento de ferida: necessidade de opinião médica para resolução do problema, se encaminhando para unidade pública ou particular de saúde mais próxima.
-- Cuidar das feridas: tratamento incorreto dos ferimentos pode gerar problemas sérios de saúde.
-- Acompanhamento de feridas: limpezas e cuidados com o local do ferimento feitos em casa, sem acompanhamento adequado.
+
+* Buscar apoio médico para tratamento médico para tratamento de ferida: Necessidade de opnião médica para resolução de problema se encaminhando para unidade pública ou particular de saúde mais próxima.
+* Cuidar das feridas: Tratamento incorreto dos ferimentos pode gerar problemas sérios de saúde.
+* Acompanhamento de feridas: Limpezas e cuidados com o local do ferimento solo em sua residência, sem acompanhamento adequado.
 
 ### Ganhos:
-- **Custo de transporte**: reduz o custo até a unidade de saúde.
-- **Custo de medicamentos**: tratamento adequado evita prolongamento e gastos desnecessários.
-- **Satisfação com o atendimento**: acompanhamento adequado e personalizado aumenta a satisfação.
-- **Cicatrização correta da ferida**: cuidados orientados e uso de materiais de qualidade aumentam as chances de recuperação.
+
+* Custo de transporte: Reduz o custo de transporte até a unidade de saúde.
+* Custo de medicamentos: Com um cuidado adequado não é necessário tratar o ferimento em maior tempo que o necessário para a cicatrização/tratamento, evitando maiores gastos.
+* Satisfação com o atendimento: Com um acompanhamento adequado e personalidade com o paciente, seu nível de satisfação aumenta.
+* Cicatrização da ferida corretamente: Com cuidados de forma orientada e com materiais de qualidade,a minimização de danos à pele tem suas chances aumentadas.
 
 ### Dores:
-- **Infecção**: sem acompanhamento adequado, o risco de infecções aumenta.
-- **Dor**: ferimentos expostos podem causar dores variáveis.
-- **Mobilidade até a unidade de saúde**: deslocamento gera perda de tempo e custos.
-- **Desinformação**: falta de conhecimento pode agravar o quadro clínico.
-- **Falta de acompanhamento**: muitos não retornam para o monitoramento após a primeira consulta.
 
----
+* Infecção: Sem uma indicação ou acompanhamento adequado o paciente se encontra em cenário favorável a infecções e piora de quadro.
+* Dor: Com o ferimento exposto, o público-alvo pode sentir de leves a fortes dores.
+* Mobilidade até a unidade de saúde: O público ao se movimentar até a unidade de saúde para acompanhamento tem perca de tempo e financeira ao realizar o trajeto, gerando insatisfação.
+* Desinformação: A falta de conhecimento gera a propensão de agravamento de quadro clínico, realizando portanto cuidados inadequados.
+* Falta de acompanhamento: Após a primeira consulta médica, na maioria das vezes o paciente não volta para o monitoramento da lesão.
 
 ## Segmento Solução:
 
 ### Criador de Ganhos:
-- **Ícones maiores**: design pensado para idosos ou pessoas com deficiência visual.
-- **Acessibilidade**: recursos acessíveis e lúdicos para todos.
-- **Ajuda imediata**: botão de socorro conecta diretamente ao serviço de emergência.
-- **Autonomia**: vídeos ajudam o público a realizar procedimentos recomendados por médicos.
+
+* Ícones Maiores: Ao identificar que parte do público é idoso é necessário design atrativo e visível para indivíduos com problemas visuais.
+* Acessibilidade: Ao assegurar recursos no qual o indivíduo consiga acessar de maneira fácil e lúdica, garantimos a acessibilidade para o público.
+* Ajuda Imediata: Junto ao acompanhamento do profissional de saúde é possível identificação de agravamento de quadro e encaminhamento imediato a emergência. Além disso, será disponibilizado ao usuário o botão de socorro no qual será encaminhado o número da ambulância em seu dispositivo móvel.
+* Autonomia: Com os vídeos disponíveis o público tem a confiança em realizar os procedimentos com a recomendação de um médico.
 
 ### Analgésicos:
-- **Site de acesso mobile**: aplicação web otimizada para celulares.
-- **Rotina de análise profissional**: registros enviados para banco de dados que permite o profissional acompanhar o paciente.
-- **Duas interfaces**: interfaces distintas para profissionais e pacientes, conforme suas necessidades.
 
----
+* Site de acesso mobile: Com o método mobile conseguimos expandir a utilização da aplicação web.
+* Rotina de análise profissional: Com os registros obtidos e encaminhados ao um banco de dados o profissional consegue manter uma aproximação do paciente, o que leva uma alta na satisfação do atendimento e empatia no atendimento.
+* Duas interfaces: Existindo uma relação interpessoal entre os profissionais e os pacientes identificamos a necessidade de duas interfaces diferentes que atendam as necessidades dessas duas figuras.
 
 ## Produtos e Serviços:
 
-- **Atendimento personalizado**: após cadastro, o atendimento é individualizado.
-- **Sinais de alerta**: reconhecimento de imagem identifica alterações de coloração em feridas.
-- **Vídeos de autocuidado**: vídeos do Hospital das Clínicas (SP) com orientações e cuidados.
-- **Acompanhamento remoto gradual**: monitoramento remoto contínuo por agentes de saúde até resolução do quadro.
-
+* Atendimento Personalizado: Ao gerar um cadastrado o atendimento realizado pelo profissional da saúde é individual a cada caso analisado e acompanhado.
+* Sinais de alerta: Através de softwares de reconhecimento de imagem é possível verificar a partir da imagem gerada pelo dispositivo móvel do paciente colorações que apresentem risco ao quadro de saúde observado.
+* Vídeos de autocuidado: Os vídeos disponibilizados pelo departamento de cirurgia plástica do hospital das clínicas em São Paulo garantem cuidados corretos e sinais de atenção, sendo disponibilizado a todo o momento para consulta do público-alvo dentro da plataforma.
+* Acompanhamento remoto gradual: Será oferecido um acompanhamento dos hematomas através de imagens de maneira contínua até a resolução do quadro, no qual será acompanhado por um agente de saúde remotamente evitando desgaste físico dos pacientes.
 
 ### 2.1.5. Matriz de Riscos do Projeto (sprint 1)
 
