@@ -50,7 +50,7 @@
 
 ### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
 
-5. O poder de negociação dos fornecedores no projeto do aplicativo para a Faculdade de Medicina da USP consiste em dependência básica de recursos externos, relacionada principalmente a infraestrutura digital para o desenvolvimento da aplicação, assim como empresas de desenvolvimento de software, provedores de hospedagem e cloud e provedores de bancos de dados especializados para saúde. Por outro lado, a disponibilidade de alternativas no mercado de tecnologia reduz esse poder, permitindo maior flexibilidade na escolha e negociação dos serviços utilizados.
+5. O poder de negociação dos fornecedores para a Faculdade de Medicida da Usp é de alta consideração, com depêndencia de recursos externos relacionada principalmente com recusos de materiais de pesquisa na área de medicina, desde livros acadêmicos e máquinários maiores. Sobre serviços, tanto como limpeza e higienização, como manuenção dos maquinários também são recusos importates disponibilizados por fornecedores terceiros. Por outro lado, a disponibilidade de alternativas no mercado reduz esse poder, permitindo maior flexibilidade na escolha e negociação dos materiais e serviços utilizados.
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
