@@ -50,9 +50,7 @@
 
 ### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
 
-*Preencha com até 400 palavras*
-
-*Posicione aqui o modelo de 5 Forças de Porter para sustentar o contexto da indústria.*
+Ao analisar a ameaça de novos produtos na graduação de medicina, fatores como grade, metodologia e interação prática são cruciais. A FMUSP foca em ciência e laboratório no início (Medway, 2023). Novos entrantes podem oferecer tecnologias que agilizem a prática clínica personalizada conforme o curso avança. Considerando a futura IA em diagnósticos (Aimer Society, 2023), faculdades que incorporarem essas ferramentas rapidamente poderão atrair alunos, representando uma alternativa ao ensino tradicional.
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
