@@ -139,6 +139,53 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 
 *Posicione aqui suas Personas em forma de texto markdown com imagens, ou como imagem de template preenchido. Atualize esta seção ao longo do módulo se necessário.*
 
+# Persona 1
+
+<div align="center">
+   <sub>Imagem 1: Persona 1 - Rodrigo Garcia</sub><br>
+   <img src="../assets/Persona1" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
+
+## Nome
+Rodrigo Garcia
+
+## Idade
+42 anos
+
+## Profissão
+Enfermeiro especialista em Geriatria
+
+## Origem
+São Paulo - Capital
+
+## Biografia
+> "Gosto de acompanhar o desenvolvimento dos meus filhos igual a dos meus pacientes, quero que tenham o melhor resultado possível."
+>
+> "Vou com minha família sempre nas minhas folgas assistir alguma peça de teatro."
+
+## Motivações
+Ao cuidar muitos anos da mãe na sua adolescência, decidiu que seu objetivo é garantir que as pessoas sejam as mais bem cuidadas quando estiverem em sua responsabilidade.
+
+## Necessidades e Expectativas
+- Diminuir viagens até o paciente
+- Contato frequente com o prontuário e atualização de desenvolvimento da saúde
+
+## Interesses
+- Teatro
+- Educação dos filhos (Marcela e Eduardo)
+- Música
+
+## Dores
+- Desgaste físico com a locomoção até a residência dos pacientes
+- Não ter apoio organizacional nas fichas médicas
+
+## Skills
+- **Curiosidade:** 96%
+- **Organização:** 53%
+
+
 ## 2.3. User Stories (sprints 1 a 5)
 
 *Posicione aqui a lista de User Stories levantadas para o projeto. Siga o template de User Stories e utilize a mesma referência USXX no roadmap de seu quadro Kanban. Indique todas as User Stories mapeadas, mesmo aquelas que não forem implementadas ao longo do projeto. Não se esqueça de explicar o INVEST das 5 User Stories prioritárias*
