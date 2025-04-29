@@ -54,9 +54,28 @@
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
-*Preencha com até 100 palavras – sem necessidade de fonte*
+<div align="center">
+   <sub>Imagem 1: Análise SWOT</sub><br>
+   <img src="../assets/wad/swot.png" width="100%" 
+   alt="Título"><br>
+   <sup>Representação da Análise SWOT da Instituição Parceira</sup>
+ </div>
 
-*Apresente uma visão geral da situação do parceiro com base na matriz SWOT (forças, fraquezas, oportunidades e ameaças). Foque na relação com os concorrentes e o posicionamento da instituição.*
+## Strengths (Forças)
+
+O Setor de Feridas e Queimaduras do Hospital das Clínicas da FMUSP é considerado referência nacional e internacional devido à excelência no tratamento de casos complexos (HOSPITAL DAS CLÍNICAS DA FMUSP, 2024). Conta com infraestrutura de ponta, além de uma equipe multiprofissional altamente qualificada (FMUSP, 2024). A adoção de terapias avançadas, como curativos com pressão negativa e abordagens de medicina regenerativa, favorece uma recuperação mais rápida e segura para os pacientes (FMUSP, 2024).
+
+## Weaknesses (Fraquezas)
+
+Embora seja referência, o setor enfrenta problemas de alta demanda, gerando filas de espera para início de tratamento ((MOHR et al., 2021). A constante necessidade de atualizações tecnológicas depende do orçamento público, o que pode atrasar modernizações necessárias (FMUSP, 2024). Além disso, o espaço físico limitado dificulta a expansão da capacidade de atendimento (FMUSP, 2024).
+
+## Opportunities (Oportunidades)
+
+O avanço das tecnologias de telemonitoramento representa uma oportunidade para ampliar o alcance do atendimento, principalmente em locais remotos (CARBINATTO; AQUINO JUNIOR; BAGNATO, 2024). Parcerias com startups de tecnologia da saúde podem promover inovação no acompanhamento e tratamento de feridas (FMUSP, 2024). Há ainda potencial para ampliação das pesquisas clínicas, reforçando a posição do setor como centro de excelência em inovação (FMUSP, 2024).
+
+## Threats (Ameaças)
+
+O envelhecimento populacional e o aumento das doenças crônicas elevam a demanda por tratamentos complexos (MOHR et al., 2021). A possibilidade de cortes orçamentários no SUS ameaça a manutenção da qualidade dos serviços (CARBINATTO; AQUINO JUNIOR; BAGNATO, 2024). Além disso, a concorrência com hospitais privados para retenção de profissionais altamente capacitados pode dificultar a formação e manutenção de equipes de excelência (FMUSP, 2024).
 
 ### 2.1.3. Solução (sprints 1 a 5)
 
@@ -75,7 +94,7 @@ De acordo com o estudo “Business Model Canvas: aplicação do método em uma e
 A partir desta explicação foi identificado que o público alvo é qualquer individuo que possa desenvolver feridas sejam de não emergências a emergenciais ao depender de seu caso clínico.  
 
 <div align="center">
-   <sub>Imagem 1: CANVAS - Proposta de valor</sub><br>
+   <sub>Imagem 2: CANVAS - Proposta de valor</sub><br>
    <img src="../assets/CANVAS_FMUSP" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
@@ -362,17 +381,20 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 
 # <a name="c8"></a>8. Referências (sprints 1 a 5)
 
-_Incluir as principais referências de seu projeto, para que seu parceiro possa consultar caso ele se interessar em aprofundar. Um exemplo de referência de livro e de site:_<br>
 
-REVISTA SAÚDE USP. Inovação e dependência tecnológica no tratamento de queimaduras graves. Revista de Saúde da Universidade de São Paulo, São Paulo, v. 29, n. 3, p. 45-60, 2024.
+REVISTA SAÚDE USP. Inovação e dependência tecnológica no tratamento de queimaduras graves. Revista de Saúde da Universidade de São Paulo, São Paulo, v. 29, n. 3, p. 45-60, 2024. 
 
 ABRAIDI – Associação Brasileira de Importadores e Distribuidores de Produtos para Saúde. Relatório Setorial ABRAIDI 2024. São Paulo: ABRAIDI, 2024. Disponível em: https://www.abraidi.com.br/. Acesso em: 28 abr. 2025.
 
-LUCK, Heloisa. Liderança em gestão escolar. 4. ed. Petrópolis: Vozes, 2010. <br>
-SOBRENOME, Nome. Título do livro: subtítulo do livro. Edição. Cidade de publicação: Nome da editora, Ano de publicação. <br>
+FACULDADE DE MEDICINA DA UNIVERSIDADE DE SÃO PAULO (FMUSP). Serviço de Cirurgia Plástica do Hospital das Clínicas da FMUSP. São Paulo, 2024. Disponível em: https://www.hc.fm.usp.br/hc/portal/. Acesso em: 22 abr. 2025.
 
-INTELI. Adalove. Disponível em: https://adalove.inteli.edu.br/feed. Acesso em: 1 out. 2023 <br>
-SOBRENOME, Nome. Título do site. Disponível em: link do site. Acesso em: Dia Mês Ano
+HOSPITAL DAS CLÍNICAS DA FMUSP. *Centro de Tratamento de Queimaduras - Serviço de Cirurgia Plástica.* São Paulo, 2024. Disponível em: https://www.hc.fm.usp.br/. Acesso em: 22 abr. 2025.
+
+FACULDADE DE MEDICINA DA UNIVERSIDADE DE SÃO PAULO (FMUSP). Serviço de Cirurgia Plástica: Histórico. São Paulo, 2024. Disponível em: http://www2.fm.usp.br/plastica/mostrahp.php?xcod=2769&dequem=Hist%F3rico. Acesso em: 22 abr. 2025.
+
+MOHR, Helena Sophia Strauss; SOARES, Cilene Fernandes; LOSS, Denise da Silva; BELAVER, Guilherme Mortari; PAESE, Fernanda; PEREIRA, Milena. Cuidado de enfermagem à pessoa com ferida na Atenção Primária à Saúde: desafios e potências. Estima – Brazilian Journal of Enterostomal Therapy, São Paulo, v. 19, e1437, 2021. Disponível em: https://www.revistaestima.com.br/estima/article/view/1437. Acesso em: 22 abr. 2025.
+
+CARBINATTO, Fernanda Mansano; AQUINO JUNIOR, Antonio Eduardo de; BAGNATO, Vanderlei Salvador. Condutas e inovações nos cuidados com feridas crônicas. São Carlos: Instituto de Física de São Carlos (IFSC/USP), 2024. Disponível em: https://www2.ifsc.usp.br/portal-ifsc/wp-content/uploads/2024/07/Condutas-e-Inovacoes-nos-cuidados-com-Feridas-Cronicas.pdf. Acesso em: 22 abr. 2025.
 
 # <a name="c9"></a>Anexos
 
