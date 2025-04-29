@@ -60,13 +60,43 @@
 
 ### 2.1.3. Solução (sprints 1 a 5)
 
-*Explique detalhadamente os seguintes aspectos (até 60 palavras por item):*
-1. Problema a ser resolvido
-2. Dados disponíveis (mencionar fonte e conteúdo; se não houver, indicar “não se aplica”)
-3. Solução proposta
-4. Forma de utilização da solução
-5. Benefícios esperados
-6. Critério de sucesso e como será avaliado
+### 1. Problema a ser resolvido
+
+Uma parcela significativa da população brasileira sofre com feridas crônicas, como úlceras de pé diabético, úlceras venosas e lesões por pressão. Esses pacientes, geralmente idosos ou com comorbidades, têm dificuldades de locomoção e acesso frequente aos serviços de saúde. Essa limitação faz com que só procurem atendimento em estágios avançados da ferida, aumentando o sofrimento, os riscos de infecção, a mortalidade e os custos de tratamento para o Sistema Único de Saúde (SUS).
+
+### 2. Dados disponíveis
+
+- **Fonte:** Informações do projeto fornecido pela Faculdade de Medicina da Universidade de São Paulo.
+- **Conteúdo:**
+    - Estimativa de mais de 13 milhões de brasileiros com algum tipo de ferida crônica.
+    - As feridas mais prevalentes são úlceras de pé diabético, úlceras venosas e lesões por pressão.
+    - Dados oficiais e materiais complementares (cartilhas do governo e artigos científicos) sobre a prevalência e o impacto das feridas crônicas.
+        
+        Se surgirem novos dados durante o projeto, eles poderão ser incorporados na solução.
+        
+
+### 3. Solução proposta
+
+Desenvolvimento de um sistema web de telemonitoramento que permitirá a comunicação remota entre pacientes portadores de feridas, agentes comunitários de saúde e profissionais das Unidades Básicas de Saúde (UBS). O sistema terá duas interfaces (paciente e profissional) e permitirá o envio de informações clínicas, fotos padronizadas das feridas (usando régua de medida), preenchimento de questionários de saúde e o acesso a vídeos educativos personalizados conforme o tipo de ferida.
+
+### 4. Forma de utilização da solução
+
+O sistema web de telemonitoramento será utilizado para conectar pacientes portadores de feridas crônicas às equipes das Unidades Básicas de Saúde (UBS). Inicialmente, agentes de saúde localizarão os pacientes nas comunidades e realizarão o cadastro no sistema. Os pacientes preencherão questionários sobre sua saúde geral e enviarão imagens da ferida utilizando uma régua como referência de tamanho. A comunicação ocorrerá de maneira periódica, com o envio de novas informações e fotos, conforme cronograma definido pelo profissional de saúde. Caso o paciente não envie atualizações dentro do prazo, a UBS será notificada para fazer o contato ativo. Além disso, o sistema oferecerá vídeos educativos adaptados ao tipo de ferida de cada paciente, promovendo maior conhecimento e adesão ao tratamento. Para pacientes com baixa alfabetização, haverá recursos de áudio para facilitar a comunicação.
+
+### 5. Benefícios esperados
+
+A implementação do sistema web trará benefícios significativos tanto para os pacientes quanto para o Sistema Único de Saúde (SUS). Para os pacientes, o sistema facilitará o acompanhamento contínuo da condição, permitirá a detecção precoce de agravamentos e aumentará a adesão ao tratamento, promovendo melhora na qualidade de vida. Para os profissionais de saúde, o sistema otimizará o monitoramento dos casos, permitindo intervenções mais rápidas e baseadas em informações atualizadas. No âmbito do SUS, espera-se reduzir a necessidade de hospitalizações prolongadas e os custos associados ao tratamento de feridas crônicas. O projeto também busca promover a educação em saúde, autonomia aos pacientes no autocuidado e na gestão de sua condição.
+
+### 6. Critério de sucesso e como será avaliado
+
+- **Critério principal:** Taxa de adesão dos pacientes ao sistema (número de atualizações enviadas dentro do prazo combinado).
+- **Critérios complementares:**
+    - Redução do tamanho ou melhora clínica das feridas ao longo do acompanhamento.
+    - Satisfação dos profissionais de saúde em relação ao uso do sistema, avaliada via questionários.
+    - Feedback dos pacientes sobre a usabilidade e benefícios percebidos do sistema.
+- **Forma de avaliação:**
+    - Análise de métricas extraídas do sistema (frequência de envio de dados, tempo de resposta).
+    - Avaliação qualitativa com entrevistas e questionários aplicados aos profissionais e pacientes participantes do projeto-piloto nas UBS.
 
 ### 2.1.4. Value Proposition Canvas (sprint 1): 
 # Canvas Proposta de Valor
