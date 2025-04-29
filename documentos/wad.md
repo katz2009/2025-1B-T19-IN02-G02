@@ -195,6 +195,50 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 - Não ter apoio organizacional nas fichas médicas
 
 
+# Persona 2
+
+<div align="center">
+   <sub>Imagem 2: Persona 2 - Arlete Ferreira</sub><br>
+   <img src="..\assets\wad\persona2.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
+
+## Persona 2
+
+**Nome e sobrenome:** Arlete Ferreira
+**Idade:** 55
+**Ocupação:** Professora
+**Localização:** São Paulo - BR
+**Escolaridade:** Licenciatura Matemática
+**Status:** Usuária não frequente da UBS
+
+### Biografia
+> “Eu sou uma mulher independente, vivo com meu marido e sou ativa. Diabética tipo 2, negligencio feridas nos pés devido à rotina corrida. Unhas encravam frequentemente, preciso de podóloga. Ando muito no trabalho. Meu pé está terrível para a massagem do meu marido, sinto vergonha. Amo minha vida ativa, me sentir bonita e minha profissão! Sou apaixonada pelo meu marido e amo ver meus alunos crescerem.”
+> “Quero cuidar melhor das consequências da diabetes para evitar que as feridas piorem.”
+
+### Interesses
+- Família
+- Escola
+- Aprender
+- Cozinhar
+- Ler
+- Fazer manutenções no cabelo para se manter bonita
+
+### Necessidades e Expectativas
+- Deseja possuir seu próprio controle sobre suas feridas.
+- Quer ser mais cuidadosa consigo.
+- Possui um breve conhecimento tecnológico e acha interessantes registros fotográficos; sendo professora, registra tudo em seu drive e ama essa organização.
+
+### Motivações
+- Relata que ama viver sua vida e ama pequenos detalhes do dia a dia. Seu marido a faz se sentir amada e cuidada, e deseja estar ali para ele, sendo uma esposa que cuida de si mesma e dele também. Quer se mostrar delicada e cuidadosa não apenas com a aparência, mas também com sua saúde.
+
+### Pontos de Dor
+- Acha difícil manter uma rotina com seus cuidados para diabetes.
+- Sua rotina é pesada e ir à UBS para um acompanhamento semanal é impossível.
+- Não recebe agentes de saúde em casa com frequência, já que normalmente só se encontra em sua residência à noite.
+- Não sabe como cuidar de seus pés além de ir à podóloga ou ao médico.
+
 ## 2.3. User Stories (sprints 1 a 5)
 
 *Posicione aqui a lista de User Stories levantadas para o projeto. Siga o template de User Stories e utilize a mesma referência USXX no roadmap de seu quadro Kanban. Indique todas as User Stories mapeadas, mesmo aquelas que não forem implementadas ao longo do projeto. Não se esqueça de explicar o INVEST das 5 User Stories prioritárias*
