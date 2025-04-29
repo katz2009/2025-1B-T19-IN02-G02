@@ -139,6 +139,47 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 
 *Posicione aqui suas Personas em forma de texto markdown com imagens, ou como imagem de template preenchido. Atualize esta seção ao longo do módulo se necessário.*
 
+# Persona 1
+
+<div align="center">
+   <sub>Imagem 1: Persona 1 - Rodrigo Garcia</sub><br>
+   <img src="../assets/persona1.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
+
+## Persona 1
+
+**Nome e sobrenome:** Rodrigo Garcia  
+**Idade:** 42  
+**Ocupação:** Enfermeiro especialista em Geriatria  
+**Localização:** São Paulo - BR  
+**Escolaridade:** Pós-graduado  
+**Status:** Profissional na área de saúde  
+
+### Biografia
+> "Gosto de acompanhar o desenvolvimento dos meus filhos igual a dos meus pacientes, quero que tenham a melhor qualidade de vida possível já que Eduardo, meu filho, também tem diabetes o que afeta boa parte dos idosos que cuido.”  
+> “Vou com minha família nas minhas folgas assistir alguma peça de teatro para passar um tempo de qualidade, já que vivo cansado e com dores pelo trabalho pesado na UBS.”
+
+### Interesses
+- Teatro  
+- Educação dos filhos (Marcela e Eduardo)  
+- Música  
+- Família  
+
+### Necessidades e Expectativas
+- Diminuir viagens até o paciente  
+- Contato frequente com o prontuário e atualização de desenvolvimento da saúde  
+- Diminuir suas dores nas costas  
+
+### Motivações
+- Ao cuidar muitos anos da mãe já mais idosa na sua adolescência, decidiu que seu objetivo é garantir que as pessoas sejam as mais bem cuidadas quando estiverem em sua responsabilidade.
+
+### Pontos de Dor
+- Desgaste físico com a locomoção até a residência dos pacientes e UBS  
+- Não ter apoio organizacional nas fichas médicas
+
+
 ## 2.3. User Stories (sprints 1 a 5)
 
 *Posicione aqui a lista de User Stories levantadas para o projeto. Siga o template de User Stories e utilize a mesma referência USXX no roadmap de seu quadro Kanban. Indique todas as User Stories mapeadas, mesmo aquelas que não forem implementadas ao longo do projeto. Não se esqueça de explicar o INVEST das 5 User Stories prioritárias*
