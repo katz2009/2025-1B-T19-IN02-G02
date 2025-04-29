@@ -143,47 +143,41 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 
 <div align="center">
    <sub>Imagem 1: Persona 1 - Rodrigo Garcia</sub><br>
-   <img src="../assets/Persona1" width="100%" 
+   <img src="../assets/persona1.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
  </div>
 
-## Nome
-Rodrigo Garcia
+## Persona 1
 
-## Idade
-42 anos
+**Nome e sobrenome:** Rodrigo Garcia  
+**Idade:** 42  
+**Ocupação:** Enfermeiro especialista em Geriatria  
+**Localização:** São Paulo - BR  
+**Escolaridade:** Pós-graduado  
+**Status:** Profissional na área de saúde  
 
-## Profissão
-Enfermeiro especialista em Geriatria
+### Biografia
+> "Gosto de acompanhar o desenvolvimento dos meus filhos igual a dos meus pacientes, quero que tenham a melhor qualidade de vida possível já que Eduardo, meu filho, também tem diabetes o que afeta boa parte dos idosos que cuido.”  
+> “Vou com minha família nas minhas folgas assistir alguma peça de teatro para passar um tempo de qualidade, já que vivo cansado e com dores pelo trabalho pesado na UBS.”
 
-## Origem
-São Paulo - Capital
+### Interesses
+- Teatro  
+- Educação dos filhos (Marcela e Eduardo)  
+- Música  
+- Família  
 
-## Biografia
-> "Gosto de acompanhar o desenvolvimento dos meus filhos igual a dos meus pacientes, quero que tenham o melhor resultado possível."
->
-> "Vou com minha família sempre nas minhas folgas assistir alguma peça de teatro."
+### Necessidades e Expectativas
+- Diminuir viagens até o paciente  
+- Contato frequente com o prontuário e atualização de desenvolvimento da saúde  
+- Diminuir suas dores nas costas  
 
-## Motivações
-Ao cuidar muitos anos da mãe na sua adolescência, decidiu que seu objetivo é garantir que as pessoas sejam as mais bem cuidadas quando estiverem em sua responsabilidade.
+### Motivações
+- Ao cuidar muitos anos da mãe já mais idosa na sua adolescência, decidiu que seu objetivo é garantir que as pessoas sejam as mais bem cuidadas quando estiverem em sua responsabilidade.
 
-## Necessidades e Expectativas
-- Diminuir viagens até o paciente
-- Contato frequente com o prontuário e atualização de desenvolvimento da saúde
-
-## Interesses
-- Teatro
-- Educação dos filhos (Marcela e Eduardo)
-- Música
-
-## Dores
-- Desgaste físico com a locomoção até a residência dos pacientes
+### Pontos de Dor
+- Desgaste físico com a locomoção até a residência dos pacientes e UBS  
 - Não ter apoio organizacional nas fichas médicas
-
-## Skills
-- **Curiosidade:** 96%
-- **Organização:** 53%
 
 
 ## 2.3. User Stories (sprints 1 a 5)
