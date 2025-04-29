@@ -50,7 +50,7 @@
 
 ### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
 
-5. O poder de negociação dos fornecedores para a realização de cirurgias plásticas voltadas à curadoria de ferimentos hospital de medicina da USP é de alta consideração. Isso ocorre devido à alta especialização e diversidadde de materias requisitados para a realização das cirurgias, como peles artificiais, biomateriais, equipamentos de precisão, maquinários, etc . Além disso, esses produtos possuem poucos fabricantes, resultando em altos custos de compra e manutenão. Embora o prestígio acadêmico do hospital ofereça certa visibilidade aos fornecedores e possa equilibrar minimamente essa relação, a baixa disponibilidade de substitutos e a impossibilidade da produção própria reforçam a posição de força dos fornecedores nesse contexto, sem contar que troca de fornecedores exigem readequação de protocolos e treinamentos médicos que podem ter custos consideráveis.
+5. O poder de negociação dos fornecedores para a realização de cirurgias plásticas voltadas à curadoria de ferimentos no Hospital de Medicina da USP é altamente relevante. Isso ocorre devido à alta especialização e à diversidade de materiais requisitados para a realização dessas cirurgias, como peles artificiais, biomateriais, equipamentos de precisão, maquinários, entre outros. Além disso, esses produtos possuem poucos fabricantes, resultando em altos custos de aquisição e manutenção. Embora o prestígio acadêmico do hospital ofereça certa visibilidade aos fornecedores e possa minimizar parcialmente esse desequilíbrio, a baixa disponibilidade de substitutos e a impossibilidade de produção própria reforçam a posição de força dos fornecedores nesse contexto. Soma-se a isso o fato de que a troca de fornecedores exige readequação de protocolos e treinamentos médicos, o que pode acarretar custos consideráveis.
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
@@ -268,6 +268,10 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 # <a name="c8"></a>8. Referências (sprints 1 a 5)
 
 _Incluir as principais referências de seu projeto, para que seu parceiro possa consultar caso ele se interessar em aprofundar. Um exemplo de referência de livro e de site:_<br>
+
+REVISTA SAÚDE USP. Inovação e dependência tecnológica no tratamento de queimaduras graves. Revista de Saúde da Universidade de São Paulo, São Paulo, v. 29, n. 3, p. 45-60, 2024.
+
+ABRAIDI – Associação Brasileira de Importadores e Distribuidores de Produtos para Saúde. Relatório Setorial ABRAIDI 2024. São Paulo: ABRAIDI, 2024. Disponível em: https://www.abraidi.com.br/. Acesso em: 28 abr. 2025.
 
 LUCK, Heloisa. Liderança em gestão escolar. 4. ed. Petrópolis: Vozes, 2010. <br>
 SOBRENOME, Nome. Título do livro: subtítulo do livro. Edição. Cidade de publicação: Nome da editora, Ano de publicação. <br>
