@@ -50,7 +50,7 @@
 
 ### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
 
-5. O poder de negociação dos fornecedores para a Faculdade de Medicida da Usp é de alta consideração, com depêndencia de recursos externos relacionada principalmente com recusos de materiais de pesquisa na área de medicina, desde livros acadêmicos e máquinários maiores. Sobre serviços, tanto como limpeza e higienização, como manuenção dos maquinários também são recusos importates disponibilizados por fornecedores terceiros. Por outro lado, a disponibilidade de alternativas no mercado reduz esse poder, permitindo maior flexibilidade na escolha e negociação dos materiais e serviços utilizados.
+5. O poder de negociação dos fornecedores para a realização de cirurgias plásticas voltadas à curadoria de ferimentos hospital de medicina da USP é de alta consideração. Isso ocorre devido à alta especialização e diversidadde de materias requisitados para a realização das cirurgias, como peles artificiais, biomateriais, equipamentos de precisão, maquinários, etc . Além disso, esses produtos possuem poucos fabricantes, resultando em altos custos de compra e manutenão. Embora o prestígio acadêmico do hospital ofereça certa visibilidade aos fornecedores e possa equilibrar minimamente essa relação, a baixa disponibilidade de substitutos e a impossibilidade da produção própria reforçam a posição de força dos fornecedores nesse contexto, sem contar que troca de fornecedores exigem readequação de protocolos e treinamentos médicos que podem ter custos consideráveis.
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
