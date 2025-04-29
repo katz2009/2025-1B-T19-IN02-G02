@@ -50,9 +50,7 @@
 
 ### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
 
-*Preencha com até 400 palavras*
-
-*Posicione aqui o modelo de 5 Forças de Porter para sustentar o contexto da indústria.*
+5. O poder de negociação dos fornecedores para a realização de cirurgias plásticas voltadas à curadoria de ferimentos no Hospital de Medicina da USP é altamente relevante. Isso ocorre devido à alta especialização e à diversidade de materiais requisitados para a realização dessas cirurgias, como peles artificiais, biomateriais, equipamentos de precisão, maquinários, entre outros (REVISTA SAÚDE, 2024). Além disso, esses produtos possuem poucos fabricantes, resultando em altos custos de aquisição e manutenção. Embora o prestígio acadêmico do hospital ofereça certa visibilidade aos fornecedores e possa minimizar parcialmente esse desequilíbrio, a baixa disponibilidade de substitutos e a impossibilidade de produção própria reforçam a posição de força dos fornecedores nesse contexto (ABRAIDI, 2025). Soma-se a isso o fato de que a troca de fornecedores exige readequação de protocolos e treinamentos médicos, o que pode acarretar custos consideráveis.
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
@@ -131,9 +129,26 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 
 ### 2.1.5. Matriz de Riscos do Projeto (sprint 1)
 
-*Sem limite de palavras – usar template do curso*
+<p align="center">
+<img src="../assets/wad/matrizrisco.png" width="800">
+</p>
 
-*Registre na matriz os riscos identificados no projeto.*
+| \#  | Ameaças | Impacto |
+| --- | --- | --- |
+| 1: | Queda de internet. | Impossibilidade de commits no código |
+| 2: | Ferramentas off-line | Possíveis atrasos e não conclusão das tarefas |
+| 3: | Mal planejamento das tarefas | Atraso na conclusão de tarefas e entrega nos prazos. |
+| 4: | Entregas quinzenais ineficientes | Perda de confiança e perda de nota nos artefatos |
+| 5: | Não conclusão do projeto | Queda na reputação com o parceiro, atraso relevante na entrega final e perda de nota do artefato. |
+| 6: | Bugs no código | Atraso\impossibilidade de entrega dentro dos prazos |
+| 7: | Conflito de visões para entrega do projeto | Desperdício de tempo em tarefas já designadas e discussão de ideias já definidas. |
+
+| \#  | Oportunidades | Impacto |
+| --- | --- | --- |
+| 9: | Aprendizado. | O desenvolvimento e o aprendizado estão extremamente ligados pois à medida que aprendemos desenvolvemos e quando desenvolvemos aprendemos, sempre através de aulas, autoestudos, cursos, etc. |
+| 10: | Engajamento. | Quando o grupo está engajado todos estão cumprindo com suas obrigações, realizando as tarefas e as entregando dentro dos prazos, isso faz com que o projeto ande e que todos possam evoluir juntos. |
+| 11: | Aulas/Workshops para aprimoramento de habilidades técnicas. | Ter orientações extras sobre temas que são necessários para o desenvolvimento é uma ótima maneira para evoluir habilidades técnicas, podendo revisar conteúdos que possam ter passado e deixado dúvidas. |  
+| 12: | Feedback positivo | Receber reconhecimento ou validação inesperada de profissionais ou especialistas pode impulsionar o projeto. |
 
 ## 2.2. Personas (sprint 1)
 
@@ -348,6 +363,10 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 # <a name="c8"></a>8. Referências (sprints 1 a 5)
 
 _Incluir as principais referências de seu projeto, para que seu parceiro possa consultar caso ele se interessar em aprofundar. Um exemplo de referência de livro e de site:_<br>
+
+REVISTA SAÚDE USP. Inovação e dependência tecnológica no tratamento de queimaduras graves. Revista de Saúde da Universidade de São Paulo, São Paulo, v. 29, n. 3, p. 45-60, 2024.
+
+ABRAIDI – Associação Brasileira de Importadores e Distribuidores de Produtos para Saúde. Relatório Setorial ABRAIDI 2024. São Paulo: ABRAIDI, 2024. Disponível em: https://www.abraidi.com.br/. Acesso em: 28 abr. 2025.
 
 LUCK, Heloisa. Liderança em gestão escolar. 4. ed. Petrópolis: Vozes, 2010. <br>
 SOBRENOME, Nome. Título do livro: subtítulo do livro. Edição. Cidade de publicação: Nome da editora, Ano de publicação. <br>
