@@ -94,8 +94,8 @@ De acordo com o estudo “Business Model Canvas: aplicação do método em uma e
 A partir desta explicação foi identificado que o público alvo é qualquer individuo que possa desenvolver feridas sejam de não emergências a emergenciais ao depender de seu caso clínico.  
 
 <div align="center">
-   <sub>Imagem 2: CANVAS - Proposta de valor</sub><br>
-   <img src="../assets/CANVAS_FMUSP" width="100%" 
+   <sub>Imagem 1: CANVAS - Proposta de valor</sub><br>
+   <img src="../assets/CANVAS_FMUSP.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
  </div>
@@ -176,8 +176,8 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 # Persona 1
 
 <div align="center">
-   <sub>Imagem 1: Persona 1 - Rodrigo Garcia</sub><br>
-   <img src="../assets/persona1.png" width="100%" 
+   <sub>Imagem 3: Persona 1 - Rodrigo Garcia</sub><br>
+   <img src="../assets/wad/persona_1.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
  </div>
@@ -213,6 +213,50 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 - Desgaste físico com a locomoção até a residência dos pacientes e UBS  
 - Não ter apoio organizacional nas fichas médicas
 
+
+# Persona 2
+
+<div align="center">
+   <sub>Imagem 4: Persona 2 - Arlete Ferreira</sub><br>
+   <img src="..\assets\wad\persona2.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
+
+## Persona 2
+
+**Nome e sobrenome:** Arlete Ferreira
+**Idade:** 55
+**Ocupação:** Professora
+**Localização:** São Paulo - BR
+**Escolaridade:** Licenciatura Matemática
+**Status:** Usuária não frequente da UBS
+
+### Biografia
+> “Eu sou uma mulher independente, vivo com meu marido e sou ativa. Diabética tipo 2, negligencio feridas nos pés devido à rotina corrida. Unhas encravam frequentemente, preciso de podóloga. Ando muito no trabalho. Meu pé está terrível para a massagem do meu marido, sinto vergonha. Amo minha vida ativa, me sentir bonita e minha profissão! Sou apaixonada pelo meu marido e amo ver meus alunos crescerem.”
+> “Quero cuidar melhor das consequências da diabetes para evitar que as feridas piorem.”
+
+### Interesses
+- Família
+- Escola
+- Aprender
+- Cozinhar
+- Ler
+- Fazer manutenções no cabelo para se manter bonita
+
+### Necessidades e Expectativas
+- Deseja possuir seu próprio controle sobre suas feridas.
+- Quer ser mais cuidadosa consigo.
+- Possui um breve conhecimento tecnológico e acha interessantes registros fotográficos; sendo professora, registra tudo em seu drive e ama essa organização.
+
+### Motivações
+- Relata que ama viver sua vida e ama pequenos detalhes do dia a dia. Seu marido a faz se sentir amada e cuidada, e deseja estar ali para ele, sendo uma esposa que cuida de si mesma e dele também. Quer se mostrar delicada e cuidadosa não apenas com a aparência, mas também com sua saúde.
+
+### Pontos de Dor
+- Acha difícil manter uma rotina com seus cuidados para diabetes.
+- Sua rotina é pesada e ir à UBS para um acompanhamento semanal é impossível.
+- Não recebe agentes de saúde em casa com frequência, já que normalmente só se encontra em sua residência à noite.
+- Não sabe como cuidar de seus pés além de ir à podóloga ou ao médico.
 
 ## 2.3. User Stories (sprints 1 a 5)
 
