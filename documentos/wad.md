@@ -76,7 +76,7 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 
 <div align="center">
    <sub>Imagem 1: CANVAS - Proposta de valor</sub><br>
-   <img src="../assets/CANVAS_FMUSP" width="100%" 
+   <img src="../assets/CANVAS_FMUSP.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
  </div>
@@ -157,8 +157,8 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 # Persona 1
 
 <div align="center">
-   <sub>Imagem 1: Persona 1 - Rodrigo Garcia</sub><br>
-   <img src="../assets/persona1.png" width="100%" 
+   <sub>Imagem 3: Persona 1 - Rodrigo Garcia</sub><br>
+   <img src="../assets/wad/persona_1.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
  </div>
