@@ -50,6 +50,8 @@
 
 ### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
 
+3. A ameaça de novas entrantes na área de atendimento em cirurgia plástica, com ênfase em curadoria de feridas e queimaduras, é relativamente baixa quando se considera o Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo (FMUSP). A barreira de entrada elevada decorre de diversos fatores, como os rigorosos critérios de acreditação exigidos para cursos de medicina e a necessidade de uma infraestrutura hospitalar altamente especializada para a realização das cirurgias. No caso específico do setor de cirurgia plástica do Hospital da FMUSP, a existência de centros avançados de tratamento de feridas complexas e queimaduras, aliados à expertise multiprofissional, representa um diferencial difícil de ser replicado por novas instituições(PORTER, 2019). Além disso, a reputação da FMUSP, consolidada pela excelência acadêmica e pela produção científica de alto impacto, funciona como uma vantagem competitiva significativa, tornando ainda mais desafiadora a entrada de novos concorrentes nesse segmento altamente especializado.
+
 5. O poder de negociação dos fornecedores para a realização de cirurgias plásticas voltadas à curadoria de ferimentos no Hospital de Medicina da USP é altamente relevante. Isso ocorre devido à alta especialização e à diversidade de materiais requisitados para a realização dessas cirurgias, como peles artificiais, biomateriais, equipamentos de precisão, maquinários, entre outros (REVISTA SAÚDE, 2024). Além disso, esses produtos possuem poucos fabricantes, resultando em altos custos de aquisição e manutenção. Embora o prestígio acadêmico do hospital ofereça certa visibilidade aos fornecedores e possa minimizar parcialmente esse desequilíbrio, a baixa disponibilidade de substitutos e a impossibilidade de produção própria reforçam a posição de força dos fornecedores nesse contexto (ABRAIDI, 2025). Soma-se a isso o fato de que a troca de fornecedores exige readequação de protocolos e treinamentos médicos, o que pode acarretar custos consideráveis.
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
@@ -429,6 +431,8 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 REVISTA SAÚDE USP. Inovação e dependência tecnológica no tratamento de queimaduras graves. Revista de Saúde da Universidade de São Paulo, São Paulo, v. 29, n. 3, p. 45-60, 2024. 
 
 ABRAIDI – Associação Brasileira de Importadores e Distribuidores de Produtos para Saúde. Relatório Setorial ABRAIDI 2024. São Paulo: ABRAIDI, 2024. Disponível em: https://www.abraidi.com.br/. Acesso em: 28 abr. 2025.
+
+PORTER, Michael E. Estratégia competitiva: técnicas para análise de indústrias e da concorrência. 11. ed. Rio de Janeiro: Elsevier, 2019.
 
 FACULDADE DE MEDICINA DA UNIVERSIDADE DE SÃO PAULO (FMUSP). Serviço de Cirurgia Plástica do Hospital das Clínicas da FMUSP. São Paulo, 2024. Disponível em: https://www.hc.fm.usp.br/hc/portal/. Acesso em: 22 abr. 2025.
 
