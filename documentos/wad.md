@@ -198,7 +198,7 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 # Persona 2
 
 <div align="center">
-   <sub>Imagem 2: Persona 2 - Arlete Ferreira</sub><br>
+   <sub>Imagem 4: Persona 2 - Arlete Ferreira</sub><br>
    <img src="..\assets\wad\persona2.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
