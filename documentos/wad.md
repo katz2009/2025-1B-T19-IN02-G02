@@ -240,6 +240,8 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 <img src="../assets/wad/matrizrisco.png" width="800">
 </p>
 
+A análise de ameaças e oportunidades, assim como seus devidos graus de probabilidade de ocorrência e de impacto de qualquer projeto inovador na área da saúde, como a aplicação web SKAMA, é de suma importância para assegurar o sucesso e a sustentabilidade da nossa iniciativa. Nesse sentido, desenvolvemos uma matriz de risco que identifica, analisa e prioriza os potenciais obstáculos e oportunidades que podemos enfrentar durante o desenvolvimento do app Skama.
+
 | \#  | Ameaças | Impacto |
 | --- | --- | --- |
 | 1: | Queda de internet. | Impossibilidade de commits no código |
@@ -252,10 +254,10 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 
 | \#  | Oportunidades | Impacto |
 | --- | --- | --- |
-| 9: | Aprendizado. | O desenvolvimento e o aprendizado estão extremamente ligados pois à medida que aprendemos desenvolvemos e quando desenvolvemos aprendemos, sempre através de aulas, autoestudos, cursos, etc. |
-| 10: | Engajamento. | Quando o grupo está engajado todos estão cumprindo com suas obrigações, realizando as tarefas e as entregando dentro dos prazos, isso faz com que o projeto ande e que todos possam evoluir juntos. |
+| 9: | Aprendizado. | O desenvolvimento e o aprendizado estão extremamente ligados pois à medida que desenvolvemos estamos adquinrindo conhecimento do processo de criação do app. |
+| 10: | Visibilidade. | O projeto pode dar destaque aos integrantes. |
 | 11: | Aulas/Workshops para aprimoramento de habilidades técnicas. | Ter orientações extras sobre temas que são necessários para o desenvolvimento é uma ótima maneira para evoluir habilidades técnicas, podendo revisar conteúdos que possam ter passado e deixado dúvidas. |  
-| 12: | Feedback positivo | Receber reconhecimento ou validação inesperada de profissionais ou especialistas pode impulsionar o projeto. |
+| 12: | Feedbacks | Avaliações positivas ou negativas do parceiro nos ajudam a aprimorar habilidades de desenvolvimento, assim aprimorar a qualidade de entrega das sprints. Receber reconhecimento ou validação de profissionais ou especialistas pode impulsionar o projeto |
 
 ## 2.2. Personas (sprint 1)
 
