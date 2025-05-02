@@ -36,13 +36,12 @@
 
 # <a name="c1"></a>1. Introdução (sprints 1 a 5)
 
-*Preencha com até 300 palavras – sem necessidade de fonte*
+Na seção 1, serão apresentadas as principais concepções envolvendo o projeto e o desenvolvimento detalhado da nossa solução, incluindo aprofundamento na problemática apresentada pelo parceiro de negócios, a Faculdade de Medicina da USP, juntamente aos requisitos considerados para elaboração da aplicação web proposta. 
 
-*Contextualize aqui a problemática trazida pelo parceiro de projeto.*
+Nesse sentido, observa-se o crescente número de pessoas portadoras de feridas, sendo elas, em sua maioria, acometidas por dificuldades de mobilidade, idade avançada e comorbidades associadas, fatores que impõem significativas barreiras ao acesso a cuidados especializados e à adesão a tratamentos contínuos. Essa situação resulta em tratamento inadequado das lesões e em uma redução da qualidade de vida dessa parcela populacional já fragilizada pela existência de feridas e pelas dificuldades em obter o suporte necessário.
+Em vista dessa problemática de acesso e acompanhamento inadequado, a aplicação web SKAMA tem como objetivo estabelecer uma comunicação eficiente e garantir o acesso facilitado entre UBSs (Unidades Básicas de Saúde) e pacientes portadores de feridas. A solução visa otimizar o serviço de atendimento das instituições de saúde, permitindo o acompanhamento remoto do quadro clínico do paciente e possibilitando intervenções presenciais mais direcionadas quando necessário, não no objetivo de substitui-las, mas contribuindo com coleta de informações mais essencias. Essas medidas serão viabilizadas por um sistema de envio e recebimento de fotos e por um formulário detalhado sobre a situação da ferida. Além disso, a solução apresenta vídeos educativos que auxiliam na autonomia do paciente em relação aos cuidados necessários para a ferida, além de possibilitar atendimento prioritário em casos de urgência. 
+Dessa forma, o aplicativo busca aumentar significativamente a adesão ao tratamento por parte dos pacientes, contribuindo para uma recuperação mais eficaz e para a melhora da sua qualidade de vida.
 
-*Descreva brevemente a solução desenvolvida para o parceiro de negócios. Descreva os aspectos essenciais para a criação de valor do produto, com o objetivo de ajudar a entender melhor a realidade do cliente e entregar uma solução que está alinhado com o que ele espera.*
-
-*Observe a seção 2 e verifique que ali é possível trazer mais detalhes, portanto seja objetivo aqui. Atualize esta descrição até a entrega final, conforme desenvolvimento.*
 
 # <a name="c2"></a>2. Visão Geral da Aplicação Web (sprint 1)
 
