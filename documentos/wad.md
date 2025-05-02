@@ -483,6 +483,26 @@ CÂMARA MUNICIPAL DE BELO HORIZONTE. Clínicas especializadas em cirurgias eleti
 
 COLTRO, Pedro Soler; FERREIRA, Marcus Castro; BATISTA, Bernardo Pinheiro de Senna Nogueira; NAKAMOTO, Hugo Alberto; MILCHESKI, Dimas André; TUMA JÚNIOR, Paulo. Atuação da cirurgia plástica no tratamento de feridas complexas. Revista do Colégio Brasileiro de Cirurgiões, Rio de Janeiro, v. 39, n. 5, p. 413-417, dez. 2012. Disponível em: https://www.scielo.br/j/rcbc/a/VyDmKhMThpxNDWb654xYgCM/. Acesso em: 29 abr. 2025.
 
+SECRETARIA MUNICIPAL DE SAÚDE - SMS/SP. Manual de Padronização de Curativos. São Paulo, SP, 2021. Acesso em: 24 abr. 2025.
+
+SMANIOTTO, P.H.S.; FERREIRA, M.C.; ISAAC, C.; GALLI, R. Sistematização de curativos para o tratamento clínico das feridas. In: , 2012, São Paulo, SP, Brasil. , São Paulo, SP: , 2012. 623-626. Acesso em: 24 abr. de 2025.
+
+SMANIOTTO, Pedro Henrique de Souza; FERREIRA, Marcus Castro; ISAAC, Cesar; GALLI, Rafael. Sistematizacao de curativos para o tratamento clinico das feridas. Revista Brasileira de Cirurgia Plástica, 2012. Disponível em: https://www.rbcp.org.br/details/1235/Sistematizacao-de-curativos-para-o-tratamento-clinico-das-feridas?idioma=pt-BR. Acesso em: 25 abr. de 2025.
+
+TEIXEIRA NETO, N.; CHI, A.; PAGGIARO, A.O.; FERREIRA, M.C. Tratamento cirúrgico das feridas complexas. In: , 2010, São Paulo, SP, Brasil. , São Paulo, SP: , 2010. 147-151. Acesso em: 27 abr. de 2025.
+
+BURIHAN, Marcelo Calil; CAMPOS JÚNIOR, Walter. Consenso no Tratamento e Prevenção do Pé Diabético. In: , 2020, São Paulo, SP, Brasil. , Rio de Janeiro: Guanabara Koogan, 2020. 76 p. ISBN: 9788527736589. Acesso em: 29 abr. de 2024.
+
+NIBIB. Gordana Vunjak-Novakovic, PhD. National Institute of Biomedical Imaging and Bioengineering, s.d. Disponível em: https://www.nibib.nih.gov/science-education/meet-a-scientist/gordana-vunjak-novakovic-phd. Acesso em: 27 abr. de 2025.
+
+Medizin Online. Tratamento de feridas de última geração: inovações pioneiras. medizinonline.com, s.d. Disponível em: https://medizinonline.com/pt-pt/tratamento-de-feridas-de-ultima-geracao-inovacoes-pioneiras/. Acesso em: 29 abr. de 2025.
+
+EERP-USP. Diretriz para o tratamento de feridas crônicas. Feridas Crônicas - EERP/USP, s.d. Disponível em: https://www.google.com/search?q=http://eerp.usp.br/feridascronicas/diretriz_tratamento.html%23:~:text%3DUse%2520solu%25C3%25A7%25C3%25A3o%2520salina%2520ou%2520soro,quando%2520as%2520%25C3%25BAlceras%2520estiverem%2520limpas.. Acesso em: 29 abr. de 2025.
+
+MEURER, Luíze Paixão Oliveira; PITTELLA, Camila Quinetti Paes. A INTELIGÊNCIA ARTIFICIAL NO CONTEXTO DO TRATAMENTO DE FERIDAS: uma revisão integrativa. In: , 2024, Juiz de Fora, MG, Brasil. , Juiz de Fora, MG: , 2024. 1-18. Acesso em: 28 abr. de 2025.
+
+LIMA-JUNIOR, Edmar Maciel; PICOLLO, Nelson Sarto; MIRANDA, Marcelo José Borges de; RIBEIRO, Wesley Lyeverton Correia; ALVES, Ana Paula Negreiros Nunes; FERREIRA, Guilherme Emilio; PARENTE, Ezequiel Aguiar; MORAES-FILHO, Manoel Odorico. Uso da pele de tilápia (Oreochromis niloticus) como curativo biológico oclusivo no tratamento de queimaduras. Revista Brasileira de Queimaduras, 2017. Disponível em: https://www.rbqueimaduras.com.br/details/341/pt-BR/uso-da-pele-de-tilapia--oreochromis-niloticus---como-curativo-biologico-oclusivo--no-tratamento-de-queimaduras. Acesso em: 01 de maio de 2025.
+
 # <a name="c9"></a>Anexos
 
 *Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso)*
