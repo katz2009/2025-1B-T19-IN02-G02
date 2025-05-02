@@ -50,11 +50,43 @@
 
 ### 2.1.1. Modelo de 5 Forças de Porter (sprint 1)
 
-3. A ameaça de novas entrantes na área de atendimento em cirurgia plástica, com ênfase na curadoria de feridas e queimaduras, é relativamente baixa quando se considera o Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo (FMUSP). A barreira de entrada elevada decorre de diversos fatores, como os rigorosos critérios de acreditação exigidos para cursos de medicina e a necessidade de uma infraestrutura hospitalar altamente especializada para a realização dessas cirurgias. No caso específico do setor de cirurgia plástica do Hospital da FMUSP, a existência de centros avançados de tratamento de feridas complexas e queimaduras, aliada à expertise multiprofissional, representa um diferencial difícil de ser replicado por novas instituições (Michael, 2019). Além disso, a reputação da FMUSP, consolidada pela excelência acadêmica e pela produção científica de alto impacto, funciona como uma vantagem competitiva significativa, tornando ainda mais desafiadora a entrada de novos concorrentes nesse segmento altamente especializado.
+As Cinco Forças de Porter são um modelo de análise estratégica, proposto pelo professor da Harvard Business School Michael Porter em 1979, que tem como finalidade compreender a intensidade da competição em um determinado setor de mercado. Nesse sentido, o framework é utilizado para avaliar os principais concorrentes, outros atores relevantes (como fornecedores e compradores) e as forças competitivas que moldam as relações dentro desse mercado, auxiliando na identificação da atratividade do setor e na formulação de estratégias competitivas eficazes. As 5 forças que compõem esse modelo são: rivalidade entre concorrentes, rivalidade entre produtos substitutos, ameaça de entrada de novos concorrentes, poder de negociação dos clientes e poder de negociação dos fornecedores (Casarotto, 2020).
+<br>
 
-4. Analisando a ameaça de novos entrantes no mercado para o setor de cirurgia plástica do Hospital das Clínicias (HC) da Universidade de São Paulo(USP), apesar de usar enxertos de pele combinados com matrizes dérmicas em casos selecionados e a terapia a vácuo em larga escala, que indicam pesquisa e inovação (USP, 2019), há algumas possibilidades para entrarem novos produtos, como no caso dos produtos de matriz dérmica NEVELIA® e colas biológicas (TISSUEAID™) (SYMATESE, 2025). Por exemplo, se alguma empresa investir também nisso e trouxer essa tecnologia ao Brasil de forma barata, pode-se ter esse tratamento que, mesmo pago, pode se mostrar mais eficaz para desaguar o sistema único de sáude (CÂMARA MUNICIPAL DE BELO HORIZONTE, 2025).  Há também, no HC da USP a demora na indicação cirúrgica, ocorrendo tardiamente em muitas das vezes, prolongando o tempo de internação, custos e morbidade e, dessa forma, tratamentos privados podem ser escolhidos para um tratamento mais urgente, ou seja, não atendendo todos que usam desse produto (G1 RIBEIRÃO E FRANCA). Fora isso, há pouca integração entre especialidades, o que pode comprometer a continuidade e a qualidade do atendimento multidisciplinar (COLTRO et al., 2012).
+#### *1ª Força: Rivalidade entre concorrentes*
+A primeira 1ª Força de Porter refere-se à rivalidade entre concorrentes, que tem como propósito avaliar o nível de competição existente entre players do mercado, a fim de examinar os desafios a serem superados para conquistar market share (Scherma, 2024).
 
-5. O poder de negociação dos fornecedores para a realização de cirurgias plásticas voltadas à curadoria de ferimentos no Hospital de Medicina da USP é altamente relevante. Isso ocorre devido à alta especialização e à diversidade de materiais requisitados para a realização dessas cirurgias, como peles artificiais, biomateriais, equipamentos de precisão, maquinários, entre outros (REVISTA SAÚDE, 2024). Além disso, esses produtos possuem poucos fabricantes, resultando em altos custos de aquisição e manutenção. Embora o prestígio acadêmico do hospital ofereça certa visibilidade aos fornecedores e possa minimizar parcialmente esse desequilíbrio, a baixa disponibilidade de substitutos e a impossibilidade de produção própria reforçam a posição de força dos fornecedores nesse contexto (ABRAIDI, 2025). Soma-se a isso o fato de que a troca de fornecedores exige readequação de protocolos e treinamentos médicos, o que pode acarretar custos consideráveis.
+Sob essa perspectiva, o setor de microcirurgias, cirurgia plástica e tratamento de feridas da Faculdade de Medicina da USP oferece serviços de alta complexidade e qualidade, abrangendo a especialização cirúrgica para o tratamento de lesões complexas, feridas de difícil cicatrização e deformidades mas que, apesar de seu renome e expansão no mercado, apresenta alguns concorrentes que se destacam. Entretanto, vale ressaltar que há uma grande diferenciação na FMUSP, tendo em vista que é uma instituição acadêmica e, por isso, tem foco adicional em pesquisa e ensino.
+
+Tendo isso em vista, pode-se mencionar como principais concorrentes instituições como o Hospital Israelita Albert Einstein (Hospital Israelita Albert Einstein, 2024) e o Hospital Sírio-Libanês (Hospital Sírio-Libanês), que, embora tenham um viés mais voltado à assistência privada e de alto padrão, também oferecem serviços de cirurgia plástica e microcirurgia com excelência reconhecida nacional e internacionalmente.
+
+Ademais, a competitividade está presente também no setor público, no qual hospitais como o Hospital de Clínicas da UNICAMP (Hospital de Clínicas da Unicamp, 2025) e o Hospital de Base de São José do Rio Preto também atuam com elevado grau de especialização na mesma área do HCFMUSP, juntamente ao Hospital Universitário Pedro Ernesto da UERJ, que apresenta posição de destaque em relação a formação de médicos e produção científica no Rio de Janeiro (UERJ, 2025).
+
+A rivalidade no setor de microcirurgia e cirurgia plástica é, portanto, acirrada, e as instituições competem não apenas em termos de qualidade e complexidade dos serviços prestados, mas também em inovação, formação acadêmica e pesquisa. Embora o HCFMUSP tenha um diferencial em ser uma instituição acadêmica de grande porte, sendo o maior complexo hospitalar da América Latina, sua concorrência exige um contínuo aprimoramento dos seus processos, para garantir sua posição de destaque diante de players altamente competitivos, tanto do setor privado quanto público.
+<br>
+
+#### *2ª Força: Ameaça de novos entrantes*
+A Segunda Força de Porter, como mencionado anteriormente, refere-se à ameaça de produtos entrantes. Nesse sentido, é fundamental avaliar quais produtos ou serviços oferecem soluções iguais ou semelhantes às suas, ou que promovem a mesma solução de uma maneira distinta.
+
+Inicialmente, convém considerar que o parceiro de projetos FMUSP atua em diversas áreas. Para esta análise específica, focamos na área de Cirurgia Plástica, dentro do setor de Microcirurgia e, mais precisamente, no departamento de Feridas. Para realizar uma análise comparativa eficaz, foi imprescindível compreender os serviços existentes e a forma como são executados nesse contexto, para então identificar a segunda força de Porter.
+
+Sob essa perspectiva, é necessário salientar a existência de uma cartilha oficial, denominada “Manual de Padronização de Curativos”, que oferece diretrizes sobre os tipos de feridas, bem como as considerações para o curativo ideal. Essa escolha envolve diversas camadas de análise, abrangendo a classificação das feridas, o processo de cicatrização e, finalmente, a avaliação das feridas e as etapas de tratamento (Secretaria Municipal de Saúde, 2022). Como o próprio nome sugere, há uma padronização de cuidados e curativos para as feridas, o que minimiza a ameaça iminente para o parceiro, uma vez que existe um padrão estabelecido para ser seguido. Essa padronização transcende o âmbito do Estado de São Paulo, visto que outros documentos orientam os tratamentos e são publicados para facilitar o acesso ao conhecimento. Isso se deve à atuação do CFM (Conselho Federal de Medicina), que estabelece normas e práticas alinhadas à ética médica; do Ministério da Saúde, com políticas e diretrizes para o SUS (Sistema Único de Saúde), a exemplo do PCDT, um documento de “Linhas de Cuidado e os Protocolos Clínicos e Diretrizes Terapêuticas”; e da ANVISA (Agência Nacional de Vigilância Sanitária), responsável por padronizar e regulamentar os cuidados com a saúde. A atuação conjunta desses órgãos e segmentos visa garantir a qualidade e o tratamento ideal na área da saúde, proporcionando um escopo e uma linha de cuidados a serem seguidos, que acompanham os estudos e avanços da medicina.
+
+Em um repositório vinculado à USP, encontra-se o artigo denominado “Sistematização de curativos para o tratamento clínico das feridas”, que informa que os serviços oferecidos para o tratamento de feridas utilizam curativos não aderentes, curativos não aderentes com silicone, filme transparente, espuma polimérica com ou sem prata, hidrogel e alginato de cálcio, carvão ativado com prata e malha com prata, que representam os métodos mais comuns. Adicionalmente, existem métodos cirúrgicos para casos específicos (Smaniotto et al., 2012). Esses métodos são complementados por outros procedimentos, especialmente no tratamento de lesões complexas, como úlceras por pressão, úlceras venosas e pé diabético. Um exemplo notável é a terapia por pressão negativa (vácuo), que oferece o benefício de uma formação mais precoce de tecido de granulação, além de facilitar a enxertia e promover uma recuperação mais rápida (Teixeira et al., 2010).
+
+Diante do exposto, a existência de um padrão de tratamento estabelecido atenua significativamente a ameaça de novos produtos para o parceiro. Isso se deve ao fato de que o desenvolvimento de novos tratamentos exige um rigoroso processo de pesquisa, testes e aprovações por conselhos e pela comunidade científica, que validam a eficácia de novos métodos e curativos antes que possam ser recomendados como práticas seguras para o tratamento de feridas.
+
+Em suma, embora o cenário atual demonstre uma baixa ameaça de novos entrantes devido à padronização e ao rigor científico exigido na área de tratamento de feridas, é crucial reconhecer o dinamismo da ciência médica. Pesquisas promissoras em áreas como a engenharia de tecidos, a aplicação de inteligência artificial na análise de feridas e o uso de biomateriais inovadores, como a pele de tilápia, sinalizam um horizonte de possíveis transformações nos métodos de tratamento. Contudo, dado o estágio inicial dessas pesquisas e a necessidade de validação clínica robusta, a FMUSP mantém-se alinhada às metodologias de tratamento consagradas, garantindo a qualidade e a segurança dos cuidados prestados aos pacientes.
+
+#### *3ª Força: Ameaça de novos entrantes*
+A ameaça de novas entrantes na área de atendimento em cirurgia plástica, com ênfase na curadoria de feridas e queimaduras, é relativamente baixa quando se considera o Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo (FMUSP). A barreira de entrada elevada decorre de diversos fatores, como os rigorosos critérios de acreditação exigidos para cursos de medicina e a necessidade de uma infraestrutura hospitalar altamente especializada para a realização dessas cirurgias. No caso específico do setor de cirurgia plástica do Hospital da FMUSP, a existência de centros avançados de tratamento de feridas complexas e queimaduras, aliada à expertise multiprofissional, representa um diferencial difícil de ser replicado por novas instituições (Michael, 2019). Além disso, a reputação da FMUSP, consolidada pela excelência acadêmica e pela produção científica de alto impacto, funciona como uma vantagem competitiva significativa, tornando ainda mais desafiadora a entrada de novos concorrentes nesse segmento altamente especializado.
+
+#### *4ª Força: Poder de negociação dos clientes* 
+Analisando a ameaça de novos entrantes no mercado para o setor de cirurgia plástica do Hospital das Clínicias (HC) da Universidade de São Paulo(USP), apesar de usar enxertos de pele combinados com matrizes dérmicas em casos selecionados e a terapia a vácuo em larga escala, que indicam pesquisa e inovação (USP, 2019), há algumas possibilidades para entrarem novos produtos, como no caso dos produtos de matriz dérmica NEVELIA® e colas biológicas (TISSUEAID™) (SYMATESE, 2025). Por exemplo, se alguma empresa investir também nisso e trouxer essa tecnologia ao Brasil de forma barata, pode-se ter esse tratamento que, mesmo pago, pode se mostrar mais eficaz para desaguar o sistema único de sáude (CÂMARA MUNICIPAL DE BELO HORIZONTE, 2025).  Há também, no HC da USP a demora na indicação cirúrgica, ocorrendo tardiamente em muitas das vezes, prolongando o tempo de internação, custos e morbidade e, dessa forma, tratamentos privados podem ser escolhidos para um tratamento mais urgente, ou seja, não atendendo todos que usam desse produto (G1 RIBEIRÃO E FRANCA). Fora isso, há pouca integração entre especialidades, o que pode comprometer a continuidade e a qualidade do atendimento multidisciplinar (COLTRO et al., 2012).
+
+#### *5ª Força: Poder de negociação dos fornecedores*
+O poder de negociação dos fornecedores para a realização de cirurgias plásticas voltadas à curadoria de ferimentos no Hospital de Medicina da USP é altamente relevante. Isso ocorre devido à alta especialização e à diversidade de materiais requisitados para a realização dessas cirurgias, como peles artificiais, biomateriais, equipamentos de precisão, maquinários, entre outros (REVISTA SAÚDE, 2024). Além disso, esses produtos possuem poucos fabricantes, resultando em altos custos de aquisição e manutenção. Embora o prestígio acadêmico do hospital ofereça certa visibilidade aos fornecedores e possa minimizar parcialmente esse desequilíbrio, a baixa disponibilidade de substitutos e a impossibilidade de produção própria reforçam a posição de força dos fornecedores nesse contexto (ABRAIDI, 2025). Soma-se a isso o fato de que a troca de fornecedores exige readequação de protocolos e treinamentos médicos, o que pode acarretar custos consideráveis.
+
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
@@ -83,13 +115,60 @@ O envelhecimento populacional e o aumento das doenças crônicas elevam a demand
 
 ### 2.1.3. Solução (sprints 1 a 5)
 
-*Explique detalhadamente os seguintes aspectos (até 60 palavras por item):*
-1. Problema a ser resolvido
-2. Dados disponíveis (mencionar fonte e conteúdo; se não houver, indicar “não se aplica”)
-3. Solução proposta
-4. Forma de utilização da solução
-5. Benefícios esperados
-6. Critério de sucesso e como será avaliado
+#### 1. Problema a ser resolvido
+
+Uma parcela significativa da população brasileira convive com feridas crônicas, como úlceras por pressão, úlceras venosas e lesões associadas ao diabetes. Estima-se que mais de 2 milhões de brasileiros sofram com esse tipo de condição, sendo a maioria composta por idosos ou pessoas com comorbidades, o que contribui para dificuldades de locomoção e acesso recorrente aos serviços de saúde (ITL, 2025; HOSPITAL ALEMÃO OSWALDO CRUZ, 2023). Essa limitação faz com que muitos pacientes só procurem ajuda médica em estágios avançados da lesão, resultando em aumento da dor, risco de infecção, amputações, maior mortalidade e custos elevados de tratamento para o Sistema Único de Saúde (SUS) (SILVA et al., 2023; MOHR et al., 2023).
+
+#### 2. Dados disponíveis
+
+As feridas crônicas representam um desafio significativo para a saúde pública, afetando milhões de pessoas em todo o mundo. Estudos indicam que cerca de 20 milhões de indivíduos convivem com feridas crônicas globalmente, evidenciando a magnitude do problema (HOSPITAL ALEMÃO OSWALDO CRUZ, 2023).
+
+No Brasil, a prevalência dessas lesões é particularmente preocupante entre a população idosa. Um estudo realizado com 339 idosos assistidos na atenção básica revelou prevalências de 5,0% para lesão por pressão, 3,2% para úlcera diabética e 2,9% para úlcera vasculogênica. Fatores como inatividade física e ausência de atividade laboral aumentaram significativamente o risco de desenvolvimento dessas feridas (SILVA et al., 2018).
+
+Além das implicações físicas, as feridas crônicas impactam negativamente a qualidade de vida dos pacientes, afetando aspectos como mobilidade, sono e bem-estar emocional. A dor associada às lesões é frequentemente destacada como um dos principais fatores que comprometem a percepção de saúde e a capacidade funcional dos indivíduos (SANTOS et al., 2017).
+
+Diante desse cenário, torna-se evidente a necessidade de estratégias eficazes para prevenção, monitoramento e tratamento das feridas crônicas, visando melhorar a qualidade de vida dos pacientes e reduzir os custos associados ao sistema de saúde.
+
+#### 3. Solução proposta
+
+Será desenvolvido um sistema web de telemonitoramento voltado para pacientes portadores de feridas crônicas, com o objetivo de melhorar o acompanhamento contínuo, promover o autocuidado e facilitar a atuação dos profissionais de saúde, especialmente no contexto da Atenção Primária.
+
+O sistema contará com duas interfaces distintas, sendo uma voltada aos pacientes e outra aos profissionais de saúde das Unidades Básicas de Saúde (UBS) e agentes comunitários. A interface será desenvolvida segundo às necessidades e limitações dos seus usuários, especialmente considerando que muitos pacientes são idosos e podem ter pouca familiaridade com tecnologia.
+
+#### Funcionalidades da interface do paciente:
+
+- Envio periódico de fotos padronizadas da ferida, com uso de régua de medição integrada à imagem para facilitar o acompanhamento da evolução;
+- Preenchimento de questionários de saúde simples e acessíveis, sobre dor, secreção, sinais de infecção, entre outros indicadores clínicos;
+- Acesso a vídeos educativos personalizados conforme o tipo de ferida (úlceras por pressão, úlceras venosas ou pé diabético)
+- Alertas e lembretes automáticos para envio de informações ou visualização de conteúdos importantes.
+- Acesso a ficha médica preenchida pelo profissional de saúde, para que o paciente também possa acompanhar a sua evolução.
+
+#### Funcionalidades da interface do profissional:
+
+- Recebimento em tempo real das informações enviadas pelos pacientes sob sua responsabilidade;
+- Painel com histórico evolutivo das feridas, com fotos comparativas e respostas dos questionários;
+- Registro de condutas clínicas, envio de orientações personalizadas e acompanhamento remoto dos casos.
+
+#### 4. Forma de utilização da solução
+
+O sistema web de telemonitoramento será utilizado para conectar pacientes portadores de feridas crônicas às equipes das Unidades Básicas de Saúde (UBS). Inicialmente, agentes de saúde localizarão os pacientes nas comunidades e realizarão o cadastro no sistema. Os pacientes preencherão questionários sobre sua saúde geral e enviarão imagens da ferida utilizando uma régua como referência de tamanho. A comunicação ocorrerá de maneira periódica, com o envio de novas informações e fotos, conforme cronograma definido pelo profissional de saúde. Caso o paciente não envie atualizações dentro do prazo, a UBS será notificada para fazer o contato ativo. Além disso, o sistema oferecerá vídeos educativos adaptados ao tipo de ferida de cada paciente, promovendo maior conhecimento e adesão ao tratamento. Para pacientes com baixa alfabetização, haverá recursos de áudio para facilitar a comunicação.
+
+#### 5. Benefícios esperados
+
+A implementação do sistema web trará benefícios significativos tanto para os pacientes quanto para o Sistema Único de Saúde (SUS). Para os pacientes, o sistema facilitará o acompanhamento contínuo da condição, permitirá a detecção precoce de agravamentos e aumentará a adesão ao tratamento, promovendo melhora na qualidade de vida. Para os profissionais de saúde, o sistema otimizará o monitoramento dos casos, permitindo intervenções mais rápidas e baseadas em informações atualizadas. No âmbito do SUS, espera-se reduzir a necessidade de hospitalizações prolongadas e os custos associados ao tratamento de feridas crônicas. O projeto também busca promover a educação em saúde, autonomia aos pacientes no autocuidado e na gestão de sua condição.
+
+Como referência de sucesso, destaca-se o projeto de telemonitoramento desenvolvido pela Universidade do Oeste Paulista (UNOESTE), que já realizou mais de 7 mil atendimentos à distância, demonstrando eficácia no cuidado remoto e redução na sobrecarga dos serviços presenciais. A iniciativa mostra que tecnologias de acompanhamento à distância, quando bem implementadas, podem ser escaladas e adaptadas a diferentes contextos de atenção à saúde (UNOESTE, 2023).
+
+#### 6. Critério de sucesso e como será avaliado
+
+- Critério principal: Taxa de adesão dos pacientes ao sistema (número de atualizações enviadas dentro do prazo combinado).
+- Critérios complementares:
+    - Redução do tamanho ou melhora clínica das feridas ao longo do acompanhamento.
+    - Satisfação dos profissionais de saúde em relação ao uso do sistema, avaliada via questionários.
+    - Feedback dos pacientes sobre a usabilidade e benefícios percebidos do sistema.
+- Forma de avaliação:
+    - Análise de métricas extraídas do sistema (frequência de envio de dados, tempo de resposta).
+    - Avaliação qualitativa com entrevistas e questionários aplicados aos profissionais e pacientes participantes do projeto-piloto nas UBS.
 
 ### 2.1.4. Value Proposition Canvas (sprint 1): 
 # Canvas Proposta de Valor
@@ -175,7 +254,11 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 
 ## 2.2. Personas (sprint 1)
 
-*Posicione aqui suas Personas em forma de texto markdown com imagens, ou como imagem de template preenchido. Atualize esta seção ao longo do módulo se necessário.*
+O modelo de Personas está enquadrado dentro da estratégia que satisfaz um senso de empatia no usuário e agrega valor ao produto consumido (Kuniavsky et al., 2012), o que torna a experiência do usuário o ponto central do modelo.
+
+De acordo com a pesquisa “A new perspective on personas and customer journey maps: Proposing systemic UX” (Bradley, Callum et al, 2021), as personas são usadas para criar usuários arquetípicos que facilitam a compreensão de seus comportamentos, necessidades, motivações, características e limitações. Essa abordagem considera uma observação filosófica das necessidades possivelmente invisíveis para uma minoria dos participantes da pesquisa.
+
+A seguir, abordamos duas Personas nas quais nos identificamos com as dores e necessidades do projeto realizado com o parceiro FMUSP, a aplicação web “Scama”.
 
 # Persona 1
 
@@ -430,11 +513,24 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 # <a name="c8"></a>8. Referências (sprints 1 a 5)
 
 
+
 REVISTA SAÚDE USP. Inovação e dependência tecnológica no tratamento de queimaduras graves. Revista de Saúde da Universidade de São Paulo, São Paulo, v. 29, n. 3, p. 45-60, 2024. 
 
 ABRAIDI – Associação Brasileira de Importadores e Distribuidores de Produtos para Saúde. Relatório Setorial ABRAIDI 2024. São Paulo: ABRAIDI, 2024. Disponível em: https://www.abraidi.com.br/. Acesso em: 28 abr. 2025.
 
 PORTER, Michael E. Estratégia competitiva: técnicas para análise de indústrias e da concorrência. 11. ed. Rio de Janeiro: Elsevier, 2019.
+
+UNOESTE. *Telemonitoramento já prestou mais de 7 mil atendimentos*. 2023. Disponível em: https://www.unoeste.br/noticias/2023/4/telemonitoramento-ja-prestou-mais-de-7-mil-atendimentos. Acesso em: 2 maio 2025.
+
+HOSPITAL ALEMÃO OSWALDO CRUZ. *Estudos apontam que cerca de 20 milhões de pessoas têm feridas crônicas no mundo*. 2023. Disponível em: https://www.hospitaloswaldocruz.org.br/imprensa/releases/estudos-apontam-que-cerca-de-20-milhoes-de-pessoas-tem-feridas-cronicas-no-mundo/. Acesso em: 2 maio 2025.
+
+SILVA, K. M. et al. Prevalência e fatores associados a feridas crônicas em idosos na atenção básica. *Revista da Escola de Enfermagem da USP*, São Paulo, v. 52, e03415, 2018. Disponível em: https://www.scielo.br/j/reeusp/a/vhRVSFBnrGndry36ZV5GFvz/?lang=pt. Acesso em: 2 maio 2025.
+
+SANTOS, V. L. C. G. et al. Qualidade de vida relacionada a aspectos clínicos em pessoas com feridas crônicas. *Revista da Escola de Enfermagem da USP*, São Paulo, v. 51, e03217, 2017. Disponível em: https://www.scielo.br/j/reeusp/a/kFCt5yL6FYxqBcvHCyw3cwG/?lang=pt. Acesso em: 2 maio 2025.
+
+ITL – Instituto de Tratamento de Feridas. *Feridas crônicas: entenda o que são e como tratar*. 2025. Disponível em: https://itl.med.br/2025/02/feridas-cronicas/. Acesso em: 2 maio 2025.
+
+MOHR, Helena Sophia Strauss et al. *Cuidado de enfermagem à pessoa com ferida na Atenção Primária à Saúde: desafios e potências*. Rev. Estima, São Paulo, v. 21, e1437, 2023.
 
 FACULDADE DE MEDICINA DA UNIVERSIDADE DE SÃO PAULO (FMUSP). Serviço de Cirurgia Plástica do Hospital das Clínicas da FMUSP. São Paulo, 2024. Disponível em: https://www.hc.fm.usp.br/hc/portal/. Acesso em: 22 abr. 2025.
 
@@ -455,6 +551,33 @@ SYMATESE LATAM. Produtos. 2024. Disponível em: https://symateselatam.com/produt
 CÂMARA MUNICIPAL DE BELO HORIZONTE. Clínicas especializadas em cirurgias eletivas contribuem para a redução da fila no SUS. 2022. Disponível em: https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2022/11/clinicas-especializadas-em-cirurgias-eletivas-contribuem-para-reducao-da-fila-no-sus. Acesso em: 29 abr. 2025.
 
 COLTRO, Pedro Soler; FERREIRA, Marcus Castro; BATISTA, Bernardo Pinheiro de Senna Nogueira; NAKAMOTO, Hugo Alberto; MILCHESKI, Dimas André; TUMA JÚNIOR, Paulo. Atuação da cirurgia plástica no tratamento de feridas complexas. Revista do Colégio Brasileiro de Cirurgiões, Rio de Janeiro, v. 39, n. 5, p. 413-417, dez. 2012. Disponível em: https://www.scielo.br/j/rcbc/a/VyDmKhMThpxNDWb654xYgCM/. Acesso em: 29 abr. 2025.
+
+SECRETARIA MUNICIPAL DE SAÚDE - SMS/SP. Manual de Padronização de Curativos. São Paulo, SP, 2021. Acesso em: 24 abr. 2025.
+
+SMANIOTTO, P.H.S.; FERREIRA, M.C.; ISAAC, C.; GALLI, R. Sistematização de curativos para o tratamento clínico das feridas. In: , 2012, São Paulo, SP, Brasil. , São Paulo, SP: , 2012. 623-626. Acesso em: 24 abr. de 2025.
+
+SMANIOTTO, Pedro Henrique de Souza; FERREIRA, Marcus Castro; ISAAC, Cesar; GALLI, Rafael. Sistematizacao de curativos para o tratamento clinico das feridas. Revista Brasileira de Cirurgia Plástica, 2012. Disponível em: https://www.rbcp.org.br/details/1235/Sistematizacao-de-curativos-para-o-tratamento-clinico-das-feridas?idioma=pt-BR. Acesso em: 25 abr. de 2025.
+
+TEIXEIRA NETO, N.; CHI, A.; PAGGIARO, A.O.; FERREIRA, M.C. Tratamento cirúrgico das feridas complexas. In: , 2010, São Paulo, SP, Brasil. , São Paulo, SP: , 2010. 147-151. Acesso em: 27 abr. de 2025.
+
+BURIHAN, Marcelo Calil; CAMPOS JÚNIOR, Walter. Consenso no Tratamento e Prevenção do Pé Diabético. In: , 2020, São Paulo, SP, Brasil. , Rio de Janeiro: Guanabara Koogan, 2020. 76 p. ISBN: 9788527736589. Acesso em: 29 abr. de 2024.
+
+NIBIB. Gordana Vunjak-Novakovic, PhD. National Institute of Biomedical Imaging and Bioengineering, s.d. Disponível em: https://www.nibib.nih.gov/science-education/meet-a-scientist/gordana-vunjak-novakovic-phd. Acesso em: 27 abr. de 2025.
+
+Medizin Online. Tratamento de feridas de última geração: inovações pioneiras. medizinonline.com, s.d. Disponível em: https://medizinonline.com/pt-pt/tratamento-de-feridas-de-ultima-geracao-inovacoes-pioneiras/. Acesso em: 29 abr. de 2025.
+
+EERP-USP. Diretriz para o tratamento de feridas crônicas. Feridas Crônicas - EERP/USP, s.d. Disponível em: https://www.google.com/search?q=http://eerp.usp.br/feridascronicas/diretriz_tratamento.html%23:~:text%3DUse%2520solu%25C3%25A7%25C3%25A3o%2520salina%2520ou%2520soro,quando%2520as%2520%25C3%25BAlceras%2520estiverem%2520limpas.. Acesso em: 29 abr. de 2025.
+
+MEURER, Luíze Paixão Oliveira; PITTELLA, Camila Quinetti Paes. A INTELIGÊNCIA ARTIFICIAL NO CONTEXTO DO TRATAMENTO DE FERIDAS: uma revisão integrativa. In: , 2024, Juiz de Fora, MG, Brasil. , Juiz de Fora, MG: , 2024. 1-18. Acesso em: 28 abr. de 2025.
+
+LIMA-JUNIOR, Edmar Maciel; PICOLLO, Nelson Sarto; MIRANDA, Marcelo José Borges de; RIBEIRO, Wesley Lyeverton Correia; ALVES, Ana Paula Negreiros Nunes; FERREIRA, Guilherme Emilio; PARENTE, Ezequiel Aguiar; MORAES-FILHO, Manoel Odorico. Uso da pele de tilápia (Oreochromis niloticus) como curativo biológico oclusivo no tratamento de queimaduras. Revista Brasileira de Queimaduras, 2017. Disponível em: https://www.rbqueimaduras.com.br/details/341/pt-BR/uso-da-pele-de-tilapia--oreochromis-niloticus---como-curativo-biologico-oclusivo--no-tratamento-de-queimaduras. Acesso em: 01 de maio de 2025.
+
+KUNIAVSKY, Mike et al. Observing the user experience: a practitioner's guide to user research. 2. ed. Burlington: Morgan Kaufmann, 2012. Disponível em: https://books.google.com.br/books?id=ZqAl1AsglfIC. Acesso em: 2 maio 2025.
+
+SANTOS, Milena Barbosa et al, Business Model Canvas: aplicação do método em uma empresa. In: Revista Observatorio de la Economía Latinoamericana, mar. 2020. Disponível em: https://dialnet.unirioja.es/servlet/articulo?codigo=8313023. Acesso em: 22 abr. 2025.
+
+BRADLEY, Callum et al, A new perspective on personas and customer journey maps: Proposing systemic UX. In: ScienceDirect, abr. 2021. Disponível em: https://www.sciencedirect.com/science/article/abs/pii/S107158192100001X. Acesso em: 2 maio 2025.
+
 
 # <a name="c9"></a>Anexos
 
