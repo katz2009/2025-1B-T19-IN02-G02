@@ -65,8 +65,12 @@ Ademais, a competitividade está presente também no setor público, no qual hos
 A rivalidade no setor de microcirurgia e cirurgia plástica é, portanto, acirrada, e as instituições competem não apenas em termos de qualidade e complexidade dos serviços prestados, mas também em inovação, formação acadêmica e pesquisa. Embora o HCFMUSP tenha um diferencial em ser uma instituição acadêmica de grande porte, sendo o maior complexo hospitalar da América Latina, sua concorrência exige um contínuo aprimoramento dos seus processos, para garantir sua posição de destaque diante de players altamente competitivos, tanto do setor privado quanto público.
 <br>
 
+#### *4ª Força: Poder de negociação dos clientes* 
+Analisando a ameaça de novos entrantes no mercado para o setor de cirurgia plástica do Hospital das Clínicias (HC) da Universidade de São Paulo(USP), apesar de usar enxertos de pele combinados com matrizes dérmicas em casos selecionados e a terapia a vácuo em larga escala, que indicam pesquisa e inovação (USP, 2019), há algumas possibilidades para entrarem novos produtos, como no caso dos produtos de matriz dérmica NEVELIA® e colas biológicas (TISSUEAID™) (SYMATESE, 2025). Por exemplo, se alguma empresa investir também nisso e trouxer essa tecnologia ao Brasil de forma barata, pode-se ter esse tratamento que, mesmo pago, pode se mostrar mais eficaz para desaguar o sistema único de sáude (CÂMARA MUNICIPAL DE BELO HORIZONTE, 2025).  Há também, no HC da USP a demora na indicação cirúrgica, ocorrendo tardiamente em muitas das vezes, prolongando o tempo de internação, custos e morbidade e, dessa forma, tratamentos privados podem ser escolhidos para um tratamento mais urgente, ou seja, não atendendo todos que usam desse produto (G1 RIBEIRÃO E FRANCA). Fora isso, há pouca integração entre especialidades, o que pode comprometer a continuidade e a qualidade do atendimento multidisciplinar (COLTRO et al., 2012).
+
 #### *5ª Força: Poder de negociação dos fornecedores*
 O poder de negociação dos fornecedores para a realização de cirurgias plásticas voltadas à curadoria de ferimentos no Hospital de Medicina da USP é altamente relevante. Isso ocorre devido à alta especialização e à diversidade de materiais requisitados para a realização dessas cirurgias, como peles artificiais, biomateriais, equipamentos de precisão, maquinários, entre outros (REVISTA SAÚDE, 2024). Além disso, esses produtos possuem poucos fabricantes, resultando em altos custos de aquisição e manutenção. Embora o prestígio acadêmico do hospital ofereça certa visibilidade aos fornecedores e possa minimizar parcialmente esse desequilíbrio, a baixa disponibilidade de substitutos e a impossibilidade de produção própria reforçam a posição de força dos fornecedores nesse contexto (ABRAIDI, 2025). Soma-se a isso o fato de que a troca de fornecedores exige readequação de protocolos e treinamentos médicos, o que pode acarretar custos consideráveis.
+
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
@@ -455,6 +459,16 @@ FACULDADE DE MEDICINA DA UNIVERSIDADE DE SÃO PAULO (FMUSP). Serviço de Cirurgi
 MOHR, Helena Sophia Strauss; SOARES, Cilene Fernandes; LOSS, Denise da Silva; BELAVER, Guilherme Mortari; PAESE, Fernanda; PEREIRA, Milena. Cuidado de enfermagem à pessoa com ferida na Atenção Primária à Saúde: desafios e potências. Estima – Brazilian Journal of Enterostomal Therapy, São Paulo, v. 19, e1437, 2021. Disponível em: https://www.revistaestima.com.br/estima/article/view/1437. Acesso em: 22 abr. 2025.
 
 CARBINATTO, Fernanda Mansano; AQUINO JUNIOR, Antonio Eduardo de; BAGNATO, Vanderlei Salvador. Condutas e inovações nos cuidados com feridas crônicas. São Carlos: Instituto de Física de São Carlos (IFSC/USP), 2024. Disponível em: https://www2.ifsc.usp.br/portal-ifsc/wp-content/uploads/2024/07/Condutas-e-Inovacoes-nos-cuidados-com-Feridas-Cronicas.pdf. Acesso em: 22 abr. 2025.
+
+USP. Técnica previne amputação de membros causadas por lesões. Jornal da USP, 2019. Disponível em: https://jornal.usp.br/ciencias/ciencias-da-saude/tecnica-previne-amputacao-de-membros-causadas-por-lesoes/. Acesso em: 29 abr. 2025.
+
+SYMATESE LATAM. Produtos. 2024. Disponível em: https://symateselatam.com/produtos/. Acesso em: 29 abr. 2025.
+
+ G1 RIBEIRÃO E FRANCA. HC de Ribeirão Preto, SP, tem 6 mil pacientes na fila para cirurgias eletivas. 2023. Disponível em: https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2023/03/21/hc-de-ribeirao-preto-sp-tem-6-mil-pacientes-na-fila-para-cirurgias-eletivas.ghtml. Acesso em: 29 abr. 2025.
+
+CÂMARA MUNICIPAL DE BELO HORIZONTE. Clínicas especializadas em cirurgias eletivas contribuem para a redução da fila no SUS. 2022. Disponível em: https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2022/11/clinicas-especializadas-em-cirurgias-eletivas-contribuem-para-reducao-da-fila-no-sus. Acesso em: 29 abr. 2025.
+
+COLTRO, Pedro Soler; FERREIRA, Marcus Castro; BATISTA, Bernardo Pinheiro de Senna Nogueira; NAKAMOTO, Hugo Alberto; MILCHESKI, Dimas André; TUMA JÚNIOR, Paulo. Atuação da cirurgia plástica no tratamento de feridas complexas. Revista do Colégio Brasileiro de Cirurgiões, Rio de Janeiro, v. 39, n. 5, p. 413-417, dez. 2012. Disponível em: https://www.scielo.br/j/rcbc/a/VyDmKhMThpxNDWb654xYgCM/. Acesso em: 29 abr. 2025.
 
 # <a name="c9"></a>Anexos
 
