@@ -152,7 +152,9 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 
 ## 2.2. Personas (sprint 1)
 
-*Posicione aqui suas Personas em forma de texto markdown com imagens, ou como imagem de template preenchido. Atualize esta seção ao longo do módulo se necessário.*
+O modelo de Personas está enquadrado dentro da estratégia que satisfaz um senso de empatia ao usuário ao mesmo agregue valor para aquele produto consumido (Kuniavsky et al., 2012), o que torna a experiência do usuário como ponto central do modelo.
+De acordo com a pesquisa “A new perspective on personas and customer journey maps: Proposing systemic UX” (Bradley, Callum et al, 2021), as personas são usadas para criação de usuários arquetípicos que facilitam a compreensão de comportamentos, necessidades, motivações, características e limitações dos usuários. Abordando uma observação filosófica das necessidades possivelmente invisíveis para minoria dos usuários de uma pesquisa.
+Abaixo abordamos duas Personas no qual nos identificamos com as dores e necessidades do projeto realizado com o parceiro FMUSP, a aplicação web “Scama”.
 
 # Persona 1
 
@@ -373,6 +375,13 @@ SOBRENOME, Nome. Título do livro: subtítulo do livro. Edição. Cidade de publ
 
 INTELI. Adalove. Disponível em: https://adalove.inteli.edu.br/feed. Acesso em: 1 out. 2023 <br>
 SOBRENOME, Nome. Título do site. Disponível em: link do site. Acesso em: Dia Mês Ano
+
+KUNIAVSKY, Mike et al. Observing the user experience: a practitioner's guide to user research. 2. ed. Burlington: Morgan Kaufmann, 2012. Disponível em: https://books.google.com.br/books?id=ZqAl1AsglfIC. Acesso em: 2 maio 2025.
+
+SANTOS, Milena Barbosa et al, Business Model Canvas: aplicação do método em uma empresa. In: Revista Observatorio de la Economía Latinoamericana, mar. 2020. Disponível em: https://dialnet.unirioja.es/servlet/articulo?codigo=8313023. Acesso em: 22 abr. 2025.
+
+BRADLEY, Callum et al, A new perspective on personas and customer journey maps: Proposing systemic UX. In: ScienceDirect, abr. 2021. Disponível em: https://www.sciencedirect.com/science/article/abs/pii/S107158192100001X. Acesso em: 2 maio 2025.
+
 
 # <a name="c9"></a>Anexos
 
