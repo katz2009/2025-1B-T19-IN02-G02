@@ -87,6 +87,12 @@ O poder de negociação dos fornecedores para a realização de cirurgias plást
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
 
+A matriz SWOT é uma ferramenta estratégica amplamente utilizada para a análise situacional de organizações, projetos ou setores específicos. O nome é um acrônimo em inglês para **Strengths** (Forças), **Weaknesses** (Fraquezas), **Opportunities** (Oportunidades) e **Threats** (Ameaças). Essa técnica permite visualizar, de forma estruturada, os fatores internos e externos que influenciam o desempenho de uma instituição, oferecendo subsídios para a tomada de decisões, o planejamento estratégico e a identificação de áreas prioritárias para intervenção (ASANA, 2024).
+
+Sua utilidade reside na capacidade de promover uma compreensão mais ampla sobre o contexto em que uma organização está inserida, considerando tanto seus pontos fortes e vulnerabilidades internas quanto os elementos externos que podem favorecer ou ameaçar seus objetivos. Essa abordagem facilita a construção de estratégias que potencializam os recursos existentes e minimizam os riscos.
+
+Neste projeto, a ferramenta será aplicada ao Setor de Cirurgia Plástica do Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo (HC-FMUSP). Criado oficialmente em 1941, o setor consolidou-se como um dos mais importantes centros de ensino, pesquisa e assistência em cirurgia plástica da América Latina. Atua de forma integrada ao Sistema Único de Saúde (SUS), realizando atendimentos de alta complexidade e contribuindo significativamente para a formação de profissionais qualificados na área (FMUSP, 2024). A análise SWOT permitirá identificar os principais desafios e oportunidades que impactam o setor, especialmente no que se refere ao tratamento de feridas complexas e queimaduras, foco deste projeto.
+
 <div align="center">
    <sub>Imagem 1: Análise SWOT</sub><br>
    <img src="../assets/wad/swot.png" width="100%" 
@@ -573,6 +579,7 @@ SANTOS, Milena Barbosa et al, Business Model Canvas: aplicação do método em u
 
 BRADLEY, Callum et al, A new perspective on personas and customer journey maps: Proposing systemic UX. In: ScienceDirect, abr. 2021. Disponível em: https://www.sciencedirect.com/science/article/abs/pii/S107158192100001X. Acesso em: 2 maio 2025.
 
+ASANA. *Análise SWOT: o que é e como fazer uma análise SWOT eficaz*. 2024. Disponível em: https://asana.com/pt/resources/swot-analysis. Acesso em: 2 maio 2025.
 
 # <a name="c9"></a>Anexos
 
