@@ -65,7 +65,7 @@ Ademais, a competitividade está presente também no setor público, no qual hos
 A rivalidade no setor de microcirurgia e cirurgia plástica é, portanto, acirrada, e as instituições competem não apenas em termos de qualidade e complexidade dos serviços prestados, mas também em inovação, formação acadêmica e pesquisa. Embora o HCFMUSP tenha um diferencial em ser uma instituição acadêmica de grande porte, sendo o maior complexo hospitalar da América Latina, sua concorrência exige um contínuo aprimoramento dos seus processos, para garantir sua posição de destaque diante de players altamente competitivos, tanto do setor privado quanto público.
 <br>
 
-#### *2ª Força: Ameaça de novos entrantes*
+#### *2ª Força: Ameaça de produtos substitutos*
 A Segunda Força de Porter, como mencionado anteriormente, refere-se à ameaça de produtos entrantes. Nesse sentido, é fundamental avaliar quais produtos ou serviços oferecem soluções iguais ou semelhantes às suas, ou que promovem a mesma solução de uma maneira distinta.
 
 Inicialmente, convém considerar que o parceiro de projetos FMUSP atua em diversas áreas. Para esta análise específica, focamos na área de Cirurgia Plástica, dentro do setor de Microcirurgia e, mais precisamente, no departamento de Feridas. Para realizar uma análise comparativa eficaz, foi imprescindível compreender os serviços existentes e a forma como são executados nesse contexto, para então identificar a segunda força de Porter.
