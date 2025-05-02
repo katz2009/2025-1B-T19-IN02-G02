@@ -152,9 +152,11 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 
 ## 2.2. Personas (sprint 1)
 
-O modelo de Personas está enquadrado dentro da estratégia que satisfaz um senso de empatia ao usuário ao mesmo agregue valor para aquele produto consumido (Kuniavsky et al., 2012), o que torna a experiência do usuário como ponto central do modelo.
-De acordo com a pesquisa “A new perspective on personas and customer journey maps: Proposing systemic UX” (Bradley, Callum et al, 2021), as personas são usadas para criação de usuários arquetípicos que facilitam a compreensão de comportamentos, necessidades, motivações, características e limitações dos usuários. Abordando uma observação filosófica das necessidades possivelmente invisíveis para minoria dos usuários de uma pesquisa.
-Abaixo abordamos duas Personas no qual nos identificamos com as dores e necessidades do projeto realizado com o parceiro FMUSP, a aplicação web “Scama”.
+O modelo de Personas está enquadrado dentro da estratégia que satisfaz um senso de empatia no usuário e agrega valor ao produto consumido (Kuniavsky et al., 2012), o que torna a experiência do usuário o ponto central do modelo.
+
+De acordo com a pesquisa “A new perspective on personas and customer journey maps: Proposing systemic UX” (Bradley, Callum et al, 2021), as personas são usadas para criar usuários arquetípicos que facilitam a compreensão de seus comportamentos, necessidades, motivações, características e limitações. Essa abordagem considera uma observação filosófica das necessidades possivelmente invisíveis para uma minoria dos participantes da pesquisa.
+
+A seguir, abordamos duas Personas nas quais nos identificamos com as dores e necessidades do projeto realizado com o parceiro FMUSP, a aplicação web “Scama”.
 
 # Persona 1
 
