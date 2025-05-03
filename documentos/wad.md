@@ -352,19 +352,109 @@ A seguir, abordamos duas Personas nas quais nos identificamos com as dores e nec
 
 ## 2.3. User Stories (sprints 1 a 5)
 
-*Posicione aqui a lista de User Stories levantadas para o projeto. Siga o template de User Stories e utilize a mesma referência USXX no roadmap de seu quadro Kanban. Indique todas as User Stories mapeadas, mesmo aquelas que não forem implementadas ao longo do projeto. Não se esqueça de explicar o INVEST das 5 User Stories prioritárias*
-
-*ATUALIZE ESTA SEÇÃO SEMPRE QUE ALGUMA DEMANDA MUDAR EM SEU PROJETO*
-
-*Template de User Story*
-Identificação | USXX (troque XX por numeração ordenada das User Stories)
+Identificação | US01 
 --- | ---
-Persona | nome da Persona
-User Story | "como (papel/perfil), posso (ação/meta), para (benefício/razão)"
-Critério de aceite 1 | CR1: descrever cenário + testes de aceite
-Critério de aceite 2 | CR2: descrever cenário + testes de aceite
-Critério de aceite ... | CR...
-Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que é Valorosa? Por que é Estimável? Por que é Pequena? Por que é Testável?)*
+Persona | Rodrigo Garcia
+User Story | "Como Rodrigo, posso cadastrar rapidamente novos pacientes no sistema, para iniciar o acompanhamento remoto."
+Critério de aceite 1 | CR1: O sistema deve permitir o cadastro de paciente com informações básicas obrigatórias (nome, CPF, data de nascimento) + Preencher cadastro completo e verificar que o paciente é criado com sucesso
+Critério de aceite 2 | CR2: O sistema deve validar o CPF e impedir duplicidade de cadastro + Tentar cadastrar um paciente com CPF já existente e confirmar que o sistema bloqueia
+Critérios INVEST |  I: Sim, não depende de outras histórias.</br>N: Sim, pode ser adaptado conforme regras de cadastro.</br>V: Sim, permite iniciar o acompanhamento remoto.</br>E: Sim, o esforço para implementação é claro.</br>S: Sim, o objetivo está descrito de forma clara e direta.</br>T: Sim, existem critérios e testes definidos para validar.
+
+</br>
+
+Identificação | US02
+--- | ---
+Persona | Arlete Ferreira
+User Story | "Como Arlete, posso receber uma confirmação simples após enviar fotos ou respostas, para ter certeza de que foi tudo certo."
+Critério de aceite 1 | CR1: O sistema deve mostrar mensagem de sucesso após envio + Enviar foto e visualizar confirmação de sucesso
+Critério de aceite 2 | CR2: Em caso de falha, deve informar que o envio não foi concluído +  Forçar erro de conexão e confirmar que o sistema informa falha no envio
+Critérios INVEST | I: Sim, independente de outras funções.</br>N: Sim, a forma de confirmação pode ser alterada.</br>V: Sim, gera confiança no uso do sistema.</br>E: Sim, pequena implementação.</br>S: Sim, descrição focada.</br>T: Sim, é possível testar tanto sucesso quanto falha no envio.
+
+</br>
+
+
+Identificação | US03
+--- | ---
+Persona | Rodrigo Garcia
+User Story | "Como Rodrigo, posso acessar rapidamente o histórico de cada paciente, para acompanhar a evolução das feridas sem perder tempo."
+Critério de aceite 1 | CR1:O sistema deve exibir histórico de fotos e respostas em ordem cronológica + O sistema deve permitir filtrar histórico por data
+Critério de aceite 2 | CR2: Visualizar histórico completo e conferir ordenação por data + Aplicar filtro de datas e validar que apenas registros do período aparecem
+Critérios INVEST |   I: Sim, pode ser implementado separadamente. </br>N: Sim, o formato de visualização pode ser ajustado.</br>V: Sim, facilita o acompanhamento da evolução do paciente.</br>E: Sim, o escopo é delimitado.</br>S: Sim, a descrição é objetiva.</br>T: Sim, fácil de testar a exibição e o filtro.</br>
+
+</br>
+
+
+Identificação | US04
+--- | ---
+Persona | Arlete Ferreira
+User Story | "Como Arlete, posso ver meu histórico de fotos e respostas, para acompanhar como estou melhorando."
+Critério de aceite 1 | CR1: O paciente deve poder acessar seu histórico a qualquer momento + Acessar a seção de histórico e visualizar registros anteriores
+Critério de aceite 2 | CR2: O histórico deve apresentar fotos e dados organizados por data + Confirmar se as entradas estão organizadas corretamente por data
+Critérios INVEST | I: Sim, não precisa de nenhuma outra função ativa para funcionar.</br>N: Sim, o tipo de dados exibidos pode ser negociado.</br>V: Sim, promove autonomia ao paciente no acompanhamento.</br>E: Sim, o esforço é limitado.</br>S: Sim, texto claro e objetivo.</br>T: Sim, basta testar se o histórico é exibido corretamente.
+
+</br>
+
+Identificação | US05
+--- | ---
+Persona | Arlete Ferreira
+User Story | "Como Arlete, posso ver as informações que os profissionais registraram sobre minha saúde, para entender meu diagnóstico e os cuidados necessários."
+Critério de aceite 1 | CR1: O sistema deve permitir visualizar doenças e condições médicas registradas no prontuário + Acessar a aba de saúde e verificar listagem de doenças/condições atribuídas pelo profissional
+Critério de aceite 2 | CR2: O sistema deve listar medicamentos prescritos com nomes e horários de uso, de forma legível + Verificar se os medicamentos prescritos aparecem com nome, dose e instruções de uso
+Critérios INVEST | I: Sim, separada das atualizações de ferida ou lembretes.</br>N: Sim, quais informações médicas aparecerão pode ser definido.</br>V: Sim, aumenta a transparência e o entendimento do tratamento.</br>E: Sim, é possível estimar o esforço técnico.</br>S: Sim, objetivo: consulta de doenças e medicamentos.</br>T: Sim, testável pela visualização correta dos dados inseridos.
+</br>
+
+Identificação | US06 
+--- | ---
+Persona | Rodrigo Garcia
+User Story | "Como Rodrigo, posso ser alertado se um paciente não enviar atualizações, para intervir rapidamente e evitar agravamentos."
+Critério de aceite 1 | CR1: O sistema deve gerar alerta automático após X dias de inatividade + Simular paciente inativo e validar que o alerta é gerado
+Critério de aceite 2 | CR2: O alerta deve indicar o nome do paciente e o tempo sem atualização + Confirmar que alerta mostra nome e quantidade de dias sem atualização
+Critérios INVEST |   I: Sim, apenas depende do registro de atividades</br>N: Sim, os prazos e formatos dos alertas podem ser definidos.</br>V: Sim, evita agravamento clínico.</br>E: Sim, o tempo de inatividade pode ser configurável.</br>S: Sim, claro e direto.</br>T: Sim, é possível testar a geração dos alertas.
+
+</br>
+
+Identificação | US07 
+--- | ---
+Persona | Arlete Ferreira
+User Story | "Como Arlete, posso receber lembretes para mandar foto da minha ferida, para não esquecer e manter o tratamento."
+Critério de aceite 1 | CR1: O sistema deve enviar lembretes em formato de mensagem simples + Simular 3 dias sem atualização e confirmar recebimento do lembrete
+Critério de aceite 2 | CR2: O paciente deve ser lembrado com intervalo programado (ex: a cada 3 dias) + Verificar se a mensagem enviada é simples e compreensível
+Critérios INVEST | I: Sim, o lembrete pode ser desenvolvido separado.</br>N: Sim, a periodicidade dos lembretes pode ser ajustada.</br>V: Sim, garante continuidade do cuidado.</br>E: Sim, o esforço é bem previsível.</br>S: Sim, história focada.</br>T: Sim, é simples testar se o lembrete é enviado.
+
+</br>
+
+Identificação | US08 
+--- | ---
+Persona | Rodrigo Garcia
+User Story | "Como Rodrigo, posso enviar vídeos educativos personalizados para cada paciente, para melhorar a adesão ao tratamento."
+Critério de aceite 1 | CR1: O sistema deve permitir selecionar vídeos da biblioteca e enviar para pacientes + O sistema deve confirmar que o paciente recebeu o vídeo
+Critério de aceite 2 | CR2: Selecionar e enviar vídeo para um paciente, recebendo confirmação de envio + Verificar notificação de recebimento no perfil do paciente
+Critérios INVEST |  I: Sim, independente de outras funcionalidades.</br>N: Sim, o formato ou a frequência dos vídeos pode ser ajustado. </br>V: Sim, agrega valor na educação do paciente.</br>E: Sim, pode ser planejado isoladamente.</br>S: Sim, focado em envio de vídeos.</br>T: Sim, testável com envio e confirmação de recebimento.
+
+</br>
+
+
+Identificação | US09 
+--- | ---
+Persona | Arlete Ferreira
+User Story | "Como Arlete, posso assistir vídeos com explicações simples e lentas, para entender melhor como cuidar da minha ferida."
+Critério de aceite 1 | CR1: O sistema deve disponibilizar vídeos adaptados para idosos + Abrir vídeo na plataforma e avaliar linguagem usada
+Critério de aceite 2 | CR2: Os vídeos devem ter narração pausada e linguagem acessível + Conferir se o tempo do vídeo e a velocidade da fala são adequados
+Critérios INVEST | I: Sim, não depende de outro envio.</br>N: Sim, o tipo e estilo dos vídeos são negociáveis.</br>V: Sim, aumenta a compreensão do paciente.</br>E: Sim, o esforço de implementação é previsível.</br>S: Sim, a necessidade é bem definida.</br>T: Sim, testável pela qualidade do material exibido.
+
+</br>
+
+Identificação | US10 
+--- | ---
+Persona | Rodrigo Garcia
+User Story | "Como Rodrigo, posso ajustar a frequência de envio de dados dos pacientes, conforme a gravidade das feridas."
+Critério de aceite 1 | CR1: O sistema deve permitir definir a frequência de atualização por paciente + Alterar a frequência para um paciente e verificar que o sistema salva a mudança
+Critério de aceite 2 | CR2: A configuração deve ser salva e aplicada automaticamente + Verificar se novos alertas seguem a frequência personalizada configurada
+Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N: Sim, a frequência pode ser negociada.</br>V: Sim, permite personalizar o tratamento.</br>E: Sim, o esforço é pequeno e bem delimitado.</br>S: Sim, é objetivo.</br>T: Sim, fácil de validar se a frequência foi atualizada.</br>
+
+</br>
+
+
 
 # <a name="c3"></a>3. Projeto da Aplicação Web (sprints 1 a 4)
 
