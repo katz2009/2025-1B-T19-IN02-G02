@@ -7,11 +7,11 @@
 
 ## TILL.APP.IA
 
-- André Katz
+- André David Katz
 - Caroline Moraes Paz
 - Humberto Filho Castello Branco Lages Rebello e Castro
 - Isabela Szolnoky Ferreira Cabral Souza da Conceição
-- Luiz Oliveira
+- Luiz Gustavo Borges Oliveira
 - Maria Eduarda Barbosa Oliveira
 - Matheus Ferreira da Silva
 
