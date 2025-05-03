@@ -5,15 +5,20 @@
 
 **_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_**
 
-## Nome do Grupo
+## TILL.APP.IA
 
-#### Nomes dos integrantes do grupo
-
+- André David Katz
+- Caroline Moraes Paz
+- Humberto Filho Castello Branco Lages Rebello e Castro
+- Isabela Szolnoky Ferreira Cabral Souza da Conceição
+- Luiz Gustavo Borges Oliveira
+- Maria Eduarda Barbosa Oliveira
+- Matheus Ferreira da Silva
 
 
 ## Sumário
 
-[1. Introdução](#c1)
+1. Introdução](#c1)
 
 [2. Visão Geral da Aplicação Web](#c2)
 
