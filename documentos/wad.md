@@ -675,6 +675,22 @@ BRADLEY, Callum et al, A new perspective on personas and customer journey maps: 
 
 ASANA. *Análise SWOT: o que é e como fazer uma análise SWOT eficaz*. 2024. Disponível em: https://asana.com/pt/resources/swot-analysis. Acesso em: 2 maio 2025.
 
+CASAROTTO, Camila. As 5 forças de Porter: o que são, para que servem e como aplicar? ​Rock Content, 2020. Disponível em: https://rockcontent.com/br/blog/5-forcas-de-porter/. Acesso em: 29 abr. 2025.
+
+SCHERMA, Mariana. 5 forças de Porter: modelo, análise, como aplicar e muito mais! RD Station, 2024. Disponível em: https://www.rdstation.com/blog/agencias/as-cinco-forcas-de-porter/. Acesso em: 29 abr. 2025.
+
+HOSPITAL DE CLÍNICAS DA UNICAMP. Especialidades. Hospital de Clínicas da Unicamp, 2025. Disponível em: https://hc.unicamp.br/especialidades/. Acesso em: 29 abr. 2025.
+
+HOSPITAL SÍRIO-LIBANÊS. Cirurgia Plástica – São Paulo. ​Hospital Sírio-Libanês, 2025. Disponível em: https://hospitalsiriolibanes.org.br/especialidades-medicas/sao-paulo/cirurgia-plastica/. Acesso em: 29 abr. 2025.
+
+MEDICINA S/A. Maior centro hospitalar da AL, HCFMUSP anuncia expansão. Medicina S/A, 2025. Disponível em: https://medicinasa.com.br/hcfmusp-expansao/. Acesso em: 29 abr. 2025.
+
+HOSPITAL ISRAELITA ALBERT EINSTEIN. Dossiê de Valor 2024. Hospital Israelita Albert Einstein, 2024. Disponível em: https://www.einstein.br/DocumentosAcessoLivre/Dossie-2024-6.pdf​. Acesso em: 29 abr. 2025.
+
+FMUSP. A FMUSP. Faculdade de Medicina da Universidade de São Paulo, 2018. Disponível em: https://www3.fm.usp.br/fmusp/institucional/a-fmusp. Acesso em: 29 abr. 2025.
+
+UERJ. Pesquisa na UERJ. Universidade do Estado do Rio de Janeiro, 2025. Disponível em: https://www.uerj.br/pesquisa/pesquisa-na-uerj/. Acesso em: 29 abr. 2025.
+
 # <a name="c9"></a>Anexos
 
 *Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso)*
