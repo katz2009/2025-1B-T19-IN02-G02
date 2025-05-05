@@ -257,10 +257,10 @@ A análise de ameaças e oportunidades, assim como seus devidos graus de probabi
 
 | \#  | Oportunidades | Impacto |
 | --- | --- | --- |
-| 9: | Aprendizado. | O desenvolvimento e o aprendizado estão extremamente ligados pois à medida que desenvolvemos estamos adquirindo conhecimento do processo de criação do app, assim como habilidades de comunicação e de desenvolvimento técnico do código. |
-| 10: | Visibilidade. | O projeto pode dar destaque aos integrantes, assim como novas opourtunidades de networking educacional. |
-| 11: | Aulas/Workshops para aprimoramento de habilidades técnicas. | Ter orientações extras sobre temas que são necessários para o desenvolvimento é uma ótima maneira para evoluir habilidades técnicas, podendo revisar conteúdos que possam ter passado e deixado dúvidas. |  
-| 12: | Feedbacks | Avaliações positivas ou negativas do parceiro nos ajudam a aprimorar habilidades de desenvolvimento, assim aprimorar a qualidade de entrega das sprints. Receber reconhecimento ou validação de profissionais ou especialistas pode impulsionar o projeto |
+| 6: | Aprendizado. | O desenvolvimento e o aprendizado estão extremamente ligados pois à medida que desenvolvemos estamos adquirindo conhecimento do processo de criação do app, assim como habilidades de comunicação e de desenvolvimento técnico do código. |
+| 7: | Visibilidade. | O projeto pode dar destaque aos integrantes, assim como novas opourtunidades de networking educacional. |
+| 8: | Aulas/Workshops para aprimoramento de habilidades técnicas. | Ter orientações extras sobre temas que são necessários para o desenvolvimento é uma ótima maneira para evoluir habilidades técnicas, podendo revisar conteúdos que possam ter passado e deixado dúvidas. |  
+| 9: | Feedbacks | Avaliações positivas ou negativas do parceiro nos ajudam a aprimorar habilidades de desenvolvimento, assim elevar a qualidade de entrega das sprints. Receber reconhecimento ou validação de profissionais ou especialistas pode impulsionar o projeto |
 
 ## 2.2. Personas (sprint 1)
 
@@ -612,8 +612,6 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 
 # <a name="c8"></a>8. Referências (sprints 1 a 5)
 
-
-
 REVISTA SAÚDE USP. Inovação e dependência tecnológica no tratamento de queimaduras graves. Revista de Saúde da Universidade de São Paulo, São Paulo, v. 29, n. 3, p. 45-60, 2024. 
 
 ABRAIDI – Associação Brasileira de Importadores e Distribuidores de Produtos para Saúde. Relatório Setorial ABRAIDI 2024. São Paulo: ABRAIDI, 2024. Disponível em: https://www.abraidi.com.br/. Acesso em: 28 abr. 2025.
@@ -646,7 +644,7 @@ USP. Técnica previne amputação de membros causadas por lesões. Jornal da USP
 
 SYMATESE LATAM. Produtos. 2024. Disponível em: https://symateselatam.com/produtos/. Acesso em: 29 abr. 2025.
 
- G1 RIBEIRÃO E FRANCA. HC de Ribeirão Preto, SP, tem 6 mil pacientes na fila para cirurgias eletivas. 2023. Disponível em: https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2023/03/21/hc-de-ribeirao-preto-sp-tem-6-mil-pacientes-na-fila-para-cirurgias-eletivas.ghtml. Acesso em: 29 abr. 2025.
+G1 RIBEIRÃO E FRANCA. HC de Ribeirão Preto, SP, tem 6 mil pacientes na fila para cirurgias eletivas. 2023. Disponível em: https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2023/03/21/hc-de-ribeirao-preto-sp-tem-6-mil-pacientes-na-fila-para-cirurgias-eletivas.ghtml. Acesso em: 29 abr. 2025.
 
 CÂMARA MUNICIPAL DE BELO HORIZONTE. Clínicas especializadas em cirurgias eletivas contribuem para a redução da fila no SUS. 2022. Disponível em: https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2022/11/clinicas-especializadas-em-cirurgias-eletivas-contribuem-para-reducao-da-fila-no-sus. Acesso em: 29 abr. 2025.
 
