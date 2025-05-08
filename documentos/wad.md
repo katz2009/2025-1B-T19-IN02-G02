@@ -501,7 +501,7 @@ Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N
 
 ### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
 
-*posicione aqui uma lista de consultas SQL compostas, realizadas pelo back-end da aplicação web, com sua respectiva lógica proposicional, descrita conforme template abaixo. Lembre-se que para usar LaTeX em markdown, basta você colocar as expressões entre $ ou $$*
+Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem que será utilizada para criar, consultar, atualizar e gerenciar banco de dados relacionais. Adicionalmente, será detalhada a respectiva lógica proposicional de cada consulta, que serve para analisar, combinar e testar condições com base em regras lógicas e a partir de proposições. Esses elementos, em conjunto, têm como objetivo estruturar as regras de validação e decisão dentro da aplicação e realizar interação com a nossa base de dados.
 
 *Template de SQL + lógica proposicional*
 #1 | ---
