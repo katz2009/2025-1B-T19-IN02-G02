@@ -251,7 +251,88 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 
 ### 3.5.1. Modelo relacional (sprints 2 e 4)
 
-*posicione aqui os diagramas de modelos relacionais do seu banco de dados, apresentando todos os esquemas de tabelas e suas relações. Utilize texto para complementar suas explicações, se necessário* 
+*posicione aqui os diagramas de modelos relacionais do seu banco de dados, apresentando todos os esquemas de tabelas e suas relações. Utilize texto para complementar suas explicações, se necessário*
+
+<div align="center">
+   <sub>Imagem 4: Diagrama da estrutura relacional </sub><br>
+   <img src="../assets/wad/diagrama_1.PNG" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Mermaid)</sup>
+ </div>
+
+```
+erDiagram
+    AGENTE {
+        int id_agente "Identificador único do agente"
+        string nome "Nome do agente"
+        string profissao "Profissão do agente de sáude"
+        string unidade_atendimento "UBS de atendimento"
+        string telefone "Contato"
+    }
+    PACIENTE {
+        int id_paciente "Identificador único do paciente"
+        string nome "Nome do paciente"
+        date data_nascimento "Data de nascimento"
+        int agente_id "Agente responsável"
+        boolean diabetico "Paciente é diabético"
+        boolean necessidade_resp "Necessita de responsável"
+        string nome_resp "Nome do responável"
+    }
+    FORMULARIO1 {
+        int id_formulario1 "Identificador do formulário"
+        int paciente_id "Paciente ao qual pertence"
+        date data_preenchimento "Data de preenchimento"
+        string tipo_ferida "Tipo de ferida"
+        string historico_medico "Histórico médico"
+        string remedios "Remédios usados"
+        string frequencia_cuidados "Frequência de cuidados"
+        string sintomas "Descrição dos sintomas"
+        string unidade_atendida "UBS de atendimento"
+    }
+    FORMULARIO2 {
+        int id_formulario2 "Identificador do formulário2"
+        int paciente_id "Paciente ao qual pertence"
+        date data_preenchimento "Data de preenchimento"
+        string cor_ferida "Cor da ferida"
+        string tamanho "Tamanho em cm"
+        boolean cheiro_ferida "Apresenta cheiro no local"
+        string pele_ao_redor "Pele ao redor da ferida"
+        string observacao "Observação adicional"
+        boolean febre "Presença de febre"
+        date dor "Nível de dor da ferida (1 a 10)"
+       
+    }
+    PRONTUARIO {
+        int id_prontuario "Identificador do prontuário"
+        int paciente_id "Paciente associado"
+        int agente_id "Agente que preencheu"
+        date data_abertura "Data de abertura"
+        string tipo_ferida "Tipo de ferida"
+        string historico_medico "Histórico médico"
+        string remedios "Remédios prescritos"
+        string frequencia_cuidados "Frequência de cuidados"
+        string sintomas "Descrição dos sintomas"
+        string observacoes "Outras observações"
+        string observacao_paciente "Observações direcionadas para o paciente"
+    }
+    AVALIACAO_HISTORICO {
+        int id_formulario2 "Identificador do prontuário"
+        string avaliacao "Quantidade de estrelas no tratamento"
+        string observacao_paciente "Observações direcionadas para o paciente"
+
+    }
+
+
+    %% Relacionamentos
+    AGENTE ||--o{ PACIENTE : "responsável por"
+    AGENTE ||--o{ FORMULARIO1 : "preenche"
+    PACIENTE ||--o{ FORMULARIO2 : "preenche antes de fotos"
+    AGENTE ||--o{ PRONTUARIO : "preenche"
+    PRONTUARIO ||--o{AVALIACAO_HISTORICO : "possui"
+    PACIENTE ||--o{AVALIACAO_HISTORICO : "possui"
+    FORMULARIO2 ||--o{PRONTUARIO :  "preenche"
+    FORMULARIO1 ||--o{PRONTUARIO :  "preenche"
+```
 
 ### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
 
