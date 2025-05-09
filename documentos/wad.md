@@ -501,7 +501,7 @@ Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N
 
 ### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
 
-Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem que será utilizada para criar, consultar, atualizar e gerenciar banco de dados relacionais. Adicionalmente, será detalhada a respectiva lógica proposicional de cada consulta, que serve para analisar, combinar e testar condições com base em regras lógicas e a partir de proposições. Esses elementos, em conjunto, têm como objetivo estruturar as regras de validação e decisão dentro da aplicação e realizar interação com a nossa base de dados.
+Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem padrão utilizada para interagir com bancos de dados relacionais. Desenvolvida inicialmente pela IBM na década de 1970, a SQL (Structured Query Language) permite criar, consultar, atualizar e gerenciar dados de forma estruturada e eficiente. Adicionalmente, será detalhada a respectiva lógica proposicional de cada consulta, que serve para analisar, combinar e testar condições com base em regras lógicas e a partir de proposições. Esses elementos, em conjunto, têm como objetivo estruturar as regras de validação e decisão dentro da aplicação e realizar a interação com a nossa base de dados.
 
 *Template de SQL + lógica proposicional*
 #1 | ---
@@ -694,6 +694,7 @@ FMUSP. A FMUSP. Faculdade de Medicina da Universidade de São Paulo, 2018. Dispo
 
 UERJ. Pesquisa na UERJ. Universidade do Estado do Rio de Janeiro, 2025. Disponível em: https://www.uerj.br/pesquisa/pesquisa-na-uerj/. Acesso em: 29 abr. 2025.
 
+AMAZON WEB SERVICES. O que é SQL (linguagem de consulta estruturada)? AWS, 2025. Disponível em: https://aws.amazon.com/pt/what-is/sql/. Acesso em: 9 maio 2025.
 # <a name="c9"></a>Anexos
 
 *Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso)*
