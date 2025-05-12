@@ -371,6 +371,14 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 
 *Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
 
+
+
+A interface é simples e intuitiva, contendo atalhos para as principais funções do app, como cadastro de novos pacientes e tela inicial. A tela de pacientes cadastrados, apresenta uma lista dos pacientes sob acompanhamento acessível por uma barra de navegação inferior que permite acesso às telas do agente de saúde, na tela dos pacientes cadastrados é possível ver cada card com os respectivos nome dos pacientes e quando o agente de saúde vai clicar no card vai mudar pra uma tela que vai mostrar todo o detalhamento da ferida do paciente. Cada item leva à tela de detalhes da ferida do paciente, onde o agente poderá consultar o histórico clínico e evolução das feridas. Além disso, na tela dos pacientes não cadastrados, o agente de saúde consegue diagnosticar com base no primeiro formulário descrito pelo paciente  
+
+
+
+A interface dos pacientes busca ser o mais acessível possível para atender a todos os públicos. O processo começa com a aceitação dos termos e condições de uso, garantindo que o paciente compreenda as diretrizes do aplicativo. Em seguida, uma tela tutorial explica de maneira simples como utilizar o app. Após essa introdução, o usuário é levado à interface da câmera, onde pode registrar imagens da ferida, um passo importante para documentar visualmente a evolução do caso. Logo depois, ele tem acesso a uma lista de vídeos educativos com orientações práticas sobre cuidados com feridas, promovendo a educação em saúde. A próxima etapa apresenta um feedback do agente de saúde, com comentários personalizados e avaliação por estrelas, ajudando o paciente a entender melhor sua situação. O fluxo se encerra com o início do questionário clínico, começando com perguntas sobre o leito da ferida. Todo esse processo prepara o paciente para um acompanhamento mais completo, promovendo autonomia e facilitando a atuação do agente de saúde.
+
 ## 3.3. Guia de estilos (sprint 3)
 
 *Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução*
