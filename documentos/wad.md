@@ -465,6 +465,7 @@ Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N
 
 ## 3.1. Arquitetura (sprints 3 e 4)
 
+```mermaid
 ---
 config:
   theme: neo-dark
@@ -557,6 +558,8 @@ erDiagram
     PACIENTE ||--o{ AVALIACAO_HISTORICO : "visualiza avaliação"
     FORMULARIO2 ||--o{ AVALIACAO_HISTORICO : "é avaliado"
     PRONTUARIO ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
+
+```
 
 
 
