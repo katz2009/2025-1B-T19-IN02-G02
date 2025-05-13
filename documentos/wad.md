@@ -247,7 +247,7 @@ erDiagram
     }
 
     FORMULARIO1 {
-        int formulario1_id PK "Identificador do formulário"
+        int id PK "Identificador do formulário"
         int paciente_id FK "FK para PACIENTE"
         date data_preenchimento "Data de preenchimento"
         varchar tipo_ferida "Tipo de ferida"
@@ -263,7 +263,7 @@ erDiagram
     }
 
     FORMULARIO2 {
-        int id_formulario2 PK "Identificador do formulário"
+        int id PK "Identificador do formulário"
         int paciente_id FK "FK para PACIENTE"
         date data_preenchimento "Data de preenchimento"
         varchar status_ferida "Status da ferida"
@@ -277,7 +277,7 @@ erDiagram
     }
 
     PRONTUARIO {
-        int id_prontuario PK "Identificador do prontuário"
+        int id PK "Identificador do prontuário"
         int id_paciente FK "FK para PACIENTE"
         int id_agente FK "FK para AGENTE"
         date data_abertura "Data de abertura"
@@ -291,7 +291,7 @@ erDiagram
     }
 
     AVALIACAO_HISTORICO {
-        int id_avaliacao PK "Identificador da avaliação"
+        int id PK "Identificador da avaliação"
         int formulario2_id FK "FK para FORMULARIO2"
         int paciente_id FK "FK para PACIENTE"
         int agente_id FK "FK para AGENTE"
