@@ -219,36 +219,35 @@ Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que �
 
 ## 3.1. Arquitetura (sprints 3 e 4)
 
-<div align="center">
-   <sub>Imagem 4: Modelo Relacional</sub><br>
-   <img src="../assets/diagram_relacional.PNG" width="100%" 
-   alt="Título"><br>
-   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
- </div>
+---
+config:
+  theme: neo-dark
+---
 
-```
-erDiagram */Definição da entidade do modelo */
-    AGENTE */Definindo o agente de saúde com suas informações */ {
+erDiagram
+    AGENTE {
         int id PK "Identificador único do agente"
         varchar nome "Nome do agente"
         varchar profissao "Profissão do agente de saúde"
         varchar unidade_atendimento "UBS de atendimento"
-        varchar telefone "Contato"
+        varchar telefone PK "Contato"
     }
 
-    PACIENTE */ Definição da tabela paciente com informação principais */ {
+    PACIENTE {
         int id PK "Identificador único do paciente"
         varchar nome "Nome do paciente"
         date data_nascimento "Data de nascimento"
-        int id_agente FK "Agente responsável (FK para AGENTE)"
+        varchar telefone_id FK "Contato"
+        int agente_id FK "Agente responsável (FK para AGENTE)"
         boolean diabetico "Paciente é diabético"
         boolean necessidade_resp "Necessita de responsável"
         varchar nome_resp "Nome do responsável"
+        varchar telefone_resp "Telefone do responsável"
         boolean condicao "Qual é o estado do paciente?"
     }
 
-    FORMULARIO1 /* Tabela de primeiro contato do paciente */{
-        int id_formulario1 PK "Identificador do formulário"
+    FORMULARIO1 {
+        int formulario1_id PK "Identificador do formulário"
         int paciente_id FK "FK para PACIENTE"
         date data_preenchimento "Data de preenchimento"
         varchar tipo_ferida "Tipo de ferida"
@@ -263,7 +262,7 @@ erDiagram */Definição da entidade do modelo */
         varchar unidade_atendida "UBS de atendimento"
     }
 
-    FORMULARIO2 */ Segundo formulario após a captura de camera */{
+    FORMULARIO2 {
         int id_formulario2 PK "Identificador do formulário"
         int paciente_id FK "FK para PACIENTE"
         date data_preenchimento "Data de preenchimento"
@@ -277,7 +276,7 @@ erDiagram */Definição da entidade do modelo */
         varchar observacao "Observação adicional"
     }
 
-    PRONTUARIO */ Prontuario oficial com o caso vinculado ao paciente */{
+    PRONTUARIO {
         int id_prontuario PK "Identificador do prontuário"
         int id_paciente FK "FK para PACIENTE"
         int id_agente FK "FK para AGENTE"
@@ -291,7 +290,7 @@ erDiagram */Definição da entidade do modelo */
         varchar observacao_paciente "Observações ao paciente"
     }
 
-    AVALIACAO_HISTORICO */Visualização da avaliação do formulario2 */{
+    AVALIACAO_HISTORICO {
         int id_avaliacao PK "Identificador da avaliação"
         int formulario2_id FK "FK para FORMULARIO2"
         int paciente_id FK "FK para PACIENTE"
@@ -312,7 +311,8 @@ erDiagram */Definição da entidade do modelo */
     PACIENTE ||--o{ AVALIACAO_HISTORICO : "visualiza avaliação"
     FORMULARIO2 ||--o{ AVALIACAO_HISTORICO : "é avaliado"
     PRONTUARIO ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
-```
+
+
 
 ## 3.2. Wireframes (sprint 2)
 
