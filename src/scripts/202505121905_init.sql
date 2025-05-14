@@ -51,12 +51,13 @@ CREATE TABLE IF NOT EXISTS formulario2 ( -- preenchido pelo paciente
 );
 
     
-CREATE TABLE IF NOT EXISTS prontuario ( -- preenchimento pelo agente de saúde
+CREATE TABLE IF NOT EXISTS historico ( -- preenchimento pelo agente de saúde
     id SERIAL PRIMARY KEY,
     data_abertura DATE NOT NULL,
     tipo_ferida VARCHAR (100) NOT NULL,
     localizacao_corpo VARCHAR (100) NOT NULL,
     historico_medico VARCHAR (500) NOT NULL,
+    exsudato BOOLEAN NOT NULL,
     remedios VARCHAR (500) NOT NULL,
     frequencia_cuidados NUMERIC NOT NULL,
     sintomas VARCHAR (200) NOT NULL,
@@ -74,8 +75,8 @@ CREATE TABLE IF NOT EXISTS avaliacao_historico ( -- tabela que reúne as informa
     formulario2_id INT,
     paciente_id INT,
     agente_id INT,
-    prontuario_id INT,
+    historico_id INT,
     FOREIGN KEY (paciente_id) REFERENCES paciente(id),
     FOREIGN KEY (agente_id) REFERENCES agente(id),
-    FOREIGN KEY (prontuario_id) REFERENCES prontuario(id)
+    FOREIGN KEY (historico_id) REFERENCES historico(id)
 );
