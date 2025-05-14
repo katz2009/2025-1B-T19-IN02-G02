@@ -495,6 +495,12 @@ Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N
 
 ### 3.5.1. Modelo relacional (sprints 2 e 4)
 
+
+### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
+
+Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem padrão utilizada para interagir com bancos de dados relacionais. Desenvolvida inicialmente pela IBM na década de 1970, a SQL (Structured Query Language) permite criar, consultar, atualizar e gerenciar dados de forma estruturada e eficiente. Adicionalmente, será detalhada a respectiva lógica proposicional de cada consulta, que serve para analisar, combinar e testar condições com base em regras lógicas e a partir de proposições. Esses elementos, em conjunto, têm como objetivo estruturar as regras de validação e decisão dentro da aplicação e realizar a interação com a nossa base de dados.
+
+
 ```mermaid
 ---
 config:
@@ -590,10 +596,6 @@ erDiagram
 
 ```
 
-### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
-
-Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem padrão utilizada para interagir com bancos de dados relacionais. Desenvolvida inicialmente pela IBM na década de 1970, a SQL (Structured Query Language) permite criar, consultar, atualizar e gerenciar dados de forma estruturada e eficiente. Adicionalmente, será detalhada a respectiva lógica proposicional de cada consulta, que serve para analisar, combinar e testar condições com base em regras lógicas e a partir de proposições. Esses elementos, em conjunto, têm como objetivo estruturar as regras de validação e decisão dentro da aplicação e realizar a interação com a nossa base de dados.
-
 *Template de SQL + lógica proposicional*
 #1 | ---
 --- | ---
@@ -603,6 +605,8 @@ Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem
 **Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \lor C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
 
 *Dica: edite a tabela verdade fora do markdown, para ter melhor controle*
+
+
 
 ## 3.6. WebAPI e endpoints (sprints 3 e 4)
 
