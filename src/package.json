@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "node server.js",
-    "migration": "node ./src/scripts/runSQLScript.js"
+    "migration": "node ./scripts/runSQLScript.js"
   },
   "repository": {
     "type": "git",

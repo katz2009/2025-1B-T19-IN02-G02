@@ -1,5 +1,5 @@
 const express = require('express');
-const db = require('./src/config/db');
+const db = require('./config/db');
 require('dotenv').config();
 const app = express();
 app.get('/', async (req, res) => {
