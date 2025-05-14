@@ -405,7 +405,7 @@ A interface dos pacientes busca ser o mais acessível possível para atender a t
 
 ### 3.5.1. Modelo relacional (sprints 2 e 4)
 
-*posicione aqui os diagramas de modelos relacionais do seu banco de dados, apresentando todos os esquemas de tabelas e suas relações. Utilize texto para complementar suas explicações, se necessário* 
+O diagrama de entidade-relacionamento modela um sistema para monitoramento de feridas em pacientes atendidos por agentes comunitários de saúde em UBS. O sistema organiza entidades como AGENTE, PACIENTE, FORMULÁRIO 1, FORMULÁRIO2, PRONTUÁRIO e AVALIAÇÃO HISTÓRICO, estruturando o fluxo de dados clínicos. O FORMULÁRIO 1 registra informações gerais sobre a ferida e histórico médico, enquanto o FORMULÁRIO 2 coleta dados clínicos específicos, como cor, tamanho, febre e dor. O PRONTUÁRIO consolida essas informações para acompanhamento contínuo, e a AVALIAÇÃO_HISTÓRICO permite ao paciente avaliar o tratamento. O objetivo do sistema é padronizar e digitalizar o atendimento, garantindo maior eficiência e qualidade no cuidado.
 
 ### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
 
