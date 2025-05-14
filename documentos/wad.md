@@ -595,9 +595,11 @@ erDiagram
 
 *posicione aqui os diagramas de modelos relacionais do seu banco de dados, apresentando todos os esquemas de tabelas e suas relações. Utilize texto para complementar suas explicações, se necessário*
 
+
+
 <div align="center">
-   <sub>Imagem 4: Diagrama da estrutura relacional </sub><br>
-   <img src="../assets/wad/diagrama_1.PNG" width="100%" 
+   <sub>Imagem 4: Diagrama do modelo relacional </sub><br>
+   <img src="../assets/wad/modelo_relacional.PNG" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Mermaid)</sup>
  </div>
