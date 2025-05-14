@@ -678,17 +678,30 @@ erDiagram
 
 ### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
 
-Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem padrão utilizada para interagir com bancos de dados relacionais. Desenvolvida inicialmente pela IBM na década de 1970, a SQL (Structured Query Language) permite criar, consultar, atualizar e gerenciar dados de forma estruturada e eficiente. Adicionalmente, será detalhada a respectiva lógica proposicional de cada consulta, que serve para analisar, combinar e testar condições com base em regras lógicas e a partir de proposições. Esses elementos, em conjunto, têm como objetivo estruturar as regras de validação e decisão dentro da aplicação e realizar a interação com a nossa base de dados.
+Nesta seção serão apresentadas as listas de consultas SQL, linguagem padrão utilizada para manipulação e interação com bancos de dados relacionais. A SQL (Structured Query Language) permite estruturar, consultar, atualizar e gerenciar dados de maneira eficiente. Além disso, será explorada a lógica proposicional associada a cada consulta, a qual possibilita analisar, combinar e testar condições com base em regras lógicas e proposições. Esses elementos visam estruturar as regras de validação e tomada de decisão da aplicação, bem como permitir a comunicação com a base de dados.
 
-*Template de SQL + lógica proposicional*
-#1 | ---
+
+#1 | Seleção de Pacientes  sob Responsabilidade de um Agente, com Estado Grave, sem Avaliação
 --- | ---
-**Expressão SQL** | SELECT * FROM suppliers WHERE (state = 'California' AND supplier_id <> 900) OR (supplier_id = 100); 
-**Proposições lógicas** | $A$: O estado é 'California' (state = 'California') <br> $B$: O ID do fornecedor não é 900 (supplier_id ≠ 900) <br> $C$: O ID do fornecedor é 100 (supplier_id = 100)
-**Expressão lógica proposicional** | $(A \land B) \lor C$
-**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \lor C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
+**Expressão SQL** | SELECT p.id, p.nome, p.condicao FROM PACIENTE p LEFT JOIN AVALIACAO_HISTORICO a ON p.id = a.paciente_id WHERE p.id_agente = 'X' AND p.condicao = true AND a.id_avaliacao IS NULL;
+**Proposições lógicas** | $A$: O ID do agente responsável é 'X' (id_agente  = 'X'- verdadeiro);<br> $B$: O estado do paciente é grave (condicao = 1 (grave) - verdadeiro); <br> $C$: A avaliação do paciente não foi realizada (avaliacao = 0 (null) - falso). 
+**Expressão lógica proposicional** | $A \land B \land \neg C$
+**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(\neg C )$</th> <th>$A \land B \land \neg C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>V</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>V</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>V</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>F</td> <td>F</td> </tr> </tbody> </table>
 
-*Dica: edite a tabela verdade fora do markdown, para ter melhor controle*
+
+#2 | Atualização da Condição de Saúde de Pacientes Diabéticos com Febre e Dor
+--- | ---
+**Expressão SQL** | UPDATE paciente SET condicao = 1 FROM formulario2 f WHERE paciente.id = f.paciente_id AND paciente.diabetico = 1 AND f.febre = 1 AND f.dor > 2;
+**Proposições lógicas** | $A$: O paciente é diabético (paciente.diabetico = 1 (diabético) - verdadeiro)<br> $B$:O paciente teve febre registrada no formulário2 (f.febre = 1 (com febre) - verdadeiro) <br> $C$: O paciente relatou dor maior que 2 no formulário2 (f.dor > 2 ( dor igual a 3, 4 ou 5) - verdadeiro).
+**Expressão lógica proposicional** | $A \land B \land C$
+**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th></th> <th>$A \land B \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td></td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td></td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td></td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td></td> <td>V</td> </tr> </tbody> </table>
+
+#3 | Remoção de Pacientes sem Registros de Formulário ou Prontuário
+--- | ---
+**Expressão SQL** | DELETE FROM paciente p WHERE NOT EXISTS (SELECT 1 FROM formulario1 f1 WHERE f1.paciente_id = p.id) OR NOT EXISTS (SELECT 1 FROM prontuario pr WHERE pr.id_paciente = p.id);
+**Proposições lógicas** | $A$: O paciente possui pelo menos um formulario1 (formulário1 = 0 (não existe) - falso);<br> $B$: O paciente possui pelo menos um prontuario (prontuario = 0 (não existe) - falso).
+**Expressão lógica proposicional** | $\neg A \lor \neg B $
+**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$ \neg A$</th> <th>$ \neg B$</th>  <th></th> <th> $\neg A \lor \neg B$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>V</td> <td>V</td> <td></td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>V</td> <td></td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td><td>F</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>V</td> <td></td> <td>V</td> </tbody> </table>
 
 ## 3.6. WebAPI e endpoints (sprints 3 e 4)
 
