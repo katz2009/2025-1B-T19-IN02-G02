@@ -495,6 +495,12 @@ Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N
 
 ### 3.5.1. Modelo relacional (sprints 2 e 4)
 
+<div align="center">
+   <sub>Imagem 4: Diagrama do modelo relacional </sub><br>
+   <img src="../assets/wad/modelo_relacional.PNG" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Mermaid)</sup>
+ </div>
 
 ### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
 
