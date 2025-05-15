@@ -497,7 +497,7 @@ Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N
 
 <div align="center">
    <sub>Imagem 4: Diagrama do modelo relacional </sub><br>
-   <img src="../assets/wad/modelo_relacional.PNG" width="100%" 
+   <img src="../assets/wad/fluxograma_relacional.jpg" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Mermaid)</sup>
  </div>
