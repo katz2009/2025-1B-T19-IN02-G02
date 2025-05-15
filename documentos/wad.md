@@ -584,7 +584,7 @@ erDiagram
         int formulario2_id FK "FK para FORMULARIO2"
         int paciente_id FK "FK para PACIENTE"
         int agente_id FK "FK para AGENTE"
-        int prontuario_id FK "FK para PRONTUARIO"
+        int historico_id FK "FK para HISTORICO"
         number avaliacao "Avaliação (1 a 5 estrelas)"
         varchar observacao_paciente "Observações do paciente"
     }
@@ -592,13 +592,14 @@ erDiagram
     %% Relacionamentos
     AGENTE ||--o{ PACIENTE : "responsável por"
     AGENTE ||--o{ FORMULARIO2 : "acesso"
-    AGENTE ||--o{ PRONTUARIO : "preenche prontuário"
+    AGENTE ||--o{ HISTORICO : "preenche prontuário"
     PACIENTE ||--o{ FORMULARIO1 : "preenche"
     PACIENTE ||--o{ FORMULARIO2 : "preenche"
-    PACIENTE ||--o{ PRONTUARIO : "associado ao"
+    PACIENTE ||--o{ HISTORICO : "associado ao"
     PACIENTE ||--o{ AVALIACAO_HISTORICO : "visualiza avaliação"
-    FORMULARIO2 ||--o{ AVALIACAO_HISTORICO : "avalia"
-    PRONTUARIO ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
+    FORMULARIO2 ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
+    HISTORICO ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
+    FORMULARIO1 ||--o{ HISTORICO : "referência no histórico"
 
 ```
 
