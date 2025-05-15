@@ -465,6 +465,42 @@ Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N
 
 ## 3.1. Arquitetura (sprints 3 e 4)
 
+## 3.2. Wireframes (sprint 2)
+
+*Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
+
+## 3.3. Guia de estilos (sprint 3)
+
+*Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução*
+
+### 3.3.1 Cores
+
+*Apresente aqui a paleta de cores, com seus códigos de aplicação e suas respectivas funções*
+
+### 3.3.2 Tipografia
+
+*Apresente aqui a tipografia da solução, com famílias de fontes e suas respectivas funções*
+
+### 3.3.3 Iconografia e imagens 
+
+*(esta subseção é opcional, caso não existam ícones e imagens, apague esta subseção)*
+
+*posicione aqui imagens e textos contendo exemplos padronizados de ícones e imagens, com seus respectivos atributos de aplicação, utilizadas na solução*
+
+## 3.4 Protótipo de alta fidelidade (sprint 3)
+
+*posicione aqui algumas imagens demonstrativas de seu protótipo de alta fidelidade e o link para acesso ao protótipo completo (mantenha o link sempre público para visualização)*
+
+## 3.5. Modelagem do banco de dados (sprints 2 e 4)
+
+### 3.5.1. Modelo relacional (sprints 2 e 4)
+
+
+### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
+
+Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem padrão utilizada para interagir com bancos de dados relacionais. Desenvolvida inicialmente pela IBM na década de 1970, a SQL (Structured Query Language) permite criar, consultar, atualizar e gerenciar dados de forma estruturada e eficiente. Adicionalmente, será detalhada a respectiva lógica proposicional de cada consulta, que serve para analisar, combinar e testar condições com base em regras lógicas e a partir de proposições. Esses elementos, em conjunto, têm como objetivo estruturar as regras de validação e decisão dentro da aplicação e realizar a interação com a nossa base de dados.
+
+
 ```mermaid
 ---
 config:
@@ -523,7 +559,7 @@ erDiagram
         varchar observacao "Observação adicional"
     }
 
-    PRONTUARIO {
+    HISTORICO {
         int id PK "Identificador do prontuário"
         int id_paciente FK "FK para PACIENTE"
         int id_agente FK "FK para AGENTE"
@@ -549,136 +585,16 @@ erDiagram
 
     %% Relacionamentos
     AGENTE ||--o{ PACIENTE : "responsável por"
-    AGENTE ||--o{ FORMULARIO1 : "preenche presencialmente"
     AGENTE ||--o{ FORMULARIO2 : "acesso"
     AGENTE ||--o{ PRONTUARIO : "preenche prontuário"
-    PACIENTE ||--o{ FORMULARIO1 : "tem"
-    PACIENTE ||--o{ FORMULARIO2 : "tem"
+    PACIENTE ||--o{ FORMULARIO1 : "preenche"
+    PACIENTE ||--o{ FORMULARIO2 : "preenche"
     PACIENTE ||--o{ PRONTUARIO : "associado ao"
     PACIENTE ||--o{ AVALIACAO_HISTORICO : "visualiza avaliação"
-    FORMULARIO2 ||--o{ AVALIACAO_HISTORICO : "é avaliado"
+    FORMULARIO2 ||--o{ AVALIACAO_HISTORICO : "avalia"
     PRONTUARIO ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
 
 ```
-
-
-
-## 3.2. Wireframes (sprint 2)
-
-*Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
-
-## 3.3. Guia de estilos (sprint 3)
-
-*Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução*
-
-### 3.3.1 Cores
-
-*Apresente aqui a paleta de cores, com seus códigos de aplicação e suas respectivas funções*
-
-### 3.3.2 Tipografia
-
-*Apresente aqui a tipografia da solução, com famílias de fontes e suas respectivas funções*
-
-### 3.3.3 Iconografia e imagens 
-
-*(esta subseção é opcional, caso não existam ícones e imagens, apague esta subseção)*
-
-*posicione aqui imagens e textos contendo exemplos padronizados de ícones e imagens, com seus respectivos atributos de aplicação, utilizadas na solução*
-
-## 3.4 Protótipo de alta fidelidade (sprint 3)
-
-*posicione aqui algumas imagens demonstrativas de seu protótipo de alta fidelidade e o link para acesso ao protótipo completo (mantenha o link sempre público para visualização)*
-
-## 3.5. Modelagem do banco de dados (sprints 2 e 4)
-
-### 3.5.1. Modelo relacional (sprints 2 e 4)
-
-*posicione aqui os diagramas de modelos relacionais do seu banco de dados, apresentando todos os esquemas de tabelas e suas relações. Utilize texto para complementar suas explicações, se necessário*
-
-<div align="center">
-   <sub>Imagem 4: Diagrama da estrutura relacional </sub><br>
-   <img src="../assets/wad/diagrama_1.PNG" width="100%" 
-   alt="Título"><br>
-   <sup>Fonte: Til.app.ia, 2025 (Mermaid)</sup>
- </div>
-
-```
-erDiagram
-    AGENTE {
-        int id_agente "Identificador único do agente"
-        string nome "Nome do agente"
-        string profissao "Profissão do agente de sáude"
-        string unidade_atendimento "UBS de atendimento"
-        string telefone "Contato"
-    }
-    PACIENTE {
-        int id_paciente "Identificador único do paciente"
-        string nome "Nome do paciente"
-        date data_nascimento "Data de nascimento"
-        int agente_id "Agente responsável"
-        boolean diabetico "Paciente é diabético"
-        boolean necessidade_resp "Necessita de responsável"
-        string nome_resp "Nome do responável"
-    }
-    FORMULARIO1 {
-        int id_formulario1 "Identificador do formulário"
-        int paciente_id "Paciente ao qual pertence"
-        date data_preenchimento "Data de preenchimento"
-        string tipo_ferida "Tipo de ferida"
-        string historico_medico "Histórico médico"
-        string remedios "Remédios usados"
-        string frequencia_cuidados "Frequência de cuidados"
-        string sintomas "Descrição dos sintomas"
-        string unidade_atendida "UBS de atendimento"
-    }
-    FORMULARIO2 {
-        int id_formulario2 "Identificador do formulário2"
-        int paciente_id "Paciente ao qual pertence"
-        date data_preenchimento "Data de preenchimento"
-        string cor_ferida "Cor da ferida"
-        string tamanho "Tamanho em cm"
-        boolean cheiro_ferida "Apresenta cheiro no local"
-        string pele_ao_redor "Pele ao redor da ferida"
-        string observacao "Observação adicional"
-        boolean febre "Presença de febre"
-        date dor "Nível de dor da ferida (1 a 10)"
-       
-    }
-    PRONTUARIO {
-        int id_prontuario "Identificador do prontuário"
-        int paciente_id "Paciente associado"
-        int agente_id "Agente que preencheu"
-        date data_abertura "Data de abertura"
-        string tipo_ferida "Tipo de ferida"
-        string historico_medico "Histórico médico"
-        string remedios "Remédios prescritos"
-        string frequencia_cuidados "Frequência de cuidados"
-        string sintomas "Descrição dos sintomas"
-        string observacoes "Outras observações"
-        string observacao_paciente "Observações direcionadas para o paciente"
-    }
-    AVALIACAO_HISTORICO {
-        int id_formulario2 "Identificador do prontuário"
-        string avaliacao "Quantidade de estrelas no tratamento"
-        string observacao_paciente "Observações direcionadas para o paciente"
-
-    }
-
-
-    %% Relacionamentos
-    AGENTE ||--o{ PACIENTE : "responsável por"
-    AGENTE ||--o{ FORMULARIO1 : "preenche"
-    PACIENTE ||--o{ FORMULARIO2 : "preenche antes de fotos"
-    AGENTE ||--o{ PRONTUARIO : "preenche"
-    PRONTUARIO ||--o{AVALIACAO_HISTORICO : "possui"
-    PACIENTE ||--o{AVALIACAO_HISTORICO : "possui"
-    FORMULARIO2 ||--o{PRONTUARIO :  "preenche"
-    FORMULARIO1 ||--o{PRONTUARIO :  "preenche"
-```
-
-### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
-
-Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem padrão utilizada para interagir com bancos de dados relacionais. Desenvolvida inicialmente pela IBM na década de 1970, a SQL (Structured Query Language) permite criar, consultar, atualizar e gerenciar dados de forma estruturada e eficiente. Adicionalmente, será detalhada a respectiva lógica proposicional de cada consulta, que serve para analisar, combinar e testar condições com base em regras lógicas e a partir de proposições. Esses elementos, em conjunto, têm como objetivo estruturar as regras de validação e decisão dentro da aplicação e realizar a interação com a nossa base de dados.
 
 *Template de SQL + lógica proposicional*
 #1 | ---
@@ -689,6 +605,8 @@ Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem
 **Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \lor C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
 
 *Dica: edite a tabela verdade fora do markdown, para ter melhor controle*
+
+
 
 ## 3.6. WebAPI e endpoints (sprints 3 e 4)
 
