@@ -716,10 +716,10 @@ Nesta seção serão apresentadas as listas de consultas SQL, linguagem padrão 
 **Expressão lógica proposicional** | $A \land B \land C$
 **Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th></th> <th>$A \land B \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td></td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td></td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td></td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td></td> <td>V</td> </tr> </tbody> </table>
 
-#3 | Remoção de Pacientes sem Registros de Formulário ou sem Registros de Prontuário
+#3 | Remoção de Pacientes sem Registros de Formulário ou sem Registros de Histórico médico
 --- | ---
-**Expressão SQL** | DELETE FROM paciente p WHERE NOT EXISTS (SELECT 1 FROM formulario1 f1 WHERE f1.paciente_id = p.id) OR NOT EXISTS (SELECT 1 FROM prontuario pr WHERE pr.id_paciente = p.id);
-**Proposições lógicas** | $A$: O paciente possui pelo menos um formulario1 (formulário1 = 0 (não existe) - falso);<br> $B$: O paciente possui pelo menos um prontuario (prontuario = 0 (não existe) - falso).
+**Expressão SQL** | DELETE FROM paciente p WHERE NOT EXISTS (SELECT 1 FROM formulario1 f1 WHERE f1.paciente_id = p.id) OR NOT EXISTS (SELECT 1 FROM historico hi WHERE hi.id_paciente = p.id);
+**Proposições lógicas** | $A$: O paciente possui pelo menos um formulario1 (formulário1 = 0 (não existe) - falso);<br> $B$: O paciente possui pelo menos um historico (historico = 0 (não existe) - falso).
 **Expressão lógica proposicional** | $\neg A \lor \neg B $
 **Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$ \neg A$</th> <th>$ \neg B$</th>  <th></th> <th> $\neg A \lor \neg B$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>V</td> <td>V</td> <td></td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>V</td> <td></td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td><td>F</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>V</td> <td></td> <td>V</td> </tbody> </table>
 
