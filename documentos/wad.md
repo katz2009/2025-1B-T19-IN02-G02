@@ -526,18 +526,17 @@ erDiagram
         int id PK "Identificador único do paciente"
         varchar nome "Nome do paciente"
         date data_nascimento "Data de nascimento"
-        varchar telefone_id FK "Contato"
-        int agente_id FK "Agente responsável (FK para AGENTE)"
         boolean diabetico "Paciente é diabético"
         boolean necessidade_resp "Necessita de responsável"
         varchar nome_resp "Nome do responsável"
-        varchar telefone_resp "Telefone do responsável"
         boolean condicao "Qual é o estado do paciente?"
+        varchar telefone_id FK "Contato"
+        varchar telefone_resp "Telefone do responsável"
+        int agente_id FK "Agente responsável (FK para AGENTE)"
     }
 
     FORMULARIO1 {
         int id PK "Identificador do formulário"
-        int paciente_id FK "FK para PACIENTE"
         date data_preenchimento "Data de preenchimento"
         varchar tipo_ferida "Tipo de ferida"
         varchar localizacao_corpo "Localização do ferimento"
@@ -546,14 +545,13 @@ erDiagram
         boolean exsudato "Apresenta exsudato?"
         varchar historico_medico "Histórico médico"
         varchar remedios "Remédios usados"
-        number frequencia_cuidados "Frequência de cuidados"
+        //number frequencia_cuidados "Frequência de cuidados"//
         varchar sintomas "Descrição dos sintomas"
-        varchar unidade_atendida "UBS de atendimento"
+        int paciente_id FK "FK para PACIENTE"
     }
 
     FORMULARIO2 {
         int id PK "Identificador do formulário"
-        int paciente_id FK "FK para PACIENTE"
         date data_preenchimento "Data de preenchimento"
         varchar status_ferida "Status da ferida"
         number tamanho_comprimento "Comprimento em cm"
@@ -561,32 +559,34 @@ erDiagram
         boolean cheiro_ferida "Apresenta cheiro?"
         varchar pele_ao_redor "Condição da pele ao redor"
         boolean febre "Presença de febre"
-        number dor "Nível de dor (1 a 10)"
+        number dor "Nível de dor (1 a 5)"
         varchar observacao "Observação adicional"
+        int paciente_id FK "FK para PACIENTE"
     }
 
     HISTORICO {
         int id PK "Identificador do prontuário"
-        int id_paciente FK "FK para PACIENTE"
-        int id_agente FK "FK para AGENTE"
         date data_abertura "Data de abertura"
         varchar tipo_ferida "Tipo de ferida"
+        varchar localizacao_corpo "Local da ferida"
         varchar historico_medico "Histórico médico"
+        boolean exsudato "Apresenta exsudato"
         varchar remedios "Remédios prescritos"
         number frequencia_cuidados "Frequência de cuidados"
         varchar sintomas "Descrição dos sintomas"
-        varchar observacoes "Outras observações"
         varchar observacao_paciente "Observações ao paciente"
+        int id_paciente FK "FK para PACIENTE"
+        int id_agente FK "FK para AGENTE"
     }
 
     AVALIACAO_HISTORICO {
         int id PK "Identificador da avaliação"
+        number avaliacao "Avaliação (1 a 5 estrelas)"
+        varchar observacao_paciente "Observações do paciente"
         int formulario2_id FK "FK para FORMULARIO2"
         int paciente_id FK "FK para PACIENTE"
         int agente_id FK "FK para AGENTE"
         int historico_id FK "FK para HISTORICO"
-        number avaliacao "Avaliação (1 a 5 estrelas)"
-        varchar observacao_paciente "Observações do paciente"
     }
 
     %% Relacionamentos
