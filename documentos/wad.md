@@ -602,6 +602,18 @@ erDiagram
 
 ```
 
+Segue o link de visualização desse modelo,mas agora, físico, em código SQL:
+
+<div align="center">
+
+<sub>Arquivo 1: Script de inicialização SQL</sub>  
+[Visualizar `init.sql`](../src/scripts/202505121905_init.sql)  
+
+<sup>Fonte: (Autoral, TILL.APP.IA)</sup>
+
+</div>
+
+
 *Template de SQL + lógica proposicional*
 #1 | ---
 --- | ---
