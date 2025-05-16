@@ -524,6 +524,15 @@ Em sequência, há uma lista de vídeos educativos com orientações práticas s
 Na etapa seguinte, o paciente acessa uma tela com suas informações pessoais e histórico de feridas registradas, centralizando dados como nome, CPF, local de atendimento e agente responsável. Essa área facilita o acompanhamento contínuo e a comunicação com a equipe de saúde, além da representação do acionamento do botão S.O.S que permite acionar um alerta de prioridade, exibindo um pop-up de confirmação com orientações claras para garantir o uso consciente desse recurso. 
 Por fim, inicia-se o questionário clínico, começando com perguntas sobre o leito da ferida. Todo esse processo visa preparar o paciente para um acompanhamento mais completo, promovendo sua autonomia e facilitando a atuação do agente de saúde.
 
+Portanto, para garantir que todos os elementos visuais seguissem uma coerência e organização, foram utilizadas grids no Figma para cumprir esse propósito. Segue exemplo da utilização dessa ferramenta em uma das telas dos pacientes:
+
+<div align="center">
+   <sub>Imagem 11: Utilização da grid em uma das telas</sub><br>
+   <img src="..\assets\wad\utilizando_grid.png" width="50%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
+
 ## 3.3. Guia de estilos (sprint 3)
 
 *Descreva aqui orientações gerais para o leitor sobre como utilizar os componentes do guia de estilos de sua solução*
