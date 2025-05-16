@@ -591,6 +591,7 @@ erDiagram
     %% Relacionamentos
     AGENTE ||--o{ PACIENTE : "responsável por"
     AGENTE ||--o{ FORMULARIO2 : "acesso"
+    AGENTE ||--o{ AVALIACAO_HISTORICO : "acesso"
     AGENTE ||--o{ HISTORICO : "preenche histórico"
     PACIENTE ||--o{ FORMULARIO1 : "preenche"
     PACIENTE ||--o{ FORMULARIO2 : "preenche"
