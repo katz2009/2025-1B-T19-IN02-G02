@@ -516,7 +516,7 @@ O paciente, ao chegar na Unidade Básica de Saúde (UBS), realiza, junto ao agen
 
 5. Uma vez realizados esses cadastros iniciais e coletadas as informações necessárias, o paciente, sempre que envia uma foto da ferida acompanhada de uma régua, preenche o "Formulário 2" (FORMULARIO2), ao qual o agente também possui acesso. Trata-se de um formulário com informações essenciais ao diagnóstico e realizado com base na autoavaliação do paciente. Um paciente pode preencher diversos formulários deste tipo, configurando uma relação de 1 para n. Da mesma forma, o agente pode acessar inúmeros formulários desse tipo, constituindo também uma relação de 1 para n.
 
-6. Por fim, o "Formulário 2" faz referência direta à avaliação do histórico (AVALIACAO_HISTORICO) do paciente, em uma relação de 1 para 1 (cada formulário é direcionado para uma avaliação específica). Finalmente, o paciente pode visualizar (VISUALIZA) todas as suas avaliações de histórico, estabelecendo assim uma relação de 1 para n.
+6. Por fim, o "Formulário 2" faz referência direta à avaliação do histórico (AVALIACAO_HISTORICO) do paciente, em uma relação de n para 1 (vários formulários são direcionados para uma avaliação específica). Finalmente, o paciente pode visualizar (VISUALIZA) todas as suas avaliações de histórico, estabelecendo assim uma relação de 1 para n.
 
 <h6>Relação às User Stories</h6>
 
