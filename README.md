@@ -83,7 +83,7 @@ npm start
     * 
 * 0.3.0 - XX/XX/2024
     * 
-* 0.2.0 - XX/XX/2024
+* 0.2.0 - 16/05/2024
     - Modelo Lógico
     - Modelo Relacional
     - Modelo Físico
