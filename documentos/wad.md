@@ -5,15 +5,20 @@
 
 **_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_**
 
-## Nome do Grupo
+## TILL.APP.IA
 
-#### Nomes dos integrantes do grupo
-
+- André David Katz
+- Caroline Moraes Paz
+- Humberto Filho Castello Branco Lages Rebello e Castro
+- Isabela Szolnoky Ferreira Cabral Souza da Conceição
+- Luiz Gustavo Borges Oliveira
+- Maria Eduarda Barbosa Oliveira
+- Matheus Ferreira da Silva
 
 
 ## Sumário
 
-[1. Introdução](#c1)
+1. Introdução](#c1)
 
 [2. Visão Geral da Aplicação Web](#c2)
 
@@ -36,13 +41,12 @@
 
 # <a name="c1"></a>1. Introdução (sprints 1 a 5)
 
-*Preencha com até 300 palavras – sem necessidade de fonte*
+Na seção 1, serão apresentadas as principais concepções envolvendo o projeto e o desenvolvimento detalhado da nossa solução, incluindo aprofundamento na problemática apresentada pelo parceiro de negócios, a Faculdade de Medicina da USP, juntamente aos requisitos considerados para elaboração da aplicação web proposta. 
 
-*Contextualize aqui a problemática trazida pelo parceiro de projeto.*
+Nesse sentido, observa-se o crescente número de pessoas portadoras de feridas, sendo elas, em sua maioria, acometidas por dificuldades de mobilidade, idade avançada e comorbidades associadas, fatores que impõem significativas barreiras ao acesso a cuidados especializados e à adesão a tratamentos contínuos. Essa situação resulta em tratamento inadequado das lesões e em uma redução da qualidade de vida dessa parcela populacional já fragilizada pela existência de feridas e pelas dificuldades em obter o suporte necessário.
+Em vista dessa problemática de acesso e acompanhamento inadequado, a aplicação web SKAMA tem como objetivo estabelecer uma comunicação eficiente e garantir o acesso facilitado entre UBSs (Unidades Básicas de Saúde) e pacientes portadores de feridas. A solução visa otimizar o serviço de atendimento das instituições de saúde, permitindo o acompanhamento remoto do quadro clínico do paciente e possibilitando intervenções presenciais mais direcionadas quando necessário, não no objetivo de substitui-las, mas contribuindo com coleta de informações mais essencias. Essas medidas serão viabilizadas por um sistema de envio e recebimento de fotos e por um formulário detalhado sobre a situação da ferida. Além disso, a solução apresenta vídeos educativos que auxiliam na autonomia do paciente em relação aos cuidados necessários para a ferida, além de possibilitar atendimento prioritário em casos de urgência. 
+Dessa forma, o aplicativo busca aumentar significativamente a adesão ao tratamento por parte dos pacientes, contribuindo para uma recuperação mais eficaz e para a melhora da sua qualidade de vida.
 
-*Descreva brevemente a solução desenvolvida para o parceiro de negócios. Descreva os aspectos essenciais para a criação de valor do produto, com o objetivo de ajudar a entender melhor a realidade do cliente e entregar uma solução que está alinhado com o que ele espera.*
-
-*Observe a seção 2 e verifique que ali é possível trazer mais detalhes, portanto seja objetivo aqui. Atualize esta descrição até a entrega final, conforme desenvolvimento.*
 
 # <a name="c2"></a>2. Visão Geral da Aplicação Web (sprint 1)
 
@@ -89,6 +93,12 @@ O poder de negociação dos fornecedores para a realização de cirurgias plást
 
 
 ### 2.1.2. Análise SWOT da Instituição Parceira (sprint 1)
+
+A matriz SWOT é uma ferramenta estratégica amplamente utilizada para a análise situacional de organizações, projetos ou setores específicos. O nome é um acrônimo em inglês para **Strengths** (Forças), **Weaknesses** (Fraquezas), **Opportunities** (Oportunidades) e **Threats** (Ameaças). Essa técnica permite visualizar, de forma estruturada, os fatores internos e externos que influenciam o desempenho de uma instituição, oferecendo subsídios para a tomada de decisões, o planejamento estratégico e a identificação de áreas prioritárias para intervenção (ASANA, 2024).
+
+Sua utilidade reside na capacidade de promover uma compreensão mais ampla sobre o contexto em que uma organização está inserida, considerando tanto seus pontos fortes e vulnerabilidades internas quanto os elementos externos que podem favorecer ou ameaçar seus objetivos. Essa abordagem facilita a construção de estratégias que potencializam os recursos existentes e minimizam os riscos.
+
+Neste projeto, a ferramenta será aplicada ao Setor de Cirurgia Plástica do Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo (HC-FMUSP). Criado oficialmente em 1941, o setor consolidou-se como um dos mais importantes centros de ensino, pesquisa e assistência em cirurgia plástica da América Latina. Atua de forma integrada ao Sistema Único de Saúde (SUS), realizando atendimentos de alta complexidade e contribuindo significativamente para a formação de profissionais qualificados na área (FMUSP, 2024). A análise SWOT permitirá identificar os principais desafios e oportunidades que impactam o setor, especialmente no que se refere ao tratamento de feridas complexas e queimaduras, foco deste projeto.
 
 <div align="center">
    <sub>Imagem 1: Análise SWOT</sub><br>
@@ -235,22 +245,22 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 <img src="../assets/wad/matrizrisco.png" width="800">
 </p>
 
+A análise de ameaças e oportunidades, assim como seus devidos graus de probabilidade de ocorrência e de impacto de qualquer projeto inovador na área da saúde, como a aplicação web SKAMA, é de suma importância para assegurar o sucesso e a sustentabilidade da nossa iniciativa. Nesse sentido, desenvolvemos uma matriz de risco que identifica, analisa e prioriza os potenciais obstáculos e oportunidades que podemos enfrentar durante o desenvolvimento do app Skama.
+
 | \#  | Ameaças | Impacto |
 | --- | --- | --- |
-| 1: | Queda de internet. | Impossibilidade de commits no código |
-| 2: | Ferramentas off-line | Possíveis atrasos e não conclusão das tarefas |
-| 3: | Mal planejamento das tarefas | Atraso na conclusão de tarefas e entrega nos prazos. |
-| 4: | Entregas quinzenais ineficientes | Perda de confiança e perda de nota nos artefatos |
-| 5: | Não conclusão do projeto | Queda na reputação com o parceiro, atraso relevante na entrega final e perda de nota do artefato. |
-| 6: | Bugs no código | Atraso\impossibilidade de entrega dentro dos prazos |
-| 7: | Conflito de visões para entrega do projeto | Desperdício de tempo em tarefas já designadas e discussão de ideias já definidas. |
+| 1: | Mal planejamento das tarefas | Atraso na conclusão de tarefas e entrega nos prazos. |
+| 2: | Entregas quinzenais ineficientes | Perda de confiança e perda de nota nos artefatos |
+| 3: | Não conclusão do projeto | Queda na reputação com o parceiro, atraso relevante na entrega final e perda de nota do artefato. |
+| 4: | Bugs no código | Atraso\impossibilidade de entrega dentro dos prazos |
+| 5: | Conflito de visões para entrega do projeto | Desperdício de tempo em tarefas já designadas e discussão de ideias já definidas. |
 
 | \#  | Oportunidades | Impacto |
 | --- | --- | --- |
-| 9: | Aprendizado. | O desenvolvimento e o aprendizado estão extremamente ligados pois à medida que aprendemos desenvolvemos e quando desenvolvemos aprendemos, sempre através de aulas, autoestudos, cursos, etc. |
-| 10: | Engajamento. | Quando o grupo está engajado todos estão cumprindo com suas obrigações, realizando as tarefas e as entregando dentro dos prazos, isso faz com que o projeto ande e que todos possam evoluir juntos. |
-| 11: | Aulas/Workshops para aprimoramento de habilidades técnicas. | Ter orientações extras sobre temas que são necessários para o desenvolvimento é uma ótima maneira para evoluir habilidades técnicas, podendo revisar conteúdos que possam ter passado e deixado dúvidas. |  
-| 12: | Feedback positivo | Receber reconhecimento ou validação inesperada de profissionais ou especialistas pode impulsionar o projeto. |
+| 6: | Aprendizado. | O desenvolvimento e o aprendizado estão extremamente ligados pois à medida que desenvolvemos estamos adquirindo conhecimento do processo de criação do app, assim como habilidades de comunicação e de desenvolvimento técnico do código. |
+| 7: | Visibilidade. | O projeto pode dar destaque aos integrantes, assim como novas opourtunidades de networking educacional. |
+| 8: | Aulas/Workshops para aprimoramento de habilidades técnicas. | Ter orientações extras sobre temas que são necessários para o desenvolvimento é uma ótima maneira para evoluir habilidades técnicas, podendo revisar conteúdos que possam ter passado e deixado dúvidas. |  
+| 9: | Feedbacks | Avaliações positivas ou negativas do parceiro nos ajudam a aprimorar habilidades de desenvolvimento, assim elevar a qualidade de entrega das sprints. Receber reconhecimento ou validação de profissionais ou especialistas pode impulsionar o projeto |
 
 ## 2.2. Personas (sprint 1)
 
@@ -347,25 +357,113 @@ A seguir, abordamos duas Personas nas quais nos identificamos com as dores e nec
 
 ## 2.3. User Stories (sprints 1 a 5)
 
-*Posicione aqui a lista de User Stories levantadas para o projeto. Siga o template de User Stories e utilize a mesma referência USXX no roadmap de seu quadro Kanban. Indique todas as User Stories mapeadas, mesmo aquelas que não forem implementadas ao longo do projeto. Não se esqueça de explicar o INVEST das 5 User Stories prioritárias*
-
-*ATUALIZE ESTA SEÇÃO SEMPRE QUE ALGUMA DEMANDA MUDAR EM SEU PROJETO*
-
-*Template de User Story*
-Identificação | USXX (troque XX por numeração ordenada das User Stories)
+Identificação | US01 
 --- | ---
-Persona | nome da Persona
-User Story | "como (papel/perfil), posso (ação/meta), para (benefício/razão)"
-Critério de aceite 1 | CR1: descrever cenário + testes de aceite
-Critério de aceite 2 | CR2: descrever cenário + testes de aceite
-Critério de aceite ... | CR...
-Critérios INVEST | *(Por que é Independente? Por que é Negociável? Por que é Valorosa? Por que é Estimável? Por que é Pequena? Por que é Testável?)*
+Persona | Rodrigo Garcia
+User Story | "Como Rodrigo, posso cadastrar rapidamente novos pacientes no sistema, para iniciar o acompanhamento remoto."
+Critério de aceite 1 | CR1: O sistema deve permitir o cadastro de paciente com informações básicas obrigatórias (nome, CPF, data de nascimento) + Preencher cadastro completo e verificar que o paciente é criado com sucesso
+Critério de aceite 2 | CR2: O sistema deve validar o CPF e impedir duplicidade de cadastro + Tentar cadastrar um paciente com CPF já existente e confirmar que o sistema bloqueia
+Critérios INVEST |  I: Sim, não depende de outras histórias.</br>N: Sim, pode ser adaptado conforme regras de cadastro.</br>V: Sim, permite iniciar o acompanhamento remoto.</br>E: Sim, o esforço para implementação é claro.</br>S: Sim, o objetivo está descrito de forma clara e direta.</br>T: Sim, existem critérios e testes definidos para validar.
+
+</br>
+
+Identificação | US02
+--- | ---
+Persona | Arlete Ferreira
+User Story | "Como Arlete, posso receber uma confirmação simples após enviar fotos ou respostas, para ter certeza de que foi tudo certo."
+Critério de aceite 1 | CR1: O sistema deve mostrar mensagem de sucesso após envio + Enviar foto e visualizar confirmação de sucesso
+Critério de aceite 2 | CR2: Em caso de falha, deve informar que o envio não foi concluído +  Forçar erro de conexão e confirmar que o sistema informa falha no envio
+Critérios INVEST | I: Sim, independente de outras funções.</br>N: Sim, a forma de confirmação pode ser alterada.</br>V: Sim, gera confiança no uso do sistema.</br>E: Sim, pequena implementação.</br>S: Sim, descrição focada.</br>T: Sim, é possível testar tanto sucesso quanto falha no envio.
+
+</br>
+
+
+Identificação | US03
+--- | ---
+Persona | Rodrigo Garcia
+User Story | "Como Rodrigo, posso acessar rapidamente o histórico de cada paciente, para acompanhar a evolução das feridas sem perder tempo."
+Critério de aceite 1 | CR1:O sistema deve exibir histórico de fotos e respostas em ordem cronológica + O sistema deve permitir filtrar histórico por data
+Critério de aceite 2 | CR2: Visualizar histórico completo e conferir ordenação por data + Aplicar filtro de datas e validar que apenas registros do período aparecem
+Critérios INVEST |   I: Sim, pode ser implementado separadamente. </br>N: Sim, o formato de visualização pode ser ajustado.</br>V: Sim, facilita o acompanhamento da evolução do paciente.</br>E: Sim, o escopo é delimitado.</br>S: Sim, a descrição é objetiva.</br>T: Sim, fácil de testar a exibição e o filtro.</br>
+
+</br>
+
+
+Identificação | US04
+--- | ---
+Persona | Arlete Ferreira
+User Story | "Como Arlete, posso ver meu histórico de fotos e respostas, para acompanhar como estou melhorando."
+Critério de aceite 1 | CR1: O paciente deve poder acessar seu histórico a qualquer momento + Acessar a seção de histórico e visualizar registros anteriores
+Critério de aceite 2 | CR2: O histórico deve apresentar fotos e dados organizados por data + Confirmar se as entradas estão organizadas corretamente por data
+Critérios INVEST | I: Sim, não precisa de nenhuma outra função ativa para funcionar.</br>N: Sim, o tipo de dados exibidos pode ser negociado.</br>V: Sim, promove autonomia ao paciente no acompanhamento.</br>E: Sim, o esforço é limitado.</br>S: Sim, texto claro e objetivo.</br>T: Sim, basta testar se o histórico é exibido corretamente.
+
+</br>
+
+Identificação | US05
+--- | ---
+Persona | Arlete Ferreira
+User Story | "Como Arlete, posso ver as informações que os profissionais registraram sobre minha saúde, para entender meu diagnóstico e os cuidados necessários."
+Critério de aceite 1 | CR1: O sistema deve permitir visualizar doenças e condições médicas registradas no prontuário + Acessar a aba de saúde e verificar listagem de doenças/condições atribuídas pelo profissional
+Critério de aceite 2 | CR2: O sistema deve listar medicamentos prescritos com nomes e horários de uso, de forma legível + Verificar se os medicamentos prescritos aparecem com nome, dose e instruções de uso
+Critérios INVEST | I: Sim, separada das atualizações de ferida ou lembretes.</br>N: Sim, quais informações médicas aparecerão pode ser definido.</br>V: Sim, aumenta a transparência e o entendimento do tratamento.</br>E: Sim, é possível estimar o esforço técnico.</br>S: Sim, objetivo: consulta de doenças e medicamentos.</br>T: Sim, testável pela visualização correta dos dados inseridos.
+</br>
+
+Identificação | US06 
+--- | ---
+Persona | Rodrigo Garcia
+User Story | "Como Rodrigo, posso ser alertado se um paciente não enviar atualizações, para intervir rapidamente e evitar agravamentos."
+Critério de aceite 1 | CR1: O sistema deve gerar alerta automático após X dias de inatividade + Simular paciente inativo e validar que o alerta é gerado
+Critério de aceite 2 | CR2: O alerta deve indicar o nome do paciente e o tempo sem atualização + Confirmar que alerta mostra nome e quantidade de dias sem atualização
+Critérios INVEST |   I: Sim, apenas depende do registro de atividades</br>N: Sim, os prazos e formatos dos alertas podem ser definidos.</br>V: Sim, evita agravamento clínico.</br>E: Sim, o tempo de inatividade pode ser configurável.</br>S: Sim, claro e direto.</br>T: Sim, é possível testar a geração dos alertas.
+
+</br>
+
+Identificação | US07 
+--- | ---
+Persona | Arlete Ferreira
+User Story | "Como Arlete, posso receber lembretes para mandar foto da minha ferida, para não esquecer e manter o tratamento."
+Critério de aceite 1 | CR1: O sistema deve enviar lembretes em formato de mensagem simples + Simular 3 dias sem atualização e confirmar recebimento do lembrete
+Critério de aceite 2 | CR2: O paciente deve ser lembrado com intervalo programado (ex: a cada 3 dias) + Verificar se a mensagem enviada é simples e compreensível
+Critérios INVEST | I: Sim, o lembrete pode ser desenvolvido separado.</br>N: Sim, a periodicidade dos lembretes pode ser ajustada.</br>V: Sim, garante continuidade do cuidado.</br>E: Sim, o esforço é bem previsível.</br>S: Sim, história focada.</br>T: Sim, é simples testar se o lembrete é enviado.
+
+</br>
+
+Identificação | US08 
+--- | ---
+Persona | Rodrigo Garcia
+User Story | "Como Rodrigo, posso enviar vídeos educativos personalizados para cada paciente, para melhorar a adesão ao tratamento."
+Critério de aceite 1 | CR1: O sistema deve permitir selecionar vídeos da biblioteca e enviar para pacientes + O sistema deve confirmar que o paciente recebeu o vídeo
+Critério de aceite 2 | CR2: Selecionar e enviar vídeo para um paciente, recebendo confirmação de envio + Verificar notificação de recebimento no perfil do paciente
+Critérios INVEST |  I: Sim, independente de outras funcionalidades.</br>N: Sim, o formato ou a frequência dos vídeos pode ser ajustado. </br>V: Sim, agrega valor na educação do paciente.</br>E: Sim, pode ser planejado isoladamente.</br>S: Sim, focado em envio de vídeos.</br>T: Sim, testável com envio e confirmação de recebimento.
+
+</br>
+
+
+Identificação | US09 
+--- | ---
+Persona | Arlete Ferreira
+User Story | "Como Arlete, posso assistir vídeos com explicações simples e lentas, para entender melhor como cuidar da minha ferida."
+Critério de aceite 1 | CR1: O sistema deve disponibilizar vídeos adaptados para idosos + Abrir vídeo na plataforma e avaliar linguagem usada
+Critério de aceite 2 | CR2: Os vídeos devem ter narração pausada e linguagem acessível + Conferir se o tempo do vídeo e a velocidade da fala são adequados
+Critérios INVEST | I: Sim, não depende de outro envio.</br>N: Sim, o tipo e estilo dos vídeos são negociáveis.</br>V: Sim, aumenta a compreensão do paciente.</br>E: Sim, o esforço de implementação é previsível.</br>S: Sim, a necessidade é bem definida.</br>T: Sim, testável pela qualidade do material exibido.
+
+</br>
+
+Identificação | US10 
+--- | ---
+Persona | Rodrigo Garcia
+User Story | "Como Rodrigo, posso ajustar a frequência de envio de dados dos pacientes, conforme a gravidade das feridas."
+Critério de aceite 1 | CR1: O sistema deve permitir definir a frequência de atualização por paciente + Alterar a frequência para um paciente e verificar que o sistema salva a mudança
+Critério de aceite 2 | CR2: A configuração deve ser salva e aplicada automaticamente + Verificar se novos alertas seguem a frequência personalizada configurada
+Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N: Sim, a frequência pode ser negociada.</br>V: Sim, permite personalizar o tratamento.</br>E: Sim, o esforço é pequeno e bem delimitado.</br>S: Sim, é objetivo.</br>T: Sim, fácil de validar se a frequência foi atualizada.</br>
+
+</br>
+
+
 
 # <a name="c3"></a>3. Projeto da Aplicação Web (sprints 1 a 4)
 
 ## 3.1. Arquitetura (sprints 3 e 4)
-
-*Posicione aqui o diagrama de arquitetura da sua solução de aplicação web. Atualize sempre que necessário*
 
 ## 3.2. Wireframes (sprint 2)
 
@@ -405,19 +503,181 @@ A interface destinada aos pacientes busca ser o mais acessível possível, conte
 
 O diagrama de entidade-relacionamento modela um sistema para monitoramento de feridas em pacientes atendidos por agentes comunitários de saúde em Unidades Básicas de Saúde (UBS), organizando entidades como AGENTE, PACIENTE, FORMULÁRIO 1, FORMULÁRIO 2, PRONTUÁRIO e AVALIAÇÃO\_HISTÓRICO para estruturar o fluxo de dados clínicos. No sistema, o AGENTE é responsável por visitar o paciente e preencher o FORMULÁRIO 1 com informações gerais sobre a ferida, histórico médico e condições observadas. O PACIENTE, por sua vez, preenche o FORMULÁRIO 2 com dados subjetivos e específicos sobre sua condição, como cor e tamanho da ferida, febre e dor. As informações reunidas são consolidadas no PRONTUÁRIO, que pode ser acessado pelo PACIENTE para acompanhar a evolução do tratamento. Além disso, a AVALIAÇÃO\_HISTÓRICO permite que o PACIENTE avalie periodicamente a eficácia do cuidado recebido. O objetivo do sistema é padronizar e digitalizar o atendimento, promovendo maior eficiência, qualidade e participação ativa do paciente no cuidado com sua saúde.
 
+<div align="center">
+   <sub>Imagem 4: Diagrama do modelo relacional </sub><br>
+   <img src="../assets/wad/fluxograma_relacional.jpg" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Mermaid)</sup>
+ </div>
+
+<h6> Explicação do diagrama do Modelo Relacional </h6>
+
+O paciente, ao chegar na Unidade Básica de Saúde (UBS), realiza, junto ao agente de saúde, o preenchimento de algumas informações, permitindo assim a utilização da plataforma pelo paciente e o monitoramento contínuo pelo agente. Com base nisso, inicia-se o "fluxo" de informações conforme descrito abaixo, fundamentado no diagrama apresentado (não há uma ordem específica, apenas a apresentação organizada desses fluxos):
+
+1. O agente de saúde (AGENTE), em contato com o paciente, preenche (PREENCHE) o histórico do paciente (HISTÓRICO), que consiste em informações básicas deste, com o objetivo de tornar os preenchimentos subsequentes mais concisos e claros. Além de ter (ACESSO) a avaliacao_historico. Esse HISTÓRICO também é elaborado com base no "Formulário 1" (FORMULARIO1), que é um formulário subjetivo preenchido com as percepções do paciente, configurando uma relação de 1 para 1 (um paciente preenche apenas um formulário deste tipo, que permanece em seu histórico).
+
+2. Esse histórico faz referência (REFERÊNCIA) à avaliação do histórico (AVALIACAO_HISTORICO) do paciente (PACIENTE), a qual pode ser visualizada (VISUALIZA) pelo próprio paciente. Podem existir diversas avaliações, sendo todas acessíveis pelo paciente, configurando, portanto, uma relação de 1 para n (um paciente pode possuir várias avaliações de seu histórico).
+
+3. Ainda na própria UBS, o paciente preenche um formulário denominado "Formulário 1" (FORMULARIO1). Ele realiza o preenchimento de apenas um desses formulários, havendo, portanto, uma relação de 1 para 1. Em seguida, o agente tem acesso a esse formulário e também a formulários semelhantes provenientes de outros pacientes, configurando dessa forma uma relação n para 1 (vários formulários vinculados a apenas um agente).
+
+4. O agente também é responsável (RESPONSAVEL) pelo acompanhamento de diversos pacientes, configurando, assim, uma relação n para 1 (vários pacientes sob responsabilidade de cada agente).
+
+5. Uma vez realizados esses cadastros iniciais e coletadas as informações necessárias, o paciente, sempre que envia uma foto da ferida acompanhada de uma régua, preenche o "Formulário 2" (FORMULARIO2), ao qual o agente também possui acesso. Trata-se de um formulário com informações essenciais ao diagnóstico e realizado com base na autoavaliação do paciente. Um paciente pode preencher diversos formulários deste tipo, configurando uma relação de 1 para n. Da mesma forma, o agente pode acessar inúmeros formulários desse tipo, constituindo também uma relação de 1 para n.
+
+6. Por fim, o "Formulário 2" faz referência direta à avaliação do histórico (AVALIACAO_HISTORICO) do paciente, em uma relação de n para 1 (vários formulários são direcionados para uma avaliação específica). Finalmente, o paciente pode visualizar (VISUALIZA) todas as suas avaliações de histórico, estabelecendo assim uma relação de 1 para n.
+
+<h6>Relação às User Stories</h6>
+
+As User Stories do Eduardo e da Arlete podem ser representadas, respectivamente, como o agente e o paciente no modelo relacional. Nesse cenário, Arlete se encontra com Eduardo na UBS onde ele trabalha, e ele apresenta à Arlete a plataforma Skama, utilizada para ajudar pacientes como ela, que não podem ir à UBS todas as semanas para realizar o acompanhamento das feridas decorrentes de suas unhas encravadas.
+
+Eduardo, então, convida Arlete a realizar seu cadastro e começar a utilizar essa plataforma, de modo a facilitar que ela receba os cuidados adequados sem precisar comparecer à UBS com tanta frequência.
+
+Eduardo fica satisfeito, pois isso diminui a necessidade de realizar visitas frequentes ao paciente (algo que ele identificava como um ponto de dor). Além disso, ele mantém contato frequente com os prontuários dos pacientes que acompanha, podendo, dessa forma, ajudar Arlete e outros pacientes no monitoramento regular de suas feridas.
+
+Arlete, por sua vez, também fica satisfeita, pois é entusiasta de tecnologias como a proposta pela Skama e deseja cuidar melhor de si mesma, realizando esse controle sobre suas próprias feridas. Além disso, ela ainda se beneficia com a Skama devido aos vídeos e informações instrutivas disponibilizadas pelo agente de saúde (nesse caso, Eduardo), que pode atendê-la de maneira personalizada. Isso faz com que Arlete não negligencie mais suas feridas, evitando que evoluam para algo mais grave em função de sua diabetes tipo dois.
+
+
 ### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
 
-*posicione aqui uma lista de consultas SQL compostas, realizadas pelo back-end da aplicação web, com sua respectiva lógica proposicional, descrita conforme template abaixo. Lembre-se que para usar LaTeX em markdown, basta você colocar as expressões entre $ ou $$*
+Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem padrão utilizada para interagir com bancos de dados relacionais. Desenvolvida inicialmente pela IBM na década de 1970, a SQL (Structured Query Language) permite criar, consultar, atualizar e gerenciar dados de forma estruturada e eficiente. Adicionalmente, será detalhada a respectiva lógica proposicional de cada consulta, que serve para analisar, combinar e testar condições com base em regras lógicas e a partir de proposições. Esses elementos, em conjunto, têm como objetivo estruturar as regras de validação e decisão dentro da aplicação e realizar a interação com a nossa base de dados.
 
-*Template de SQL + lógica proposicional*
-#1 | ---
+
+```mermaid
+---
+config:
+  theme: neo-dark
+---
+
+erDiagram
+    AGENTE {
+        int id PK "Identificador único do agente"
+        varchar nome "Nome do agente"
+        varchar profissao "Profissão do agente de saúde"
+        varchar unidade_atendimento "UBS de atendimento"
+        varchar telefone "Contato"
+    }
+
+    PACIENTE {
+        int id PK "Identificador único do paciente"
+        varchar nome "Nome do paciente"
+        date data_nascimento "Data de nascimento"
+        boolean diabetico "Paciente é diabético"
+        boolean necessidade_resp "Necessita de responsável"
+        varchar nome_resp "Nome do responsável"
+        boolean condicao "Qual é o estado do paciente?"
+        varchar telefone "Contato"
+        varchar telefone_resp "Telefone do responsável"
+        int agente_id FK "Agente responsável"
+    }
+
+    FORMULARIO1 {
+        int id PK "Identificador do formulário"
+        date data_preenchimento "Data de preenchimento"
+        varchar tipo_ferida "Tipo de ferida"
+        varchar localizacao_corpo "Localização do ferimento"
+        float tamanho_comprimento "Comprimento em cm"
+        float tamanho_largura "Largura em cm"
+        boolean exsudato "Apresenta exsudato?"
+        varchar historico_medico "Histórico médico"
+        varchar remedios "Remédios usados"
+        varchar sintomas "Descrição dos sintomas"
+        int paciente_id FK "FK para PACIENTE"
+    }
+
+    FORMULARIO2 {
+        int id PK "Identificador do formulário"
+        date data_preenchimento "Data de preenchimento"
+        varchar status_ferida "Status da ferida"
+        float tamanho_comprimento "Comprimento em cm"
+        float tamanho_largura "Largura em cm"
+        boolean cheiro_ferida "Apresenta cheiro?"
+        varchar pele_ao_redor "Condição da pele ao redor"
+        boolean febre "Presença de febre"
+        int dor "Nível de dor (1 a 5)"
+        varchar observacao "Observação adicional"
+        int paciente_id FK "FK para PACIENTE"
+    }
+
+    HISTORICO {
+        int id PK "Identificador do prontuário"
+        date data_abertura "Data de abertura"
+        varchar tipo_ferida "Tipo de ferida"
+        varchar localizacao_corpo "Local da ferida"
+        varchar historico_medico "Histórico médico"
+        boolean exsudato "Apresenta exsudato"
+        varchar remedios "Remédios prescritos"
+        int frequencia_cuidados "Frequência de cuidados"
+        varchar sintomas "Descrição dos sintomas"
+        varchar observacao_paciente "Observações ao paciente"
+        int id_paciente FK "FK para PACIENTE"
+        int id_agente FK "FK para AGENTE"
+    }
+
+    AVALIACAO_HISTORICO {
+        int id PK "Identificador da avaliação"
+        int avaliacao "Avaliação (1 a 5 estrelas)"
+        varchar observacao_paciente "Observações do paciente"
+        int formulario2_id FK "FK para FORMULARIO2"
+        int paciente_id FK "FK para PACIENTE"
+        int agente_id FK "FK para AGENTE"
+        int historico_id FK "FK para HISTORICO"
+    }
+
+    %% Relacionamentos
+    AGENTE ||--o{ PACIENTE : "responsável por"
+    AGENTE ||--o{ FORMULARIO2 : "acesso"
+    AGENTE ||--o{ AVALIACAO_HISTORICO : "acesso"
+    AGENTE ||--o{ HISTORICO : "preenche histórico"
+    PACIENTE ||--o{ FORMULARIO1 : "preenche"
+    PACIENTE ||--o{ FORMULARIO2 : "preenche"
+    PACIENTE ||--o{ HISTORICO : "associado ao"
+    PACIENTE ||--o{ AVALIACAO_HISTORICO : "visualiza avaliação"
+    FORMULARIO2 ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
+    HISTORICO ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
+
+
+```
+
+Segue o link de visualização desse modelo,mas agora, físico, em código SQL:
+
+<div align="center">
+
+<sub>Arquivo 1: Script de inicialização SQL</sub>  
+[Visualizar `init.sql`](../src/scripts/202505121905_init.sql)  
+
+<sup>Fonte: (Autoral, TILL.APP.IA)</sup>
+
+</div>
+
+
+
+### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
+
+Nesta seção serão apresentadas as listas de consultas SQL, linguagem padrão utilizada para manipulação e interação com bancos de dados relacionais. A SQL (Structured Query Language) permite estruturar, consultar, atualizar e gerenciar dados de maneira eficiente. Além disso, será explorada a lógica proposicional associada a cada consulta, a qual possibilita analisar, combinar e testar condições com base em regras lógicas e proposições. Esses elementos visam estruturar as regras de validação e tomada de decisão da aplicação, bem como permitir a comunicação com a base de dados.
+
+#1 | Seleção de Pacientes  sob Responsabilidade de um Agente, com Estado Grave, sem Avaliação
 --- | ---
-**Expressão SQL** | SELECT * FROM suppliers WHERE (state = 'California' AND supplier_id <> 900) OR (supplier_id = 100); 
-**Proposições lógicas** | $A$: O estado é 'California' (state = 'California') <br> $B$: O ID do fornecedor não é 900 (supplier_id ≠ 900) <br> $C$: O ID do fornecedor é 100 (supplier_id = 100)
-**Expressão lógica proposicional** | $(A \land B) \lor C$
-**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(A \land B)$</th> <th>$(A \land B) \lor C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>V</td> <td>V</td> </tr> </tbody> </table>
+**Expressão SQL** | SELECT p.id, p.nome, p.condicao FROM PACIENTE p LEFT JOIN AVALIACAO_HISTORICO a ON p.id = a.paciente_id WHERE p.id_agente = 'X' AND p.condicao = true AND a.id_avaliacao IS NULL;
+**Proposições lógicas** | $A$: O ID do agente responsável é 'X' (id_agente  = 'X'- verdadeiro);<br> $B$: O estado do paciente é grave (condicao = 1 (grave) - verdadeiro); <br> $C$: A avaliação do paciente não foi realizada (avaliacao = 0 (null) - falso). 
+**Expressão lógica proposicional** | $A \land B \land \neg C$
+**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th>$(\neg C )$</th> <th>$A \land B \land \neg C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td>V</td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>V</td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>V</td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td>F</td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td>V</td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td>F</td> <td>F</td> </tr> </tbody> </table>
 
-*Dica: edite a tabela verdade fora do markdown, para ter melhor controle*
+
+#2 | Atualização da Condição de Saúde de Pacientes Diabéticos com Febre e Dor
+--- | ---
+**Expressão SQL** | UPDATE paciente SET condicao = 1 FROM formulario2 f WHERE paciente.id = f.paciente_id AND paciente.diabetico = 1 AND f.febre = 1 AND f.dor > 2;
+**Proposições lógicas** | $A$: O paciente é diabético (paciente.diabetico = 1 (diabético) - verdadeiro)<br> $B$:O paciente teve febre registrada no formulário2 (f.febre = 1 (com febre) - verdadeiro) <br> $C$: O paciente relatou dor maior que 2 no formulário2 (f.dor > 2 ( dor igual a 3, 4 ou 5) - verdadeiro).
+**Expressão lógica proposicional** | $A \land B \land C$
+**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$C$</th> <th></th> <th>$A \land B \land C$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>F</td> <td></td> <td>F</td> </tr> <tr> <td>F</td> <td>F</td> <td>V</td> <td></td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td></td> <td>F</td> </tr> <tr> <td>F</td> <td>V</td> <td>V</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>V</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>V</td> <td>V</td> <td></td> <td>V</td> </tr> </tbody> </table>
+
+#3 | Remoção de Pacientes sem Registros de Formulário ou sem Registros de Prontuário
+--- | ---
+**Expressão SQL** | DELETE FROM paciente p WHERE NOT EXISTS (SELECT 1 FROM formulario1 f1 WHERE f1.paciente_id = p.id) OR NOT EXISTS (SELECT 1 FROM prontuario pr WHERE pr.id_paciente = p.id);
+**Proposições lógicas** | $A$: O paciente possui pelo menos um formulario1 (formulário1 = 0 (não existe) - falso);<br> $B$: O paciente possui pelo menos um prontuario (prontuario = 0 (não existe) - falso).
+**Expressão lógica proposicional** | $\neg A \lor \neg B $
+**Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$ \neg A$</th> <th>$ \neg B$</th>  <th></th> <th> $\neg A \lor \neg B$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>V</td> <td>V</td> <td></td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>V</td> <td></td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td><td>F</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>V</td> <td></td> <td>V</td> </tbody> </table>
+
+
 
 ## 3.6. WebAPI e endpoints (sprints 3 e 4)
 
@@ -518,8 +778,6 @@ Descreva os principais segmentos de mercado a serem atendidos pela aplicação. 
 
 # <a name="c8"></a>8. Referências (sprints 1 a 5)
 
-
-
 REVISTA SAÚDE USP. Inovação e dependência tecnológica no tratamento de queimaduras graves. Revista de Saúde da Universidade de São Paulo, São Paulo, v. 29, n. 3, p. 45-60, 2024. 
 
 ABRAIDI – Associação Brasileira de Importadores e Distribuidores de Produtos para Saúde. Relatório Setorial ABRAIDI 2024. São Paulo: ABRAIDI, 2024. Disponível em: https://www.abraidi.com.br/. Acesso em: 28 abr. 2025.
@@ -552,7 +810,7 @@ USP. Técnica previne amputação de membros causadas por lesões. Jornal da USP
 
 SYMATESE LATAM. Produtos. 2024. Disponível em: https://symateselatam.com/produtos/. Acesso em: 29 abr. 2025.
 
- G1 RIBEIRÃO E FRANCA. HC de Ribeirão Preto, SP, tem 6 mil pacientes na fila para cirurgias eletivas. 2023. Disponível em: https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2023/03/21/hc-de-ribeirao-preto-sp-tem-6-mil-pacientes-na-fila-para-cirurgias-eletivas.ghtml. Acesso em: 29 abr. 2025.
+G1 RIBEIRÃO E FRANCA. HC de Ribeirão Preto, SP, tem 6 mil pacientes na fila para cirurgias eletivas. 2023. Disponível em: https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2023/03/21/hc-de-ribeirao-preto-sp-tem-6-mil-pacientes-na-fila-para-cirurgias-eletivas.ghtml. Acesso em: 29 abr. 2025.
 
 CÂMARA MUNICIPAL DE BELO HORIZONTE. Clínicas especializadas em cirurgias eletivas contribuem para a redução da fila no SUS. 2022. Disponível em: https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2022/11/clinicas-especializadas-em-cirurgias-eletivas-contribuem-para-reducao-da-fila-no-sus. Acesso em: 29 abr. 2025.
 
@@ -584,7 +842,25 @@ SANTOS, Milena Barbosa et al, Business Model Canvas: aplicação do método em u
 
 BRADLEY, Callum et al, A new perspective on personas and customer journey maps: Proposing systemic UX. In: ScienceDirect, abr. 2021. Disponível em: https://www.sciencedirect.com/science/article/abs/pii/S107158192100001X. Acesso em: 2 maio 2025.
 
+ASANA. *Análise SWOT: o que é e como fazer uma análise SWOT eficaz*. 2024. Disponível em: https://asana.com/pt/resources/swot-analysis. Acesso em: 2 maio 2025.
 
+CASAROTTO, Camila. As 5 forças de Porter: o que são, para que servem e como aplicar? ​Rock Content, 2020. Disponível em: https://rockcontent.com/br/blog/5-forcas-de-porter/. Acesso em: 29 abr. 2025.
+
+SCHERMA, Mariana. 5 forças de Porter: modelo, análise, como aplicar e muito mais! RD Station, 2024. Disponível em: https://www.rdstation.com/blog/agencias/as-cinco-forcas-de-porter/. Acesso em: 29 abr. 2025.
+
+HOSPITAL DE CLÍNICAS DA UNICAMP. Especialidades. Hospital de Clínicas da Unicamp, 2025. Disponível em: https://hc.unicamp.br/especialidades/. Acesso em: 29 abr. 2025.
+
+HOSPITAL SÍRIO-LIBANÊS. Cirurgia Plástica – São Paulo. ​Hospital Sírio-Libanês, 2025. Disponível em: https://hospitalsiriolibanes.org.br/especialidades-medicas/sao-paulo/cirurgia-plastica/. Acesso em: 29 abr. 2025.
+
+MEDICINA S/A. Maior centro hospitalar da AL, HCFMUSP anuncia expansão. Medicina S/A, 2025. Disponível em: https://medicinasa.com.br/hcfmusp-expansao/. Acesso em: 29 abr. 2025.
+
+HOSPITAL ISRAELITA ALBERT EINSTEIN. Dossiê de Valor 2024. Hospital Israelita Albert Einstein, 2024. Disponível em: https://www.einstein.br/DocumentosAcessoLivre/Dossie-2024-6.pdf​. Acesso em: 29 abr. 2025.
+
+FMUSP. A FMUSP. Faculdade de Medicina da Universidade de São Paulo, 2018. Disponível em: https://www3.fm.usp.br/fmusp/institucional/a-fmusp. Acesso em: 29 abr. 2025.
+
+UERJ. Pesquisa na UERJ. Universidade do Estado do Rio de Janeiro, 2025. Disponível em: https://www.uerj.br/pesquisa/pesquisa-na-uerj/. Acesso em: 29 abr. 2025.
+
+AMAZON WEB SERVICES. O que é SQL (linguagem de consulta estruturada)? AWS, 2025. Disponível em: https://aws.amazon.com/pt/what-is/sql/. Acesso em: 9 maio 2025.
 # <a name="c9"></a>Anexos
 
 *Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso)*
