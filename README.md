@@ -84,6 +84,13 @@ npm start
 * 0.3.0 - XX/XX/2024
     * 
 * 0.2.0 - XX/XX/2024
+    - Modelo Lógico
+    - Modelo Relacional
+    - Modelo Físico
+    - Testes de SQL
+    - Wireframes
+    - Tabela Verdade
+    - Lógica Proposicional
     * 
 * 0.1.0 - 02/05/2025 : Entrega da sprint 1
     - Introdução Seção 1
