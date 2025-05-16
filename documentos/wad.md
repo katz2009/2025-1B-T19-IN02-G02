@@ -515,28 +515,28 @@ config:
 
 erDiagram
     AGENTE {
-        int id PK "Identificador único do agente"
+        PK int id "Identificador único do agente"
         varchar nome "Nome do agente"
         varchar profissao "Profissão do agente de saúde"
         varchar unidade_atendimento "UBS de atendimento"
-        varchar telefone PK "Contato"
+        PK varchar telefone "Contato"
     }
 
     PACIENTE {
-        int id PK "Identificador único do paciente"
+        PK int id "Identificador único do paciente"
         varchar nome "Nome do paciente"
         date data_nascimento "Data de nascimento"
         boolean diabetico "Paciente é diabético"
         boolean necessidade_resp "Necessita de responsável"
         varchar nome_resp "Nome do responsável"
         boolean condicao "Qual é o estado do paciente?"
-        varchar telefone_id FK "Contato"
+        FK varchar telefone_id "Contato"
         varchar telefone_resp "Telefone do responsável"
-        int agente_id FK "Agente responsável (FK para AGENTE)"
+        FK int agente_id "Agente responsável (FK para AGENTE)"
     }
 
     FORMULARIO1 {
-        int id PK "Identificador do formulário"
+        PK int id  "Identificador do formulário"
         date data_preenchimento "Data de preenchimento"
         varchar tipo_ferida "Tipo de ferida"
         varchar localizacao_corpo "Localização do ferimento"
@@ -545,13 +545,12 @@ erDiagram
         boolean exsudato "Apresenta exsudato?"
         varchar historico_medico "Histórico médico"
         varchar remedios "Remédios usados"
-        //number frequencia_cuidados "Frequência de cuidados"//
         varchar sintomas "Descrição dos sintomas"
-        int paciente_id FK "FK para PACIENTE"
+        FK int paciente_id "FK para PACIENTE"
     }
 
     FORMULARIO2 {
-        int id PK "Identificador do formulário"
+        PK int id "Identificador do formulário"
         date data_preenchimento "Data de preenchimento"
         varchar status_ferida "Status da ferida"
         number tamanho_comprimento "Comprimento em cm"
@@ -561,11 +560,11 @@ erDiagram
         boolean febre "Presença de febre"
         number dor "Nível de dor (1 a 5)"
         varchar observacao "Observação adicional"
-        int paciente_id FK "FK para PACIENTE"
+        FK int paciente_id "FK para PACIENTE"
     }
 
     HISTORICO {
-        int id PK "Identificador do prontuário"
+        PK int id "Identificador do prontuário"
         date data_abertura "Data de abertura"
         varchar tipo_ferida "Tipo de ferida"
         varchar localizacao_corpo "Local da ferida"
@@ -575,18 +574,18 @@ erDiagram
         number frequencia_cuidados "Frequência de cuidados"
         varchar sintomas "Descrição dos sintomas"
         varchar observacao_paciente "Observações ao paciente"
-        int id_paciente FK "FK para PACIENTE"
-        int id_agente FK "FK para AGENTE"
+        FK int id_paciente "FK para PACIENTE"
+        FK int id_agente "FK para AGENTE"
     }
 
     AVALIACAO_HISTORICO {
-        int id PK "Identificador da avaliação"
+        PK int id "Identificador da avaliação"
         number avaliacao "Avaliação (1 a 5 estrelas)"
         varchar observacao_paciente "Observações do paciente"
-        int formulario2_id FK "FK para FORMULARIO2"
-        int paciente_id FK "FK para PACIENTE"
-        int agente_id FK "FK para AGENTE"
-        int historico_id FK "FK para HISTORICO"
+        FK int formulario2_id "FK para FORMULARIO2"
+        FK int paciente_id "FK para PACIENTE"
+        FK int agente_id "FK para AGENTE"
+        FK int historico_id "FK para HISTORICO"
     }
 
     %% Relacionamentos
