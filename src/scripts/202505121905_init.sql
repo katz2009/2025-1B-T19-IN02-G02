@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS historico (
     FOREIGN KEY (agente_id) REFERENCES agente(id)
 );
 
-CREATE TABLE IF NOT EXISTS avaliacao_historico ( 
+CREATE TABLE IF NOT EXISTS avaliacao_historico (
     id SERIAL PRIMARY KEY,
     avaliacao NUMERIC NOT NULL,
     observacao_paciente VARCHAR (500),
