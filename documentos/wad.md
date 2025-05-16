@@ -598,7 +598,7 @@ erDiagram
     PACIENTE ||--o{ AVALIACAO_HISTORICO : "visualiza avaliação"
     FORMULARIO2 ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
     HISTORICO ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
-    FORMULARIO1 ||--o{ HISTORICO : "referência no histórico"
+    FORMULARIO1 ||--o{ AVALIACAO_HISTORICO : "referência no histórico"
 
 ```
 
