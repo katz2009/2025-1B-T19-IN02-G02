@@ -515,7 +515,7 @@ config:
 
 erDiagram
     AGENTE {
-        PK int id "Identificador único do agente"
+        int id PK "Identificador único do agente"
         varchar nome "Nome do agente"
         varchar profissao "Profissão do agente de saúde"
         varchar unidade_atendimento "UBS de atendimento"
@@ -523,7 +523,7 @@ erDiagram
     }
 
     PACIENTE {
-        PK int id "Identificador único do paciente"
+        int id PK "Identificador único do paciente"
         varchar nome "Nome do paciente"
         date data_nascimento "Data de nascimento"
         boolean diabetico "Paciente é diabético"
@@ -532,65 +532,66 @@ erDiagram
         boolean condicao "Qual é o estado do paciente?"
         varchar telefone "Contato"
         varchar telefone_resp "Telefone do responsável"
-        FK int agente_id "Agente responsável (FK para AGENTE)"
+        int agente_id FK "Agente responsável"
     }
 
     FORMULARIO1 {
-        PK int id  "Identificador do formulário"
+        int id PK "Identificador do formulário"
         date data_preenchimento "Data de preenchimento"
         varchar tipo_ferida "Tipo de ferida"
         varchar localizacao_corpo "Localização do ferimento"
-        number tamanho_comprimento "Comprimento em cm"
-        number tamanho_largura "Largura em cm"
+        float tamanho_comprimento "Comprimento em cm"
+        float tamanho_largura "Largura em cm"
         boolean exsudato "Apresenta exsudato?"
         varchar historico_medico "Histórico médico"
         varchar remedios "Remédios usados"
         varchar sintomas "Descrição dos sintomas"
-        FK int paciente_id "FK para PACIENTE"
+        int paciente_id FK "FK para PACIENTE"
     }
 
     FORMULARIO2 {
-        PK int id "Identificador do formulário"
+        int id PK "Identificador do formulário"
         date data_preenchimento "Data de preenchimento"
         varchar status_ferida "Status da ferida"
-        number tamanho_comprimento "Comprimento em cm"
-        number tamanho_largura "Largura em cm"
+        float tamanho_comprimento "Comprimento em cm"
+        float tamanho_largura "Largura em cm"
         boolean cheiro_ferida "Apresenta cheiro?"
         varchar pele_ao_redor "Condição da pele ao redor"
         boolean febre "Presença de febre"
-        number dor "Nível de dor (1 a 5)"
+        int dor "Nível de dor (1 a 5)"
         varchar observacao "Observação adicional"
-        FK int paciente_id "FK para PACIENTE"
+        int paciente_id FK "FK para PACIENTE"
     }
 
     HISTORICO {
-        PK int id "Identificador do prontuário"
+        int id PK "Identificador do prontuário"
         date data_abertura "Data de abertura"
         varchar tipo_ferida "Tipo de ferida"
         varchar localizacao_corpo "Local da ferida"
         varchar historico_medico "Histórico médico"
         boolean exsudato "Apresenta exsudato"
         varchar remedios "Remédios prescritos"
-        number frequencia_cuidados "Frequência de cuidados"
+        int frequencia_cuidados "Frequência de cuidados"
         varchar sintomas "Descrição dos sintomas"
         varchar observacao_paciente "Observações ao paciente"
-        FK int id_paciente "FK para PACIENTE"
-        FK int id_agente "FK para AGENTE"
+        int id_paciente FK "FK para PACIENTE"
+        int id_agente FK "FK para AGENTE"
     }
 
     AVALIACAO_HISTORICO {
-        PK int id "Identificador da avaliação"
-        number avaliacao "Avaliação (1 a 5 estrelas)"
+        int id PK "Identificador da avaliação"
+        int avaliacao "Avaliação (1 a 5 estrelas)"
         varchar observacao_paciente "Observações do paciente"
-        FK int formulario2_id "FK para FORMULARIO2"
-        FK int paciente_id "FK para PACIENTE"
-        FK int agente_id "FK para AGENTE"
-        FK int historico_id "FK para HISTORICO"
+        int formulario2_id FK "FK para FORMULARIO2"
+        int paciente_id FK "FK para PACIENTE"
+        int agente_id FK "FK para AGENTE"
+        int historico_id FK "FK para HISTORICO"
     }
 
     %% Relacionamentos
     AGENTE ||--o{ PACIENTE : "responsável por"
     AGENTE ||--o{ FORMULARIO2 : "acesso"
+    AGENTE ||--o{ AVALIACAO_HISTORICO : "acesso"
     AGENTE ||--o{ HISTORICO : "preenche histórico"
     PACIENTE ||--o{ FORMULARIO1 : "preenche"
     PACIENTE ||--o{ FORMULARIO2 : "preenche"
@@ -598,7 +599,7 @@ erDiagram
     PACIENTE ||--o{ AVALIACAO_HISTORICO : "visualiza avaliação"
     FORMULARIO2 ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
     HISTORICO ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
-    FORMULARIO1 ||--o{ AVALIACAO_HISTORICO : "referência no histórico"
+
 
 ```
 
