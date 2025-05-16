@@ -527,7 +527,7 @@ Por fim, inicia-se o questionário clínico, começando com perguntas sobre o le
 Portanto, para garantir que todos os elementos visuais seguissem uma coerência e organização, foram utilizadas grids no Figma para cumprir esse propósito. Segue exemplo da utilização dessa ferramenta em uma das telas dos pacientes:
 
 <div align="center">
-   <sub>Imagem 11: Utilização da grid em uma das telas</sub><br>
+   <sub>Imagem 12: Utilização da grid em uma das telas</sub><br>
    <img src="..\assets\wad\utilizando_grid.png" width="50%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
@@ -562,7 +562,7 @@ Portanto, para garantir que todos os elementos visuais seguissem uma coerência 
 O diagrama de entidade-relacionamento modela um sistema para monitoramento de feridas em pacientes atendidos por agentes comunitários de saúde em Unidades Básicas de Saúde (UBS), organizando entidades como AGENTE, PACIENTE, FORMULÁRIO 1, FORMULÁRIO 2, PRONTUÁRIO e AVALIAÇÃO\_HISTÓRICO para estruturar o fluxo de dados clínicos. No sistema, o AGENTE é responsável por visitar o paciente e preencher o FORMULÁRIO 1 com informações gerais sobre a ferida, histórico médico e condições observadas. O PACIENTE, por sua vez, preenche o FORMULÁRIO 2 com dados subjetivos e específicos sobre sua condição, como cor e tamanho da ferida, febre e dor. As informações reunidas são consolidadas no PRONTUÁRIO, que pode ser acessado pelo PACIENTE para acompanhar a evolução do tratamento. Além disso, a AVALIAÇÃO\_HISTÓRICO permite que o PACIENTE avalie periodicamente a eficácia do cuidado recebido. O objetivo do sistema é padronizar e digitalizar o atendimento, promovendo maior eficiência, qualidade e participação ativa do paciente no cuidado com sua saúde.
 
 <div align="center">
-   <sub>Imagem 11: Diagrama do modelo relacional </sub><br>
+   <sub>Imagem 13: Diagrama do modelo relacional </sub><br>
    <img src="../assets/wad/fluxograma_relacional.jpg" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Mermaid)</sup>
