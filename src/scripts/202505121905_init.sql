@@ -68,15 +68,18 @@ CREATE TABLE IF NOT EXISTS historico (
     FOREIGN KEY (agente_id) REFERENCES agente(id)
 );
 
-CREATE TABLE IF NOT EXISTS avaliacao_historico ( 
+CREATE TABLE IF NOT EXISTS avaliacao_historico (
     id SERIAL PRIMARY KEY,
     avaliacao NUMERIC NOT NULL,
     observacao_paciente VARCHAR (500),
-    formulario2_id INT,
     paciente_id INT,
     agente_id INT,
     historico_id INT,
+    formulario1_id INT,
+    formulario2_id INT,
     FOREIGN KEY (paciente_id) REFERENCES paciente(id),
     FOREIGN KEY (agente_id) REFERENCES agente(id),
-    FOREIGN KEY (historico_id) REFERENCES historico(id)
+    FOREIGN KEY (historico_id) REFERENCES historico(id),
+    FOREIGN KEY (formulario1_id) REFERENCES formulario1(id),
+    FOREIGN KEY (formulario2_id) REFERENCES formulario1(id)
 );
