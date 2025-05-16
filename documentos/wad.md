@@ -467,13 +467,57 @@ Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N
 
 ## 3.2. Wireframes (sprint 2)
 
-*Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
-
 Wireframe é uma representação visual simplificada da interface de um aplicativo, usada para planejar a navegação, a disposição dos elementos e a experiência do usuário. Nesta seção, vamos mostrar como a interface do aplicativo foi pensada e organizada. Serão apresentados os wireframes desenhos das telas e explicadas as principais funções disponíveis para os agentes de saúde e para os pacientes. Também vamos falar sobre como as telas estão ligadas entre si, como o usuário navega pelo app e de que forma o design ajuda a tornar o uso mais fácil, claro e acessível para todos.
 
- No contexto deste sistema, a interface é simples e intuitiva, contendo atalhos para as principais funções do app, como o cadastro de novos pacientes e o acesso à tela inicial. A tela de pacientes cadastrados apresenta uma lista dos pacientes sob acompanhamento, acessível por uma barra de navegação inferior que permite a transição entre as áreas destinadas ao agente de saúde. Nessa tela, cada paciente é exibido em um card com seu respectivo nome e, ao clicar nesse card, o agente é direcionado para uma tela com o detalhamento da ferida, onde pode consultar o histórico clínico e a evolução do caso. Além disso, há uma tela específica para pacientes ainda não cadastrados, na qual o agente consegue realizar um diagnóstico inicial com base nas informações do primeiro formulário preenchido.
+<div align="center">
+   <sub>Imagem 5: Telas comuns a pacientes e agentes de saúde</sub><br>
+   <img src="..\assets\wad\telas_comuns.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
 
-A interface destinada aos pacientes busca ser o mais acessível possível, contemplando diferentes perfis de usuários. O processo se inicia com a aceitação dos termos e condições de uso, garantindo que o paciente compreenda as diretrizes do aplicativo. Em seguida, uma tela tutorial orienta de forma simples como utilizar a plataforma. Após essa introdução, o paciente é levado à interface da câmera, onde pode registrar imagens da ferida, um passo importante para documentar visualmente a evolução do quadro. Em sequência, há uma lista de vídeos educativos com orientações práticas sobre o cuidado com feridas, promovendo a educação em saúde. O fluxo continua com o recebimento de um feedback do agente de saúde, que inclui comentários personalizados e uma avaliação por estrelas, ajudando o paciente a compreender melhor sua situação. Por fim, inicia-se o questionário clínico, começando com perguntas sobre o leito da ferida. Todo esse processo visa preparar o paciente para um acompanhamento mais completo, promovendo sua autonomia e facilitando a atuação do agente de saúde.
+<div align="center">
+   <sub>Imagem 6: Telas dos pacientes</sub><br>
+   <img src="..\assets\wad\telas_pacientes.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
+
+<div align="center">
+   <sub>Imagem 7: Telas dos agentes de saúde</sub><br>
+   <img src="..\assets\wad\telas_agentes.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
+
+<div align="center">
+   <sub>Imagem 8: Telas comuns a pacientes e agentes de saúde na versão desktop</sub><br>
+   <img src="..\assets\wad\telas_comuns_desktop.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
+
+<div align="center">
+   <sub>Imagem 9: Telas dos pacientes na versão desktop</sub><br>
+   <img src="..\assets\wad\telas_pacientes_desktop.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
+
+<div align="center">
+   <sub>Imagem 10: Telas dos agentes de saúde na versão desktop</sub><br>
+   <img src="..\assets\wad\telas_agentes_desktop.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
+
+ No contexto deste sistema,  a interface dos agentes de saúde é simples e intuitiva, contendo atalhos para as principais funções do app, como o cadastro de novos pacientes e o acesso à tela inicial. O processo se inicia com o cadastro/login e a aceitação dos termos e condições de uso, garantindo que o usário compreenda as diretrizes do aplicativo. A tela de pacientes cadastrados apresenta uma lista dos pacientes sob acompanhamento, acessível por uma barra de navegação inferior que permite a transição entre as áreas destinadas ao agente de saúde. Nessa tela, cada paciente é exibido em um card com seu respectivo nome e, ao clicar nesse card, o agente é direcionado para uma tela com o detalhamento da ferida, onde pode consultar o histórico clínico e a evolução do caso. Além disso, há uma tela específica para pacientes ainda não cadastrados, na qual o agente consegue realizar um diagnóstico inicial com base nas informações do primeiro formulário preenchido.
+
+A interface destinada aos pacientes busca ser o mais acessível possível, contemplando diferentes perfis de usuários. 
+Em seguida, uma tela tutorial orienta de forma simples como utilizar a plataforma. Após essa introdução, o paciente é levado à interface da câmera, onde pode registrar imagens da ferida, um passo importante para documentar visualmente a evolução do quadro. 
+Em sequência, há uma lista de vídeos educativos com orientações práticas sobre o cuidado com feridas, promovendo a educação em saúde. O fluxo continua com o recebimento de um feedback do agente de saúde, que inclui comentários personalizados e uma avaliação por estrelas, ajudando o paciente a compreender melhor sua situação. 
+Na etapa seguinte, o paciente acessa uma tela com suas informações pessoais e histórico de feridas registradas, centralizando dados como nome, CPF, local de atendimento e agente responsável. Essa área facilita o acompanhamento contínuo e a comunicação com a equipe de saúde, além da representação do acionamento do botão S.O.S que permite acionar um alerta de prioridade, exibindo um pop-up de confirmação com orientações claras para garantir o uso consciente desse recurso. 
+Por fim, inicia-se o questionário clínico, começando com perguntas sobre o leito da ferida. Todo esse processo visa preparar o paciente para um acompanhamento mais completo, promovendo sua autonomia e facilitando a atuação do agente de saúde.
 
 ## 3.3. Guia de estilos (sprint 3)
 
@@ -504,7 +548,7 @@ A interface destinada aos pacientes busca ser o mais acessível possível, conte
 O diagrama de entidade-relacionamento modela um sistema para monitoramento de feridas em pacientes atendidos por agentes comunitários de saúde em Unidades Básicas de Saúde (UBS), organizando entidades como AGENTE, PACIENTE, FORMULÁRIO 1, FORMULÁRIO 2, PRONTUÁRIO e AVALIAÇÃO\_HISTÓRICO para estruturar o fluxo de dados clínicos. No sistema, o AGENTE é responsável por visitar o paciente e preencher o FORMULÁRIO 1 com informações gerais sobre a ferida, histórico médico e condições observadas. O PACIENTE, por sua vez, preenche o FORMULÁRIO 2 com dados subjetivos e específicos sobre sua condição, como cor e tamanho da ferida, febre e dor. As informações reunidas são consolidadas no PRONTUÁRIO, que pode ser acessado pelo PACIENTE para acompanhar a evolução do tratamento. Além disso, a AVALIAÇÃO\_HISTÓRICO permite que o PACIENTE avalie periodicamente a eficácia do cuidado recebido. O objetivo do sistema é padronizar e digitalizar o atendimento, promovendo maior eficiência, qualidade e participação ativa do paciente no cuidado com sua saúde.
 
 <div align="center">
-   <sub>Imagem 4: Diagrama do modelo relacional </sub><br>
+   <sub>Imagem 11: Diagrama do modelo relacional </sub><br>
    <img src="../assets/wad/fluxograma_relacional.jpg" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Mermaid)</sup>
