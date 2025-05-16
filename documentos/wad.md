@@ -465,104 +465,6 @@ Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N
 
 ## 3.1. Arquitetura (sprints 3 e 4)
 
-```mermaid
----
-config:
-  theme: neo-dark
----
-
-erDiagram
-    AGENTE {
-        int id PK "Identificador único do agente"
-        varchar nome "Nome do agente"
-        varchar profissao "Profissão do agente de saúde"
-        varchar unidade_atendimento "UBS de atendimento"
-        varchar telefone PK "Contato"
-    }
-
-    PACIENTE {
-        int id PK "Identificador único do paciente"
-        varchar nome "Nome do paciente"
-        date data_nascimento "Data de nascimento"
-        varchar telefone_id FK "Contato"
-        int agente_id FK "Agente responsável (FK para AGENTE)"
-        boolean diabetico "Paciente é diabético"
-        boolean necessidade_resp "Necessita de responsável"
-        varchar nome_resp "Nome do responsável"
-        varchar telefone_resp "Telefone do responsável"
-        boolean condicao "Qual é o estado do paciente?"
-    }
-
-    FORMULARIO1 {
-        int id PK "Identificador do formulário"
-        int paciente_id FK "FK para PACIENTE"
-        date data_preenchimento "Data de preenchimento"
-        varchar tipo_ferida "Tipo de ferida"
-        varchar localizacao_corpo "Localização do ferimento"
-        number tamanho_comprimento "Comprimento em cm"
-        number tamanho_largura "Largura em cm"
-        boolean exsudato "Apresenta exsudato?"
-        varchar historico_medico "Histórico médico"
-        varchar remedios "Remédios usados"
-        number frequencia_cuidados "Frequência de cuidados"
-        varchar sintomas "Descrição dos sintomas"
-        varchar unidade_atendida "UBS de atendimento"
-    }
-
-    FORMULARIO2 {
-        int id PK "Identificador do formulário"
-        int paciente_id FK "FK para PACIENTE"
-        date data_preenchimento "Data de preenchimento"
-        varchar status_ferida "Status da ferida"
-        number tamanho_comprimento "Comprimento em cm"
-        number tamanho_largura "Largura em cm"
-        boolean cheiro_ferida "Apresenta cheiro?"
-        varchar pele_ao_redor "Condição da pele ao redor"
-        boolean febre "Presença de febre"
-        number dor "Nível de dor (1 a 10)"
-        varchar observacao "Observação adicional"
-    }
-
-    PRONTUARIO {
-        int id PK "Identificador do prontuário"
-        int id_paciente FK "FK para PACIENTE"
-        int id_agente FK "FK para AGENTE"
-        date data_abertura "Data de abertura"
-        varchar tipo_ferida "Tipo de ferida"
-        varchar historico_medico "Histórico médico"
-        varchar remedios "Remédios prescritos"
-        number frequencia_cuidados "Frequência de cuidados"
-        varchar sintomas "Descrição dos sintomas"
-        varchar observacoes "Outras observações"
-        varchar observacao_paciente "Observações ao paciente"
-    }
-
-    AVALIACAO_HISTORICO {
-        int id PK "Identificador da avaliação"
-        int formulario2_id FK "FK para FORMULARIO2"
-        int paciente_id FK "FK para PACIENTE"
-        int agente_id FK "FK para AGENTE"
-        int prontuario_id FK "FK para PRONTUARIO"
-        number avaliacao "Avaliação (1 a 5 estrelas)"
-        varchar observacao_paciente "Observações do paciente"
-    }
-
-    %% Relacionamentos
-    AGENTE ||--o{ PACIENTE : "responsável por"
-    AGENTE ||--o{ FORMULARIO1 : "preenche presencialmente"
-    AGENTE ||--o{ FORMULARIO2 : "acesso"
-    AGENTE ||--o{ PRONTUARIO : "preenche prontuário"
-    PACIENTE ||--o{ FORMULARIO1 : "tem"
-    PACIENTE ||--o{ FORMULARIO2 : "tem"
-    PACIENTE ||--o{ PRONTUARIO : "associado ao"
-    PACIENTE ||--o{ AVALIACAO_HISTORICO : "visualiza avaliação"
-    FORMULARIO2 ||--o{ AVALIACAO_HISTORICO : "é avaliado"
-    PRONTUARIO ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
-
-```
-
-
-
 ## 3.2. Wireframes (sprint 2)
 
 *Posicione aqui as imagens do wireframe construído para sua solução e, opcionalmente, o link para acesso (mantenha o link sempre público para visualização)*
@@ -593,93 +495,130 @@ erDiagram
 
 ### 3.5.1. Modelo relacional (sprints 2 e 4)
 
-*posicione aqui os diagramas de modelos relacionais do seu banco de dados, apresentando todos os esquemas de tabelas e suas relações. Utilize texto para complementar suas explicações, se necessário*
-
 <div align="center">
-   <sub>Imagem 4: Diagrama da estrutura relacional </sub><br>
-   <img src="../assets/wad/diagrama_1.PNG" width="100%" 
+   <sub>Imagem 4: Diagrama do modelo relacional </sub><br>
+   <img src="../assets/wad/fluxograma_relacional.jpg" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Mermaid)</sup>
  </div>
 
-```
+### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
+
+Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem padrão utilizada para interagir com bancos de dados relacionais. Desenvolvida inicialmente pela IBM na década de 1970, a SQL (Structured Query Language) permite criar, consultar, atualizar e gerenciar dados de forma estruturada e eficiente. Adicionalmente, será detalhada a respectiva lógica proposicional de cada consulta, que serve para analisar, combinar e testar condições com base em regras lógicas e a partir de proposições. Esses elementos, em conjunto, têm como objetivo estruturar as regras de validação e decisão dentro da aplicação e realizar a interação com a nossa base de dados.
+
+
+```mermaid
+---
+config:
+  theme: neo-dark
+---
+
 erDiagram
     AGENTE {
-        int id_agente "Identificador único do agente"
-        string nome "Nome do agente"
-        string profissao "Profissão do agente de sáude"
-        string unidade_atendimento "UBS de atendimento"
-        string telefone "Contato"
+        PK int id "Identificador único do agente"
+        varchar nome "Nome do agente"
+        varchar profissao "Profissão do agente de saúde"
+        varchar unidade_atendimento "UBS de atendimento"
+        varchar telefone "Contato"
     }
+
     PACIENTE {
-        int id_paciente "Identificador único do paciente"
-        string nome "Nome do paciente"
+        PK int id "Identificador único do paciente"
+        varchar nome "Nome do paciente"
         date data_nascimento "Data de nascimento"
-        int agente_id "Agente responsável"
         boolean diabetico "Paciente é diabético"
         boolean necessidade_resp "Necessita de responsável"
-        string nome_resp "Nome do responável"
+        varchar nome_resp "Nome do responsável"
+        boolean condicao "Qual é o estado do paciente?"
+        varchar telefone "Contato"
+        varchar telefone_resp "Telefone do responsável"
+        FK int agente_id "Agente responsável (FK para AGENTE)"
     }
+
     FORMULARIO1 {
-        int id_formulario1 "Identificador do formulário"
-        int paciente_id "Paciente ao qual pertence"
+        PK int id  "Identificador do formulário"
         date data_preenchimento "Data de preenchimento"
-        string tipo_ferida "Tipo de ferida"
-        string historico_medico "Histórico médico"
-        string remedios "Remédios usados"
-        string frequencia_cuidados "Frequência de cuidados"
-        string sintomas "Descrição dos sintomas"
-        string unidade_atendida "UBS de atendimento"
+        varchar tipo_ferida "Tipo de ferida"
+        varchar localizacao_corpo "Localização do ferimento"
+        number tamanho_comprimento "Comprimento em cm"
+        number tamanho_largura "Largura em cm"
+        boolean exsudato "Apresenta exsudato?"
+        varchar historico_medico "Histórico médico"
+        varchar remedios "Remédios usados"
+        varchar sintomas "Descrição dos sintomas"
+        FK int paciente_id "FK para PACIENTE"
     }
+
     FORMULARIO2 {
-        int id_formulario2 "Identificador do formulário2"
-        int paciente_id "Paciente ao qual pertence"
+        PK int id "Identificador do formulário"
         date data_preenchimento "Data de preenchimento"
-        string cor_ferida "Cor da ferida"
-        string tamanho "Tamanho em cm"
-        boolean cheiro_ferida "Apresenta cheiro no local"
-        string pele_ao_redor "Pele ao redor da ferida"
-        string observacao "Observação adicional"
+        varchar status_ferida "Status da ferida"
+        number tamanho_comprimento "Comprimento em cm"
+        number tamanho_largura "Largura em cm"
+        boolean cheiro_ferida "Apresenta cheiro?"
+        varchar pele_ao_redor "Condição da pele ao redor"
         boolean febre "Presença de febre"
-        date dor "Nível de dor da ferida (1 a 10)"
-       
+        number dor "Nível de dor (1 a 5)"
+        varchar observacao "Observação adicional"
+        FK int paciente_id "FK para PACIENTE"
     }
-    PRONTUARIO {
-        int id_prontuario "Identificador do prontuário"
-        int paciente_id "Paciente associado"
-        int agente_id "Agente que preencheu"
+
+    HISTORICO {
+        PK int id "Identificador do prontuário"
         date data_abertura "Data de abertura"
-        string tipo_ferida "Tipo de ferida"
-        string historico_medico "Histórico médico"
-        string remedios "Remédios prescritos"
-        string frequencia_cuidados "Frequência de cuidados"
-        string sintomas "Descrição dos sintomas"
-        string observacoes "Outras observações"
-        string observacao_paciente "Observações direcionadas para o paciente"
+        varchar tipo_ferida "Tipo de ferida"
+        varchar localizacao_corpo "Local da ferida"
+        varchar historico_medico "Histórico médico"
+        boolean exsudato "Apresenta exsudato"
+        varchar remedios "Remédios prescritos"
+        number frequencia_cuidados "Frequência de cuidados"
+        varchar sintomas "Descrição dos sintomas"
+        varchar observacao_paciente "Observações ao paciente"
+        FK int id_paciente "FK para PACIENTE"
+        FK int id_agente "FK para AGENTE"
     }
+
     AVALIACAO_HISTORICO {
-        int id_formulario2 "Identificador do prontuário"
-        string avaliacao "Quantidade de estrelas no tratamento"
-        string observacao_paciente "Observações direcionadas para o paciente"
-
+        PK int id "Identificador da avaliação"
+        number avaliacao "Avaliação (1 a 5 estrelas)"
+        varchar observacao_paciente "Observações do paciente"
+        FK int formulario2_id "FK para FORMULARIO2"
+        FK int paciente_id "FK para PACIENTE"
+        FK int agente_id "FK para AGENTE"
+        FK int historico_id "FK para HISTORICO"
     }
-
 
     %% Relacionamentos
     AGENTE ||--o{ PACIENTE : "responsável por"
-    AGENTE ||--o{ FORMULARIO1 : "preenche"
-    PACIENTE ||--o{ FORMULARIO2 : "preenche antes de fotos"
-    AGENTE ||--o{ PRONTUARIO : "preenche"
-    PRONTUARIO ||--o{AVALIACAO_HISTORICO : "possui"
-    PACIENTE ||--o{AVALIACAO_HISTORICO : "possui"
-    FORMULARIO2 ||--o{PRONTUARIO :  "preenche"
-    FORMULARIO1 ||--o{PRONTUARIO :  "preenche"
+    AGENTE ||--o{ FORMULARIO2 : "acesso"
+    AGENTE ||--o{ HISTORICO : "preenche histórico"
+    PACIENTE ||--o{ FORMULARIO1 : "preenche"
+    PACIENTE ||--o{ FORMULARIO2 : "preenche"
+    PACIENTE ||--o{ HISTORICO : "associado ao"
+    PACIENTE ||--o{ AVALIACAO_HISTORICO : "visualiza avaliação"
+    FORMULARIO2 ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
+    HISTORICO ||--o{ AVALIACAO_HISTORICO : "referenciado na avaliação"
+    FORMULARIO1 ||--o{ AVALIACAO_HISTORICO : "referência no histórico"
+
+```
+
+Segue o link de visualização desse modelo,mas agora, físico, em código SQL:
+
+<div align="center">
+
+<sub>Arquivo 1: Script de inicialização SQL</sub>  
+[Visualizar `init.sql`](../src/scripts/202505121905_init.sql)  
+
+<sup>Fonte: (Autoral, TILL.APP.IA)</sup>
+
+</div>
+
+
 ```
 
 ### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
 
 Nesta seção serão apresentadas as listas de consultas SQL, linguagem padrão utilizada para manipulação e interação com bancos de dados relacionais. A SQL (Structured Query Language) permite estruturar, consultar, atualizar e gerenciar dados de maneira eficiente. Além disso, será explorada a lógica proposicional associada a cada consulta, a qual possibilita analisar, combinar e testar condições com base em regras lógicas e proposições. Esses elementos visam estruturar as regras de validação e tomada de decisão da aplicação, bem como permitir a comunicação com a base de dados.
-
 
 #1 | Seleção de Pacientes  sob Responsabilidade de um Agente, com Estado Grave, sem Avaliação
 --- | ---
@@ -702,6 +641,8 @@ Nesta seção serão apresentadas as listas de consultas SQL, linguagem padrão 
 **Proposições lógicas** | $A$: O paciente possui pelo menos um formulario1 (formulário1 = 0 (não existe) - falso);<br> $B$: O paciente possui pelo menos um prontuario (prontuario = 0 (não existe) - falso).
 **Expressão lógica proposicional** | $\neg A \lor \neg B $
 **Tabela Verdade** | <table> <thead> <tr> <th>$A$</th> <th>$B$</th> <th>$ \neg A$</th> <th>$ \neg B$</th>  <th></th> <th> $\neg A \lor \neg B$</th> </tr> </thead> <tbody> <tr> <td>F</td> <td>F</td> <td>V</td> <td>V</td> <td></td> <td>V</td> </tr> <tr> <td>F</td> <td>V</td> <td>F</td> <td>V</td> <td></td> <td>V</td> </tr> <tr> <td>V</td> <td>V</td> <td>F</td><td>F</td> <td></td> <td>F</td> </tr> <tr> <td>V</td> <td>F</td> <td>F</td> <td>V</td> <td></td> <td>V</td> </tbody> </table>
+
+
 
 ## 3.6. WebAPI e endpoints (sprints 3 e 4)
 
