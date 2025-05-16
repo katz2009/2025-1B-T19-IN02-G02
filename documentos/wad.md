@@ -18,7 +18,7 @@
 
 ## Sumário
 
-1. [Introdução](#c1)
+[1. Introdução](#c1)
 
 [2. Visão Geral da Aplicação Web](#c2)
 
