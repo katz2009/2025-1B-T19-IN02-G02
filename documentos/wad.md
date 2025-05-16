@@ -511,6 +511,8 @@ Wireframe é uma representação visual simplificada da interface de um aplicati
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
  </div>
 
+Link para acesso direto aos wireframes no Figma: [WIREFRAMES](https://www.figma.com/design/nDl75AtET63AvfftVkrNJP/WIREFRAMES?node-id=230-1041&t=v4n3KvacBMpbe6qp-1)
+
  No contexto deste sistema,  a interface dos agentes de saúde é simples e intuitiva, contendo atalhos para as principais funções do app, como o cadastro de novos pacientes e o acesso à tela inicial. O processo se inicia com o cadastro/login e a aceitação dos termos e condições de uso, garantindo que o usário compreenda as diretrizes do aplicativo. A tela de pacientes cadastrados apresenta uma lista dos pacientes sob acompanhamento, acessível por uma barra de navegação inferior que permite a transição entre as áreas destinadas ao agente de saúde. Nessa tela, cada paciente é exibido em um card com seu respectivo nome e, ao clicar nesse card, o agente é direcionado para uma tela com o detalhamento da ferida, onde pode consultar o histórico clínico e a evolução do caso. Além disso, há uma tela específica para pacientes ainda não cadastrados, na qual o agente consegue realizar um diagnóstico inicial com base nas informações do primeiro formulário preenchido.
 
 A interface destinada aos pacientes busca ser o mais acessível possível, contemplando diferentes perfis de usuários. 
