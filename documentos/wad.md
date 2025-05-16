@@ -187,7 +187,7 @@ De acordo com o estudo “Business Model Canvas: aplicação do método em uma e
 A partir desta explicação foi identificado que o público alvo é qualquer individuo que possa desenvolver feridas sejam de não emergências a emergenciais ao depender de seu caso clínico.  
 
 <div align="center">
-   <sub>Imagem 1: CANVAS - Proposta de valor</sub><br>
+   <sub>Imagem 2: CANVAS - Proposta de valor</sub><br>
    <img src="../assets/CANVAS_FMUSP.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
@@ -239,11 +239,14 @@ A partir desta explicação foi identificado que o público alvo é qualquer ind
 * Vídeos de autocuidado: Os vídeos disponibilizados pelo departamento de cirurgia plástica do hospital das clínicas em São Paulo garantem cuidados corretos e sinais de atenção, sendo disponibilizado a todo o momento para consulta do público-alvo dentro da plataforma.
 * Acompanhamento remoto gradual: Será oferecido um acompanhamento dos hematomas através de imagens de maneira contínua até a resolução do quadro, no qual será acompanhado por um agente de saúde remotamente evitando desgaste físico dos pacientes.
 
-### 2.1.5. Matriz de Riscos do Projeto (sprint 1)
+### 2.1.5. Matriz de Riscos do Projeto
 
-<p align="center">
-<img src="../assets/wad/matrizrisco.png" width="800">
-</p>
+<div align="center">
+   <sub>Imagem 3: Matriz de riscos</sub><br>
+   <img src="../assets/wad/matrizrisco.png" width="100%" 
+   alt="Título"><br>
+   <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
+ </div>
 
 A análise de ameaças e oportunidades, assim como seus devidos graus de probabilidade de ocorrência e de impacto de qualquer projeto inovador na área da saúde, como a aplicação web SKAMA, é de suma importância para assegurar o sucesso e a sustentabilidade da nossa iniciativa. Nesse sentido, desenvolvemos uma matriz de risco que identifica, analisa e prioriza os potenciais obstáculos e oportunidades que podemos enfrentar durante o desenvolvimento do app Skama.
 
@@ -273,7 +276,7 @@ A seguir, abordamos duas Personas nas quais nos identificamos com as dores e nec
 # Persona 1
 
 <div align="center">
-   <sub>Imagem 3: Persona 1 - Rodrigo Garcia</sub><br>
+   <sub>Imagem 4: Persona 1 - Rodrigo Garcia</sub><br>
    <img src="../assets/wad/persona_1.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
@@ -314,7 +317,7 @@ A seguir, abordamos duas Personas nas quais nos identificamos com as dores e nec
 # Persona 2
 
 <div align="center">
-   <sub>Imagem 4: Persona 2 - Arlete Ferreira</sub><br>
+   <sub>Imagem 5: Persona 2 - Arlete Ferreira</sub><br>
    <img src="..\assets\wad\persona2.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
@@ -470,42 +473,42 @@ Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N
 Wireframe é uma representação visual simplificada da interface de um aplicativo, usada para planejar a navegação, a disposição dos elementos e a experiência do usuário. Nesta seção, vamos mostrar como a interface do aplicativo foi pensada e organizada. Serão apresentados os wireframes desenhos das telas e explicadas as principais funções disponíveis para os agentes de saúde e para os pacientes. Também vamos falar sobre como as telas estão ligadas entre si, como o usuário navega pelo app e de que forma o design ajuda a tornar o uso mais fácil, claro e acessível para todos.
 
 <div align="center">
-   <sub>Imagem 5: Telas comuns a pacientes e agentes de saúde</sub><br>
+   <sub>Imagem 6: Telas comuns a pacientes e agentes de saúde</sub><br>
    <img src="..\assets\wad\telas_comuns.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
  </div>
 
 <div align="center">
-   <sub>Imagem 6: Telas dos pacientes</sub><br>
+   <sub>Imagem 7: Telas dos pacientes</sub><br>
    <img src="..\assets\wad\telas_pacientes.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
  </div>
 
 <div align="center">
-   <sub>Imagem 7: Telas dos agentes de saúde</sub><br>
+   <sub>Imagem 8: Telas dos agentes de saúde</sub><br>
    <img src="..\assets\wad\telas_agentes.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
  </div>
 
 <div align="center">
-   <sub>Imagem 8: Telas comuns a pacientes e agentes de saúde na versão desktop</sub><br>
+   <sub>Imagem 9: Telas comuns a pacientes e agentes de saúde na versão desktop</sub><br>
    <img src="..\assets\wad\telas_comuns_desktop.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
  </div>
 
 <div align="center">
-   <sub>Imagem 9: Telas dos pacientes na versão desktop</sub><br>
+   <sub>Imagem 10: Telas dos pacientes na versão desktop</sub><br>
    <img src="..\assets\wad\telas_pacientes_desktop.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
  </div>
 
 <div align="center">
-   <sub>Imagem 10: Telas dos agentes de saúde na versão desktop</sub><br>
+   <sub>Imagem 11: Telas dos agentes de saúde na versão desktop</sub><br>
    <img src="..\assets\wad\telas_agentes_desktop.png" width="100%" 
    alt="Título"><br>
    <sup>Fonte: Til.app.ia, 2025 (Autoral)</sup>
