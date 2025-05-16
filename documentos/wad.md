@@ -502,6 +502,32 @@ Critérios INVEST | I: Sim, independente da criação do cadastro inicial.</br>N
    <sup>Fonte: Til.app.ia, 2025 (Mermaid)</sup>
  </div>
 
+<h6> Explicação do diagrama do Modelo Relacional </h6>
+
+O paciente, ao chegar na Unidade Básica de Saúde (UBS), realiza, junto ao agente de saúde, o preenchimento de algumas informações, permitindo assim a utilização da plataforma pelo paciente e o monitoramento contínuo pelo agente. Com base nisso, inicia-se o "fluxo" de informações conforme descrito abaixo, fundamentado no diagrama apresentado (não há uma ordem específica, apenas a apresentação organizada desses fluxos):
+
+1. O agente de saúde (AGENTE), em contato com o paciente, preenche (PREENCHE) o histórico do paciente (HISTÓRICO), que consiste em informações básicas deste, com o objetivo de tornar os preenchimentos subsequentes mais concisos e claros. Além de ter (ACESSO) a avaliacao_historico. Esse HISTÓRICO também é elaborado com base no "Formulário 1" (FORMULARIO1), que é um formulário subjetivo preenchido com as percepções do paciente, configurando uma relação de 1 para 1 (um paciente preenche apenas um formulário deste tipo, que permanece em seu histórico).
+
+2. Esse histórico faz referência (REFERÊNCIA) à avaliação do histórico (AVALIACAO_HISTORICO) do paciente (PACIENTE), a qual pode ser visualizada (VISUALIZA) pelo próprio paciente. Podem existir diversas avaliações, sendo todas acessíveis pelo paciente, configurando, portanto, uma relação de 1 para n (um paciente pode possuir várias avaliações de seu histórico).
+
+3. Ainda na própria UBS, o paciente preenche um formulário denominado "Formulário 1" (FORMULARIO1). Ele realiza o preenchimento de apenas um desses formulários, havendo, portanto, uma relação de 1 para 1. Em seguida, o agente tem acesso a esse formulário e também a formulários semelhantes provenientes de outros pacientes, configurando dessa forma uma relação n para 1 (vários formulários vinculados a apenas um agente).
+
+4. O agente também é responsável (RESPONSAVEL) pelo acompanhamento de diversos pacientes, configurando, assim, uma relação n para 1 (vários pacientes sob responsabilidade de cada agente).
+
+5. Uma vez realizados esses cadastros iniciais e coletadas as informações necessárias, o paciente, sempre que envia uma foto da ferida acompanhada de uma régua, preenche o "Formulário 2" (FORMULARIO2), ao qual o agente também possui acesso. Trata-se de um formulário com informações essenciais ao diagnóstico e realizado com base na autoavaliação do paciente. Um paciente pode preencher diversos formulários deste tipo, configurando uma relação de 1 para n. Da mesma forma, o agente pode acessar inúmeros formulários desse tipo, constituindo também uma relação de 1 para n.
+
+6. Por fim, o "Formulário 2" faz referência direta à avaliação do histórico (AVALIACAO_HISTORICO) do paciente, em uma relação de n para 1 (vários formulários são direcionados para uma avaliação específica). Finalmente, o paciente pode visualizar (VISUALIZA) todas as suas avaliações de histórico, estabelecendo assim uma relação de 1 para n.
+
+<h6>Relação às User Stories</h6>
+
+As User Stories do Eduardo e da Arlete podem ser representadas, respectivamente, como o agente e o paciente no modelo relacional. Nesse cenário, Arlete se encontra com Eduardo na UBS onde ele trabalha, e ele apresenta à Arlete a plataforma Skama, utilizada para ajudar pacientes como ela, que não podem ir à UBS todas as semanas para realizar o acompanhamento das feridas decorrentes de suas unhas encravadas.
+
+Eduardo, então, convida Arlete a realizar seu cadastro e começar a utilizar essa plataforma, de modo a facilitar que ela receba os cuidados adequados sem precisar comparecer à UBS com tanta frequência.
+
+Eduardo fica satisfeito, pois isso diminui a necessidade de realizar visitas frequentes ao paciente (algo que ele identificava como um ponto de dor). Além disso, ele mantém contato frequente com os prontuários dos pacientes que acompanha, podendo, dessa forma, ajudar Arlete e outros pacientes no monitoramento regular de suas feridas.
+
+Arlete, por sua vez, também fica satisfeita, pois é entusiasta de tecnologias como a proposta pela Skama e deseja cuidar melhor de si mesma, realizando esse controle sobre suas próprias feridas. Além disso, ela ainda se beneficia com a Skama devido aos vídeos e informações instrutivas disponibilizadas pelo agente de saúde (nesse caso, Eduardo), que pode atendê-la de maneira personalizada. Isso faz com que Arlete não negligencie mais suas feridas, evitando que evoluam para algo mais grave em função de sua diabetes tipo dois.
+
 ### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
 
 Nesta seção (3.5.2), serão apresentadas as listas de consultas SQL, linguagem padrão utilizada para interagir com bancos de dados relacionais. Desenvolvida inicialmente pela IBM na década de 1970, a SQL (Structured Query Language) permite criar, consultar, atualizar e gerenciar dados de forma estruturada e eficiente. Adicionalmente, será detalhada a respectiva lógica proposicional de cada consulta, que serve para analisar, combinar e testar condições com base em regras lógicas e a partir de proposições. Esses elementos, em conjunto, têm como objetivo estruturar as regras de validação e decisão dentro da aplicação e realizar a interação com a nossa base de dados.
