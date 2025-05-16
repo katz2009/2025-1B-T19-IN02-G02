@@ -519,7 +519,7 @@ erDiagram
         varchar nome "Nome do agente"
         varchar profissao "Profissão do agente de saúde"
         varchar unidade_atendimento "UBS de atendimento"
-        PK varchar telefone "Contato"
+        varchar telefone "Contato"
     }
 
     PACIENTE {
@@ -530,7 +530,7 @@ erDiagram
         boolean necessidade_resp "Necessita de responsável"
         varchar nome_resp "Nome do responsável"
         boolean condicao "Qual é o estado do paciente?"
-        FK varchar telefone_id "Contato"
+        varchar telefone "Contato"
         varchar telefone_resp "Telefone do responsável"
         FK int agente_id "Agente responsável (FK para AGENTE)"
     }
