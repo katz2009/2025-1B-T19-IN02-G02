@@ -615,7 +615,6 @@ Segue o link de visualização desse modelo,mas agora, físico, em código SQL:
 </div>
 
 
-```
 
 ### 3.5.2. Consultas SQL e lógica proposicional (sprint 2)
 
