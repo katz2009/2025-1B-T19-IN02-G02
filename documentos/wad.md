@@ -555,6 +555,22 @@ Portanto, para garantir que todos os elementos visuais seguissem uma coerência 
 
 *posicione aqui algumas imagens demonstrativas de seu protótipo de alta fidelidade e o link para acesso ao protótipo completo (mantenha o link sempre público para visualização)*
 
+### 3.4.1 Mockup Desktop
+<div align="center">
+   <sub>Imagem 13: Tela Cadastro</sub><br>
+   <img src="../assets/wad/desktop_cadastro.png" width="100%" 
+   alt="Título"><br>
+   <sup>Original, Till.app.ia (2025)</sup>
+ </div>
+
+<div align="center">
+   <sub>Imagem 14: Tela Cadastro</sub><br>
+   <img src="../assets/wad/desktop_login.png" width="100%" 
+   alt="Título"><br>
+   <sup>Original, Till.app.ia (2025)</sup>
+ </div>
+
+
 ## 3.5. Modelagem do banco de dados (sprints 2 e 4)
 
 ### 3.5.1. Modelo relacional (sprints 2 e 4)
