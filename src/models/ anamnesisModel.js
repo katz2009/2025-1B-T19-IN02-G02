@@ -4,7 +4,7 @@ const Anamnesis = {
   findAll: async () => {
     const result = await db.query(`
       SELECT 
-        id,
+        id, 
         data_de_conclusao,
         foto,
         tipo_ferida,
